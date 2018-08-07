@@ -1,0 +1,69 @@
+# List of useful commands for shell/gardner
+
+# Login
+
+ssh mleukam@gardner.cri.uchicago.edu
+
+# obtain a unique interactive node
+
+qsub -I
+
+# show available modules
+
+module avail
+
+# load module (example is bowtie)
+# if no version is specified, loads default (marked with D on listing)
+
+module load bowtie
+
+# Good DNA alignment tools:
+# bwa or bowtie
+
+# Good converstion tool of BAM --> fastq
+# SAMtools
+
+## GARDNER TIPS:
+
+For batch jobs 
+## = comments
+
+#PBS is directive to scheduler
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#PBS -N <job_name>
+
+## define the shell
+
+#PBS -S /bin/bash
+
+## request resources, single node, single processer. Can request up to 28 processer (if the process is able to handle multiple processers) Requesting more processers means you have to wait longer. If your application cannot handle more than one processer, it will just block people from using the additional processers but not use them. Run a few test cases and get an estimate of time and then get an estimate of the time. Add at least 10% for extra time. You do want the time to be as accurrate as possible because shorter time requests can get squeezed in more easily. Request RAM memory. If you run out of memory it will kill the job. 
+
+#PBS -l walltime=8:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=4gb
+
+## specify the standard output file (rather than printing to screen)
+#PBS -o /home/mleukam/output.log
+
+## specify the standard error (rather than printing to screen)
+#PBS -e /home/mleukam/error.log
+
+## load compiler
+module load gcc/6.2.0
+
+## load programs
+module load R/3.4.1
+
+## executable section
+
+
+
+## when you submit a job, it will give you a job number. Can check the status of the job with qstat (queue status)
+
+qstat
+watch qstat
+
+## to show how much time is remaining
+showq -u $USER
