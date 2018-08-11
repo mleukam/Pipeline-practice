@@ -21,7 +21,7 @@
 cd /home/mleukam/shell
 
 # call shell scrpt
-./mlubam.sh
+./mlilladapters.sh
 
 # exit code
 exit 0
