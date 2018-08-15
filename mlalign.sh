@@ -49,12 +49,12 @@ do
 	FASTQ=/dev/stdout \
 	CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 INTERLEAVE=true NON_PF=true \
 	TMP_DIR=/scratch/mleukam/temp | \
-	bwa mem -M -t 28 -p /home/mleukam/ref/GRCh38_full_plus_decoy.fa /dev/stdin | \
+	bwa mem -M -t 28 -p /group/kline-lab/ref/GRCh38_full_plus_decoy.fa /dev/stdin | \
 	java -Xmx16G -jar ${PICARD} MergeBamAlignment \
 	ALIGNED_BAM=/dev/stdin \
 	UNMAPPED_BAM=${SAMPLE}_unaligned.bam \
 	OUTPUT=${SAMPLE}_piped.bam \
-	R=/home/mleukam/ref/GRCh38_full_plus_decoy.fa \
+	R=/group/kline-lab/ref/GRCh38_full_plus_decoy.fa \
 	CREATE_INDEX=true ADD_MATE_CIGAR=true \
 	CLIP_ADAPTERS=false CLIP_OVERLAPPING_READS=true \
 	INCLUDE_SECONDARY_ALIGNMENTS=true MAX_INSERTIONS_OR_DELETIONS=-1 \
