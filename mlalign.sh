@@ -8,6 +8,7 @@
 ## Designed for batch submission to Gardner HPC at UChicago
 ## First line = shebang to specify interpretor (bash)
 ## Before using, use chmod to make executable
+## Before using ensure that Picard tools reference dictionary and BWA index are ready
 
 #!/bin/bash
 

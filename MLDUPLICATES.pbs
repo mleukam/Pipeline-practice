@@ -4,24 +4,24 @@
 #PBS -S /bin/bash
 
 ## Name the job
-#PBS -N bwa_index
+#PBS -N test_align
 
 ## Request resources
 #PBS -l walltime=20:00:00
 #PBS -l nodes=1:ppn=1
-#PBS -l mem=16gb
+#PBS -l mem=32gb
 
 ## Specify the standard output file (rather than printing to screen)
-#PBS -o /home/mleukam/bwaindexoutput.log
+#PBS -o /home/mleukam/duplicateoutput.log
 
 ## Specify the standard error (rather than printing to screen)
-#PBS -e /home/mleukam/bwaindexerror.log
+#PBS -e /home/mleukam/duplicateerror.log
 
 # navigate to shell dir
 cd /home/mleukam/shell
 
 # call shell scrpt
-./mlbwaindex.sh
+./mlduplicate.sh
 
 # exit code
 exit 0
