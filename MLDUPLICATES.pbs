@@ -4,7 +4,7 @@
 #PBS -S /bin/bash
 
 ## Name the job
-#PBS -N test_align
+#PBS -N mark_duplicates
 
 ## Request resources
 #PBS -l walltime=20:00:00
@@ -21,7 +21,7 @@
 cd /home/mleukam/shell
 
 # call shell scrpt
-./mlduplicate.sh
+./mlduplicates.sh
 
 # exit code
 exit 0
