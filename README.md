@@ -1,9 +1,11 @@
 # Pipeline-practice #
 
 ## Overview ##
-This is a practice pipeline for sample WES data that was already analyzed by CRI.
+This is a practice pipeline for sample WES data that was already analyzed by CRI. It will include two major subsets:
+1. Preprocessing
+2. Variant calling
 
-The purposes of this pipeline are to:
+The educational purposes of this pipeline are to:
 1. Develop usable and portable code for preprocessing and variant calling
 2. Practice using and troubleshooting the tools with real data
 3. Gather information on the resources and time required for each analysis in Gardner HPC
@@ -14,7 +16,7 @@ The preprocessing pipeline follows very closely to GATK best practices, mostly u
 This pipeline assumes paired-end WES input in FASTQ format (file_1 and file_2). 
 
 ### Usage ###
-Each step in the pipeline has a PBS script for batch submission to Gardner HPC at UChicago which points to a single BASH shell. To use the scripts, ensure the scripts are in the correct directories and that all necessary scripts have had permissions changed to make executable:
+Each step in the pipeline has a PBS script for batch submission to Gardner HPC at UChicago which points to a single BASH shell script. To use the scripts, ensure the scripts point to the correct directories and that all necessary scripts have had permissions changed to make executable:
 
 `chmod +x <SCRIPTNAME>`
 
