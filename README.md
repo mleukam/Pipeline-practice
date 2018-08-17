@@ -10,10 +10,10 @@ The purposes of this pipeline are to:
 
 The preprocessing pipeline follows very closely to GATK best practices, mostly using legacy tutorials from GATK 3.x and modifying where necessary for GATK 4.x
 
-## Inputs ##
+### Inputs ###
 This pipeline assumes paired-end WES input in FASTQ format (file_1 and file_2). 
 
-## Usage ##
+### Usage ###
 Each step in the pipeline has a PBS script for batch submission to Gardner HPC at UChicago which points to a single BASH shell. To use the scripts, ensure the scripts are in the correct directories and that all necessary scripts have had permissions changed to make executable:
 
 `chmod +x <SCRIPTNAME>`
@@ -22,7 +22,7 @@ Go to the directory holding the executable PBS script and submit the job:
 
 `qsub <SCRIPTNAME.pbs>`
 
-## Tool versions ##
+### Tool versions ###
 * Java v1.8
 * Picard tools version v2.8.1
 * GATK v4.0.6.0
@@ -35,8 +35,12 @@ Reference alignment genome is version prepared by Heng Li (BWA author): GRCh38 w
 
 ### BaseRecalibrater ###
 * dbSNP release 151: https://www.ncbi.nlm.nih.gov/projects/SNP/snp_summary.cgi
-* Mills_and_1000G_gold_standard.indels.hg38.vcf from GATK Resource Bundle (hg38)
-* 1000G_phase1.snps.high_confidence.hg38.vcf from GATK Resource Bundle (hg38)
+* Mills_and_1000G_gold_standard.indels.hg38.vcf from [GATK Resource Bundle](https://software.broadinstitute.org/gatk/download/bundle) (hg38)
+* 1000G_phase1.snps.high_confidence.hg38.vcf from [GATK Resource Bundle](https://software.broadinstitute.org/gatk/download/bundle) (hg38)
 
-
-
+### Reference indexes ###
+* GATK indices: 
+	* GRCh38_full_plus_decoy.fa.fai (made with samtools faidx)
+	* dbSNP, gold standard indels, and phase 1 VCF indices: `*.tbi` (made with IndexFeatureFile in mlgatkindex.sh)
+* Picard dictionary: GRCh38_full_plus_decoy.fa.dict (made with Picard tools)
+* BWA indices (made with script, see mlbwaindex.sh for details)
