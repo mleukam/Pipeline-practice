@@ -35,7 +35,7 @@ Go to the directory holding the executable PBS script and submit the job:
 ### BWA ###
 Reference alignment genome is version prepared by Heng Li (BWA author): GRCh38 with viral decoys and no alt contigs. Original filename: GRCh38_full_plus_hs38d1_analysis_set. See http://lh3.github.io/2017/11/13/which-human-reference-genome-to-use for more info about the reference genome
 
-### BaseRecalibrater ###
+### BaseRecalibrator ###
 * dbSNP release 151: https://www.ncbi.nlm.nih.gov/projects/SNP/snp_summary.cgi
 * Mills_and_1000G_gold_standard.indels.hg38.vcf from [GATK Resource Bundle](https://software.broadinstitute.org/gatk/download/bundle) (hg38)
 * 1000G_phase1.snps.high_confidence.hg38.vcf from [GATK Resource Bundle](https://software.broadinstitute.org/gatk/download/bundle) (hg38)
@@ -43,6 +43,6 @@ Reference alignment genome is version prepared by Heng Li (BWA author): GRCh38 w
 ### Reference indexes ###
 * GATK indices: 
 	* GRCh38_full_plus_decoy.fa.fai (made with samtools faidx)
-	* dbSNP, gold standard indels, and phase 1 VCF indices: `*.tbi` (made with IndexFeatureFile in mlgatkindex.sh)
+	* dbSNP, gold standard indels, and phase 1 VCF indices: `*.tbi` (made with IndexFeatureFile, see mlgatkindex.sh)
 * Picard dictionary: GRCh38_full_plus_decoy.fa.dict (made with Picard tools)
-* BWA indices (made with script, see mlbwaindex.sh for details)
+* BWA indices (made with bwa index, see mlbwaindex.sh)
