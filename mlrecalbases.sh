@@ -23,7 +23,7 @@ module load java-jdk/1.8.0_92
 ## Location of GenomeAnalysis.jar = ${GATK}
 module load GATK/4.0.6.0
 
-## Navigate to directory containing unaligned BAM files
+## Navigate to directory with input aligned and merged BAM files
 cd /scratch/mleukam/james_wes/
 
 ## Define the input files as an array
@@ -32,14 +32,47 @@ MBAMLIST=($(ls *_markduplicates.bam))
 ## Pull the sample name from the input file names and make new array
 SMLIST=(${MBAMLIST[*]%_*})
 
-## loop to run tool over sample names in array
+## Analyze patterns of covariation in the sequence dataset
 for SAMPLE in ${SMLIST[*]} 
 do 
 	java -jar ${GATK} BaseRecalibrator \
     -R /group/kline-lab/ref/GRCh38_full_plus_decoy.fa \
     -I ${SAMPLE}_markduplicates.bam \
-    -knownSites /group/kline-lab/ref/dbsnp_151.vcf \
-    -knownSites /group/kline-lab/ref/Mills_and_1000G_gold_standard.indels.hg38.vcf \
-    -knownSites /group/kline-lab/ref/1000G_phase1.snps.high_confidence.hg38.vcf \
-    -o ${SAMPLE}_recal_data.table 
+    --known-sites /group/kline-lab/ref/dbsnp_151.vcf \
+    --known-sites /group/kline-lab/ref/Mills_and_1000G_gold_standard.indels.hg38.vcf \
+    --known-sites /group/kline-lab/ref/1000G_phase1.snps.high_confidence.hg38.vcf \
+    -O ${SAMPLE}_recal_data.table 
+done
+
+## Do a second pass to analyze covariation remaining after recalibration
+for SAMPLE in ${SMLIST[*]}
+do
+	java -jar ${GATK} BaseRecalibrator \
+    -R /group/kline-lab/ref/GRCh38_full_plus_decoy.fa \
+    -I ${SAMPLE}_markduplicates.bam \
+    --known-sites /group/kline-lab/ref/dbsnp_151.vcf \
+    --known-sites /group/kline-lab/ref/Mills_and_1000G_gold_standard.indels.hg38.vcf \
+    --known-sites /group/kline-lab/ref/1000G_phase1.snps.high_confidence.hg38.vcf \
+    -BQSR ${SAMPLE}_recal_data.table \
+    -o ${SAMPLE}_post_recal_data.table 
+done
+
+## Generate before/after plots
+for SAMPLE in ${SMLIST[*]}
+do
+	java -jar ${GATK} AnalyzeCovariates \
+	-R /group/kline-lab/ref/GRCh38_full_plus_decoy.fa \
+    -before ${SAMPLE}_recal_data.table \
+    -after ${SAMPLE}_post_recal_data.table \
+    -plots ${SAMPLE}_recalibration_plots.pdf
+done
+
+## Apply the recalibration to the sequence data
+for SAMPLE in ${SMLIST[*]}
+do
+	java -jar ${GATK} PrintReads \
+	-R /group/kline-lab/ref/GRCh38_full_plus_decoy.fa \
+    -I ${SAMPLE}_markduplicates.bam \
+    -BQSR ${SAMPLE}_recal_data.table \
+    -O ${SAMPLE}_recal_reads.bam 
 done

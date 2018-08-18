@@ -1,8 +1,8 @@
-# Pipeline-practice #
+# Pipeline Practice #
 
 ## Overview ##
-This is a practice pipeline for sample WES data that was already analyzed by CRI. It will include two major subsets:
-1. Preprocessing
+This is a practice pipeline for sample WES data that was already analyzed by CRI. It is designed for two major tasks:
+1. Preprocessing and alignment
 2. Variant calling
 
 The educational purposes of this pipeline are to:
@@ -46,3 +46,6 @@ Reference alignment genome is version prepared by Heng Li (BWA author): GRCh38 w
 	* dbSNP, gold standard indels, and phase 1 VCF indices: `*.tbi` (made with IndexFeatureFile, see mlgatkindex.sh)
 * Picard dictionary: GRCh38_full_plus_decoy.fa.dict (made with Picard tools)
 * BWA indices (made with bwa index, see mlbwaindex.sh)
+
+## Known issues ##
+1. FASTQ to uBAM script (mlubam.sh) needs to have additional arguments for read group and platform information 
