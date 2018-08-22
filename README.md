@@ -40,10 +40,10 @@ Reference alignment genome is version prepared by Heng Li (BWA author): GRCh38 w
 * Mills_and_1000G_gold_standard.indels.hg38.vcf from [GATK Resource Bundle](https://software.broadinstitute.org/gatk/download/bundle) (hg38)
 * 1000G_phase1.snps.high_confidence.hg38.vcf from [GATK Resource Bundle](https://software.broadinstitute.org/gatk/download/bundle) (hg38)
 
-### Reference indexes ###
+### Reference indices ###
 * GATK indices: 
 	* GRCh38_full_plus_decoy.fa.fai (made with samtools faidx)
-	* dbSNP, gold standard indels, and phase 1 VCF indices: `*.tbi` (made with IndexFeatureFile, see mlgatkindex.sh)
+	* dbSNP, gold standard indels, and phase 1 VCF indices: `*.idx` (made with IndexFeatureFile, see mlgatkindex.sh)
 * Picard dictionary: GRCh38_full_plus_decoy.fa.dict (made with Picard tools)
 * BWA indices (made with bwa index, see mlbwaindex.sh)
 
