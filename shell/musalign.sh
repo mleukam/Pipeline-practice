@@ -81,7 +81,6 @@ java -jar ${PICARD} CreateSequenceDictionary \
     REFERENCE=GRCm38p6_ref.fa \
     OUTPUT=GRCm38p6_ref.dict
 #
-# loop to run pipeline on all of the called files in the directory
 # note that t flag in bwa is set to 28 for number of cores in each Gardner node
 # the reference genome used in this case is GRCm38 (mm10) patch 6 (most recent)
 # index file for bwa downloaded with reference genome from NCBI
