@@ -50,7 +50,7 @@ samtools view -F 4 -q 1 A20_temp.sam > A20_temp.sam
 # only recommend sorting using picard tools
 java -Xmx16G -jar ${PICARD} SortSam \
       I=A20_temp.sam \
-      O=A20.aligned.bam \
+      O=A20_aligned.bam \
       SORT_ORDER=coordinate
 #
 # merge aligned bam with ubam to preserve read information

@@ -30,12 +30,13 @@ samtools view -F 4 -q 1 A20_temp.sam > A20_aligned.filtered.sam
 #
 # merge in picard sequence dictionary created in setup
 # create a new file (unsortedtemp.sam) that has both the dictionary and the aligned reads.
-cat GRCm38p6_ref.dict > A20_aligned.filtered.sam && cat A20_aligned.filtered.sam >> A20_aligned.filtered.sam
+# using this template: cat dictionary.sam > unsorted_file.sam && cat file.sam >> unsorted_file.sam
+cat GRCm38p6_ref.dict > A20_dict.sam && cat A20_aligned.filtered.sam >> A20_dict.sam
 #
 # samtools sort creates downstream errors with picard tools
 # only recommend sorting using picard tools
 java -Xmx16G -jar ${PICARD} SortSam \
-I=A20_aligned.filtered.sam \
+I=A20_dict.sam \
 O=A20_aligned.query.bam \
 SORT_ORDER=queryname
 #
@@ -74,3 +75,4 @@ rm A20_unsortedtemp.sam
 rm A20_faligned.filtered.sam
 rm A20_unaligned.query.bam
 rm A20_aligned.query.bam
+rm A20_dict.sam
