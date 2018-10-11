@@ -11,7 +11,7 @@
 # 2. Reference sequence for alingment: GRCm38p6_ref.fa
 #
 #### OUTPUTS ####
-# 1. A20_merged.sorted.bam
+# 1. A20_merged.sorted.bam --> ready for base score recalibration
 #
 #### SETUP ####
 #
