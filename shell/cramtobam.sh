@@ -35,11 +35,7 @@ SMLIST=(${CRAMLIST[*]%.*})
 # -b flag specifies output as BAM file
 for SAMPLE in ${SMLIST[*]}; 
 do 
-	samtools view \
-	-T GRCh38_full_analysis_set_plus_decoy_hla.fa \
-	-b \
-	-o ${SAMPLE}.bam \
-	${SAMPLE}.cram;
+	samtools view -b -T GRCh38_full_analysis_set_plus_decoy_hla.fa -o ${SAMPLE}.bam	${SAMPLE}.cram;
 done
 
 
