@@ -38,7 +38,9 @@ cd /scratch/mleukam/mouse
 # the reference genome used in this case is GRCm38 (mm10) patch 6 (most recent)
 # generate index files from reference
 bwa index -a bwtsw GRCm38p6_ref.fa 
+#
 samtools faidx GRCm38p6_ref.fa
+#
 java -jar ${PICARD} CreateSequenceDictionary \
 REFERENCE=GRCm38p6_ref.fa \
 OUTPUT=GRCm38p6_ref.dict
@@ -70,7 +72,7 @@ java -Xmx16G -jar ${PICARD} MarkIlluminaAdapters \
 I=A20_unaligned.bam \
 O=A20_markilluminaadapters.bam \
 M=A20_markilluminaadapters_metrics.txt \
-TMP_DIR=/scratch/mleukam/temp/
+TMP_DIR=/scratch/mleukam/temp
 #
 #
 #### ALIGN SEQUENCES ####
@@ -92,13 +94,17 @@ bwa samse -t 12 GRCm38p6_ref.fa A20_temp.sai A20_temp.fq > A20_temp.sam
 #### FILTER, SORT AND MERGE ####
 #
 # filter out unmapped and multimapped reads
-# these reads are not useful for variant calling and creates downstream errors
+# these reads are not useful for variant calling and create downstream errors
 samtools view -F 4 -q 1 A20_temp.sam > A20_filteredtemp.sam
+#
+# merge in picard sequence dictionary created in setup
+# create a new file (unsorted_file.sam) that has both the dictionary and the aligned reads.
+cat GRCm38p6_ref.dict > A20_unsortedtemp.sam && cat A20_filteredtemp.sam >> A20_unsortedtemp.sam
 #
 # samtools sort creates downstream errors with picard tools
 # only recommend sorting using picard tools
 java -Xmx16G -jar ${PICARD} SortSam \
-      I=A20_filteredtemp.sam \
+      I=A20_unsortedtemp.sam \
       O=A20.aligned.bam \
       SORT_ORDER=coordinate
 #
@@ -123,6 +129,7 @@ rm A20_temp.sai
 rm A20_temp.sam
 rm A20_aligned.bam
 rm A20_filteredtemp.sam
+rm A20_unsortedtemp.sam
 
 
 
