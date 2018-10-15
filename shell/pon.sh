@@ -35,7 +35,7 @@ do
 	java -Xmx16G -jar ${GATK} Mutect2 \
 	-R /gpfs/data/kline-lab/ref/GRCh38_full_plus_decoy.fa \
 	-I ${SAMPLE}.bam \
-	-tumor ${SAMPLE} \
+	-tumor ${SAMPLE%%.*} \
 	--disable-read-filter MateOnSameContigOrNoMappedMateReadFilter \
 	-O ${SAMPLE}.vcf.gz;
 done

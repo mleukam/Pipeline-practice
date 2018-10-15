@@ -72,7 +72,7 @@ rm A20_temp.sam
 rm A20_aligned.bam
 rm A20_filteredtemp.sam
 rm A20_unsortedtemp.sam
-rm A20_faligned.filtered.sam
+rm A20_aligned.filtered.sam
 rm A20_unaligned.query.bam
 rm A20_aligned.query.bam
 rm A20_dict.sam

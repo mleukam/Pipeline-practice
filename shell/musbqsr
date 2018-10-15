@@ -1,0 +1,21 @@
+# #!/bin/bash
+# 
+# script for BQSR of short mouse (50bp) single end whole genome reads on Balb/c background
+# custom project for mouse tumor sequencing project, no generalizable variables in current version
+#
+# set script to fail if any command, variable, or output fails
+set -euo pipefail
+#
+# set IFS to split only on newline and tab
+IFS=$'\n\t'
+#
+# load compilers
+module load java-jdk/1.8.0_92
+module load gcc/6.2.0
+#
+# load necessary modules
+module load picard/2.8.1
+module load samtools/1.6.0
+#
+# navigate to working directory
+cd /scratch/mleukam/mouse
