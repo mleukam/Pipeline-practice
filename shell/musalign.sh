@@ -41,21 +41,13 @@ module load fastqc/0.11.5
 module load picard/2.8.1
 module load bwa/0.7.17
 module load samtools/1.6.0
+module load gatk/4.0.6.0
 
 # navigate to working directory
 cd /scratch/mleukam/mouse
 
 # the reference genome used in this case is GRCm38 (mm10) patch 6 (most recent)
-# generate bwa index files from reference
-bwa index -a bwtsw GRCm38p6_ref.fa 
-
-# generate samtools index from reference
-samtools faidx GRCm38p6_ref.fa
-
-# generate picard dictionary from reference
-java -jar ${PICARD} CreateSequenceDictionary \
-REFERENCE=GRCm38p6_ref.fa \
-OUTPUT=GRCm38p6_ref.dict
+# index files generated in script musprep.sh
 
 # get fastqc report on raw sequences before proceeding
 # note: fastqc won't create the output directory; has to be done beforehand
@@ -162,8 +154,8 @@ TMP_DIR=/scratch/mleukam/temp
 java -Xmx32G -jar ${GATK} BaseRecalibrator \
 -R /scratch/mleukam/mouse/GRCm38p6_ref.fa \
 -I A20_markduplicates.bam \
---known-sites /scratch/mleukam/mouse/mgp.v5.merged.snps_all.dbSNP142.vcf \
---known-sites /scratch/mleukam/mouse/mgp.v5.merged.indels.dbSNP142.normed.vcf \
+--known-sites /scratch/mleukam/mouse/mgp.v5.merged.snps_all.dbSNP142.renamed.vcf \
+--known-sites /scratch/mleukam/mouse/mgp.v5.merged.indels.dbSNP142.normed.renamed.vcf \
 -O A20_bqsr.table
 
 # apply bqsr table
