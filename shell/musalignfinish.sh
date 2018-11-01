@@ -1,99 +1,129 @@
 #!/bin/bash
-# 
-# script to align short (50bp) single end whole genome reads
-# custom project for mouse tumor sequencing project, no generalizable variables in current version
-#
-#### INPUTS ####
-# 1. Unaligned BAM file containing read information with illumina adapters marked: A20_markilluminaadapters.bam
-# 2. Reference sequence for alingment: GRCm38p6_ref.fa
-# 3. BWA index files for reference sequence stored in working directory
-#
-#### OUTPUTS ####
-# 1. A20_merged.bam
-#
+
+##########
+# README #
+##########
+
+# align short (50bp) *single end* whole genome reads from mouse tumor
+# mark illumina adapters, filter unmapped reads and multimapped reads, index and sort
+# intended to run on gardner HPC with PBS wrapper
+# before using, make executable with chmod
+# before starting, update the readgroup information (not currently encoded as a variable)
+
+# The following inputs are required:
+# 1. Single read fastq file containing all the reads
+# 2. Reference sequence for alignment -- indexed for bwa and with picard dictionary (see musprep script)
+# 3. Known germline SNPs and Indels for BQSR
+# NB: this script expects the reference genome, index files and known variants in working directory
+
+# The following outputs are obtained:
+# 1. ${SAMPLE}_bqsr.bam --> ready for variant calling
+# 2. ${SAMPLE}_unaligned.bam --> bam file containing raw reads for archival purposes
+
+#########
+# SETUP #
+#########
+
 # set script to fail if any command, variable, or output fails
 set -euo pipefail
-#
+
 # set IFS to split only on newline and tab
-IFS=$'\n\t'
-#
+IFS=$'\n\t' 
+
 # load compilers
-module load java-jdk/1.8.0_92
+module load java-jdk/1.8.0_92 
 module load gcc/6.2.0
-#
+ 
+# load modules
+# NB: the path to picard.jar and gatk.jar is loaded with the module
+# location of picard.jar = ${PICARD}
+# location of gatk.jar = ${GATK}
+module load picard/2.8.1
+module load bwa/0.7.17
+module load samtools/1.6.0
+module load gatk/4.0.6.0
+
 # navigate to working directory
 cd /scratch/mleukam/mouse
-#
-# load necessary modules
-module load bwa/0.7.17
-module load picard/2.8.1
-module load samtools/1.6.0
-# 
-# revert BAM file temporarily back to fastq
-java -Xmx16G -jar ${PICARD} SamToFastq \
-I=A20_markilluminaadapters.bam \
-FASTQ=A20_temp.fq \
-CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 INTERLEAVE=true NON_PF=true \
-TMP_DIR=/scratch/mleukam/temp
-#
-# align sequences with BWA
-# note that t flag in bwa is set to 28 for number of cores in each Gardner node
-# index file for bwa downloaded with reference genome from NCBI
-# the reference genome used in this case is GRCm38 (mm10) patch 6 (most recent)
-bwa aln -t 12 GRCm38p6_ref.fa A20_temp.fq > A20_temp.sai
-bwa samse -t 12 GRCm38p6_ref.fa A20_temp.sai A20_temp.fq > A20_temp.sam
-#
-#### FILTER, SORT AND MERGE ####
-#
-# filter out unmapped and multimapped reads
-# these reads are not useful for variant calling and create downstream errors
-samtools view -F 4 -q 1 A20_temp.sam > A20_aligned.filtered.sam
-#
-# merge in picard sequence dictionary created in setup
-# create a new file (unsortedtemp.sam) that has both the dictionary and the aligned reads.
-# using this template: cat dictionary.sam > unsorted_file.sam && cat file.sam >> unsorted_file.sam
-cat GRCm38p6_ref.dict > A20_dict.sam && cat A20_aligned.filtered.sam >> A20_dict.sam
-#
-# samtools sort creates downstream errors with picard tools
-# only recommend sorting using picard tools
-java -Xmx16G -jar ${PICARD} SortSam \
-I=A20_dict.sam \
-O=A20_aligned.query.bam \
-SORT_ORDER=queryname
-#
-java -Xmx16G -jar ${PICARD} SortSam \
-I=A20_unaligned.bam \
-O=A20_unaligned.query.bam \
-SORT_ORDER=queryname
-#
-# merge aligned bam with ubam to restore headers, quality and read group information
-java -Xmx16G -jar ${PICARD} MergeBamAlignment \
-ALIGNED_BAM=A20_aligned.query.bam \
-UNMAPPED_BAM=A20_unaligned.query.bam \
-OUTPUT=A20_merged.bam \
-R=/scratch/mleukam/mouse/GRCm38p6_ref.fa \
-CREATE_INDEX=true ADD_MATE_CIGAR=true \
-CLIP_ADAPTERS=false CLIP_OVERLAPPING_READS=true \
-INCLUDE_SECONDARY_ALIGNMENTS=true MAX_INSERTIONS_OR_DELETIONS=-1 \
-PRIMARY_ALIGNMENT_STRATEGY=MostDistant ATTRIBUTES_TO_RETAIN=XS \
-TMP_DIR=/scratch/mleukam/temp
-#
+
+####################
+# DEFINE VARIABLES #
+####################
+
+# sample name (do not include .fq suffix)
+SAMPLE=A20
+# Note: Fastq file containing all reads for sample: A20.fq in working directory
+
+# name of reference genome file (do not include .fa suffix)
+REF=genome
+# Note: mm10, patch 6 from Ensembl via igenomes; Ensembl contigs are named: 1, 2, etc
+
+# name of known indels (include suffix)
+INDELS=mgp.v5.merged.indels.dbSNP142.normed.vcf
+# Note: known germline SNPs in all 18 sequenced mouse strains. Uses Ensembl contigs.
+
+# name of known SNPs (include suffix)
+SNP=mgp.v5.merged.snps_all.dbSNP142.vcf 
+# Note: known germline indels in all 18 sequenced mouse strains. Uses Ensembl contigs.
+
+# path to fastqc output directory
+FQDIR=/scratch/mleukam/mouse/fastqc
+
+# path to temporary working directory
+TMPDIR=/scratch/mleukam/temp
+
 # sort merged BAM by coordinate for later analysis
-java -Xmx16G -jar ${PICARD} SortSam \
-I=A20_merged.sam \
-O=A20_merged.sorted.bam \
+java -Xmx32G -jar ${PICARD} SortSam \
+I=${SAMPLE}_merged.bam \
+O=${SAMPLE}_merged.sorted.bam \
 SORT_ORDER=coordinate
-#
-#### CLEAN UP ####
-#
-# remove temporary files
-rm A20_temp.fq
-rm A20_temp.sai
-rm A20_temp.sam
-rm A20_aligned.bam
-rm A20_filteredtemp.sam
-rm A20_unsortedtemp.sam
-rm A20_faligned.filtered.sam
-rm A20_unaligned.query.bam
-rm A20_aligned.query.bam
-rm A20_dict.sam
+
+echo unmatched reads filtered, ${SAMPLE} is merged
+
+####################################
+# BASE QUALITY SCORE RECALIBRATION #
+####################################
+
+# mark duplicates
+java -Xmx32G -jar ${PICARD} MarkDuplicates \
+INPUT=${SAMPLE}_merged.sorted.bam \
+OUTPUT=${SAMPLE}_markduplicates.bam \
+METRICS_FILE=${SAMPLE}_markduplicates_metrics.txt \
+OPTICAL_DUPLICATE_PIXEL_DISTANCE=2500 \
+CREATE_INDEX=true \
+TMP_DIR=${TMPDIR}
+
+# generate bqsr table
+java -Xmx32G -jar ${GATK} BaseRecalibrator \
+-R ${REF}.fa \
+-I ${SAMPLE}_markduplicates.bam \
+--known-sites ${SNP} \
+--known-sites ${INDELS} \
+-O ${SAMPLE}_bqsr.table
+
+# apply bqsr table
+java -Xmx32G -jar ${GATK} ApplyBQSR \
+-R ${REF}.fa \
+-I ${SAMPLE}_markduplicates.bam \
+--bqsr-recal-file ${SAMPLE}_bqsr.table \
+-O ${SAMPLE}_bqsr.bam
+
+echo BQSR completed for ${SAMPLE}
+
+# clean up
+rm ${SAMPLE}_markduplicates.bam
+rm ${SAMPLE}_temp.fq
+rm ${SAMPLE}_temp.sai
+rm ${SAMPLE}_temp.sam
+rm ${SAMPLE}_aligned.bam
+rm ${SAMPLE}_filteredtemp.sam
+rm ${SAMPLE}_unsortedtemp.sam
+rm ${SAMPLE}_aligned.filtered.sam
+rm ${SAMPLE}_unaligned.query.bam
+rm ${SAMPLE}_aligned.query.bam
+rm ${SAMPLE}_dict.sam
+rm ${SAMPLE}_markilluminaadapters.bam
+
+# end the run
+echo alignment script completed
+echo ${SAMPLE} is ready for analysis

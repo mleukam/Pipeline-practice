@@ -5,7 +5,12 @@
 ##########
 
 # align short (50bp) *single end* whole genome reads from mouse tumor
-# mark illumina adapters, filter unmapped reads and multimapped reads, index and sort
+# in addition to aligning, script will
+# -- mark illumina adapters
+# -- filter unmapped reads and multimapped reads
+# -- index results of alignment and sort by coordinate
+# -- merge results with unaligned bam to restore read group info and correct hard clipping
+# -- base quality score recalibration after alignment
 # intended to run on gardner HPC with PBS wrapper
 # before using, make executable with chmod
 # before starting, update the readgroup information (not currently encoded as a variable)
@@ -14,6 +19,7 @@
 # 1. Single read fastq file containing all the reads
 # 2. Reference sequence for alignment -- indexed for bwa and with picard dictionary (see musprep script)
 # 3. Known germline SNPs and Indels for BQSR
+# NB: this script expects the reference genome, index files and known variants in working directory
 
 # The following outputs are obtained:
 # 1. ${SAMPLE}_bqsr.bam --> ready for variant calling
@@ -54,12 +60,10 @@ cd /scratch/mleukam/mouse
 SAMPLE=A20
 # Note: Fastq file containing all reads for sample: A20.fq in working directory
 
-# path to reference genome and known variants
-PATHTO=/scratch/mleukam/mouse/ref
-
 # name of reference genome file (do not include .fa suffix)
 REF=genome
 # Note: mm10, patch 6 from Ensembl via igenomes; Ensembl contigs are named: 1, 2, etc
+# This script expects the reference genome, picard dict, and bwa index files in the working directory
 
 # name of known indels (include suffix)
 INDELS=mgp.v5.merged.indels.dbSNP142.normed.vcf
@@ -130,10 +134,10 @@ TMP_DIR=/scratch/mleukam/${TMPDIR}
 # align sequences with BWA aln+samse (best for single end reads <70bp)
 # note that t flag in bwa aln is set to 12, max is 28 threads/cores on single node in Gardner
 # will only work if PBS script asks for 12 ppn
-bwa aln -t 12 ${PATHTO}/${REF}.fa \
+bwa aln -t 12 ${REF}.fa \
 ${SAMPLE}_temp.fq > ${SAMPLE}_temp.sai
 
-bwa samse ${PATHTO}/${REF}.fa \
+bwa samse ${REF}.fa \
 ${SAMPLE}_temp.sai \
 ${SAMPLE}_temp.fq > ${SAMPLE}_temp.sam
 
@@ -146,7 +150,7 @@ samtools view -F 4 -q 1 ${SAMPLE}_temp.sam > ${SAMPLE}_aligned.filtered.sam
 # merge in picard sequence dictionary created in setup
 # create a new file (unsortedtemp.sam) that has both the dictionary and the aligned reads.
 # using this template: cat dictionary.sam > unsorted_file.sam && cat file.sam >> unsorted_file.sam
-cat ${PATHTO}/{REF}.dict > ${SAMPLE}_dict.sam && cat ${SAMPLE}_aligned.filtered.sam >> ${SAMPLE}_dict.sam
+cat {REF}.dict > ${SAMPLE}_dict.sam && cat ${SAMPLE}_aligned.filtered.sam >> ${SAMPLE}_dict.sam
 
 # samtools sort creates downstream errors with picard tools
 # only recommend sorting using picard tools
@@ -168,7 +172,7 @@ java -Xmx32G -jar ${PICARD} MergeBamAlignment \
 ALIGNED_BAM=${SAMPLE}_aligned.query.bam \
 UNMAPPED_BAM=${SAMPLE}_unaligned.query.bam \
 OUTPUT=${SAMPLE}_merged.bam \
-R=${PATHTO}/${REF}.fa \
+R=${REF}.fa \
 CREATE_INDEX=true ADD_MATE_CIGAR=true \
 CLIP_ADAPTERS=false CLIP_OVERLAPPING_READS=true \
 INCLUDE_SECONDARY_ALIGNMENTS=true MAX_INSERTIONS_OR_DELETIONS=-1 \
@@ -198,15 +202,15 @@ TMP_DIR=${TMPDIR}
 
 # generate bqsr table
 java -Xmx32G -jar ${GATK} BaseRecalibrator \
--R ${PATHTO}/${REF}.fa \
+-R ${REF}.fa \
 -I ${SAMPLE}_markduplicates.bam \
---known-sites ${PATHTP}/${SNP} \
---known-sites ${PATHTO}/${INDELS} \
+--known-sites ${SNP} \
+--known-sites ${INDELS} \
 -O ${SAMPLE}_bqsr.table
 
 # apply bqsr table
 java -Xmx32G -jar ${GATK} ApplyBQSR \
--R ${PATHTO}/${REF}.fa \
+-R ${REF}.fa \
 -I ${SAMPLE}_markduplicates.bam \
 --bqsr-recal-file ${SAMPLE}_bqsr.table \
 -O ${SAMPLE}_bqsr.bam
