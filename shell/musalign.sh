@@ -10,7 +10,7 @@
 # -- filter unmapped reads and multimapped reads
 # -- index results of alignment and sort by coordinate
 # -- merge results with unaligned bam to restore read group info and correct hard clipping
-# -- base quality score recalibration after alignment
+# -- remove duplicates after alignment
 # intended to run on gardner HPC with PBS wrapper
 # before using, make executable with chmod
 # before starting, update the readgroup information (not currently encoded as a variable)
@@ -18,11 +18,10 @@
 # The following inputs are required:
 # 1. Single read fastq file containing all the reads
 # 2. Reference sequence for alignment -- indexed for bwa and with picard dictionary (see musprep script)
-# 3. Known germline SNPs and Indels for BQSR
 # NB: this script expects the reference genome, index files and known variants in working directory
 
 # The following outputs are obtained:
-# 1. ${SAMPLE}_bqsr.bam --> ready for variant calling
+# 1. ${SAMPLE}_aligned.bam --> ready for variant calling
 # 2. ${SAMPLE}_unaligned.bam --> bam file containing raw reads for archival purposes
 
 #########
@@ -47,7 +46,6 @@ module load fastqc/0.11.5
 module load picard/2.8.1
 module load bwa/0.7.17
 module load samtools/1.6.0
-module load gatk/4.0.6.0
 
 # navigate to working directory
 cd /scratch/mleukam/mouse
@@ -64,14 +62,6 @@ SAMPLE=A20
 REF=genome
 # Note: mm10, patch 6 from Ensembl via igenomes; Ensembl contigs are named: 1, 2, etc
 # This script expects the reference genome, picard dict, and bwa index files in the working directory
-
-# name of known indels (include suffix)
-INDELS=mgp.v5.merged.indels.dbSNP142.normed.vcf
-# Note: known germline SNPs in all 18 sequenced mouse strains. Uses Ensembl contigs.
-
-# name of known SNPs (include suffix)
-SNP=mgp.v5.merged.snps_all.dbSNP142.vcf 
-# Note: known germline indels in all 18 sequenced mouse strains. Uses Ensembl contigs.
 
 # path to fastqc output directory
 FQDIR=/scratch/mleukam/mouse/fastqc
@@ -145,19 +135,19 @@ echo ${SAMPLE} is aligned
 
 # filter out unmapped and multimapped reads
 # these reads are not useful for variant calling and create downstream errors
-samtools view -F 4 -q 1 ${SAMPLE}_temp.sam > ${SAMPLE}_aligned.filtered.sam
+samtools view -F 4 -q 1 ${SAMPLE}_temp.sam > ${SAMPLE}_temp.aligned.filtered.sam
 
 # merge in picard sequence dictionary created in setup
 # create a new file (unsortedtemp.sam) that has both the dictionary and the aligned reads.
 # using this template: cat dictionary.sam > unsorted_file.sam && cat file.sam >> unsorted_file.sam
-cat {REF}.dict > ${SAMPLE}_dict.sam && cat ${SAMPLE}_aligned.filtered.sam >> ${SAMPLE}_dict.sam
+cat {REF}.dict > ${SAMPLE}_dict.sam && cat ${SAMPLE}_temp.aligned.filtered.sam >> ${SAMPLE}_dict.sam
 
 # samtools sort creates downstream errors with picard tools
 # only recommend sorting using picard tools
 # sort aligned sample by queryname
 java -Xmx32G -jar ${PICARD} SortSam \
 I=${SAMPLE}_dict.sam \
-O=${SAMPLE}_aligned.query.bam \
+O=${SAMPLE}_temp.aligned.query.bam \
 SORT_ORDER=queryname
 
 # sort unaligned sample by queryname
@@ -169,7 +159,7 @@ SORT_ORDER=queryname
 # merge aligned bam with ubam to restore headers, quality and read group information
 # merging also removes hardclips from BWA for discordance between best matching kmer and read
 java -Xmx32G -jar ${PICARD} MergeBamAlignment \
-ALIGNED_BAM=${SAMPLE}_aligned.query.bam \
+ALIGNED_BAM=${SAMPLE}_temp.aligned.query.bam \
 UNMAPPED_BAM=${SAMPLE}_unaligned.query.bam \
 OUTPUT=${SAMPLE}_merged.bam \
 R=${REF}.fa \
@@ -181,48 +171,29 @@ TMP_DIR=${TMPDIR}
 
 # sort merged BAM by coordinate for later analysis
 java -Xmx32G -jar ${PICARD} SortSam \
-I=${SAMPLE}_merged.sam \
+I=${SAMPLE}_merged.bam \
 O=${SAMPLE}_merged.sorted.bam \
 SORT_ORDER=coordinate
 
 echo unmatched reads filtered, ${SAMPLE} is merged
 
-####################################
-# BASE QUALITY SCORE RECALIBRATION #
-####################################
-
 # mark duplicates
 java -Xmx32G -jar ${PICARD} MarkDuplicates \
 INPUT=${SAMPLE}_merged.sorted.bam \
-OUTPUT=${SAMPLE}_markduplicates.bam \
+OUTPUT=${SAMPLE}_aligned.bam \
 METRICS_FILE=${SAMPLE}_markduplicates_metrics.txt \
 OPTICAL_DUPLICATE_PIXEL_DISTANCE=2500 \
 CREATE_INDEX=true \
 TMP_DIR=${TMPDIR}
 
-# generate bqsr table
-java -Xmx32G -jar ${GATK} BaseRecalibrator \
--R ${REF}.fa \
--I ${SAMPLE}_markduplicates.bam \
---known-sites ${SNP} \
---known-sites ${INDELS} \
--O ${SAMPLE}_bqsr.table
-
-# apply bqsr table
-java -Xmx32G -jar ${GATK} ApplyBQSR \
--R ${REF}.fa \
--I ${SAMPLE}_markduplicates.bam \
---bqsr-recal-file ${SAMPLE}_bqsr.table \
--O ${SAMPLE}_bqsr.bam
-
-echo BQSR completed for ${SAMPLE}
+echo duplicates marked
 
 # clean up
 rm ${SAMPLE}_markduplicates.bam
 rm ${SAMPLE}_temp.fq
 rm ${SAMPLE}_temp.sai
 rm ${SAMPLE}_temp.sam
-rm ${SAMPLE}_aligned.bam
+rm ${SAMPLE}_temp.aligned.bam
 rm ${SAMPLE}_filteredtemp.sam
 rm ${SAMPLE}_unsortedtemp.sam
 rm ${SAMPLE}_aligned.filtered.sam
