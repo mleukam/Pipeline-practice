@@ -106,7 +106,7 @@ java -Xmx32G -jar ${PICARD} MarkIlluminaAdapters \
 I=${SAMPLE}_unaligned.bam \
 O=${SAMPLE}_markilluminaadapters.bam \
 M=${SAMPLE}_markilluminaadapters_metrics.txt \
-TMP_DIR=/scratch/mleukam/${TMPDIR}
+TMP_DIR=${TMPDIR}
 
 echo illumina adapters marked
 
@@ -119,7 +119,7 @@ java -Xmx32G -jar ${PICARD} SamToFastq \
 I=${SAMPLE}_markilluminaadapters.bam \
 FASTQ=${SAMPLE}_temp.fq \
 CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 INTERLEAVE=true NON_PF=true \
-TMP_DIR=/scratch/mleukam/${TMPDIR}
+TMP_DIR=${TMPDIR}
 
 # align sequences with BWA aln+samse (best for single end reads <70bp)
 # note that t flag in bwa aln is set to 12, max is 28 threads/cores on single node in Gardner
