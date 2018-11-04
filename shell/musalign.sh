@@ -31,13 +31,25 @@
 # set script to fail if any command, variable, or output fails
 set -euo pipefail
 
+# define exit function
+error_exit()
+{
+#	----------------------------------------------------------------
+#	Function for exit due to fatal program error
+#		Accepts 1 argument:
+#			string containing descriptive error message
+#	----------------------------------------------------------------
+	echo "${PROGNAME}: ${1:-"Unknown Error"}" 1>&2
+	exit 1
+}
+
 # set IFS to split only on newline and tab
 IFS=$'\n\t' 
 
 # load compilers
 module load java-jdk/1.8.0_92 
 module load gcc/6.2.0
- 
+
 # load modules
 # NB: the path to picard.jar and gatk.jar is loaded with the module
 # location of picard.jar = ${PICARD}
@@ -53,6 +65,9 @@ cd /scratch/mleukam/mouse
 ####################
 # DEFINE VARIABLES #
 ####################
+
+# store the name of the script as a variable for use in error handling
+PROGNAME=$(basename $0)
 
 # sample name (do not include .fq suffix)
 SAMPLE=A20
