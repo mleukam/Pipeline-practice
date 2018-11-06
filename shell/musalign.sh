@@ -193,7 +193,7 @@ rm ${SAMPLE}_markduplicates.bam
 rm ${SAMPLE}_temp.fq
 rm ${SAMPLE}_temp.sai
 rm ${SAMPLE}_temp.sam
-rm ${SAMPLE}_temp.aligned.bam
+rm ${SAMPLE}_temp.aligned.query.bam
 rm ${SAMPLE}_filteredtemp.sam
 rm ${SAMPLE}_unsortedtemp.sam
 rm ${SAMPLE}_aligned.filtered.sam
