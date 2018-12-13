@@ -11,13 +11,13 @@
 
 ## Specify the combined output/error log
 #PBS -j oe
-#PBS -o /home/mleukam/logs/musalign.log
+#PBS -o /home/mleukam/logs/musalign_germ.log
 
 # navigate to shell dir
 cd /home/mleukam/shell
 
 # call shell scrpt
-./musalign2.sh A20 A20.fq
+./musalign2_germ.sh BALB_cJ BALB_cJ.bam
 
 # exit code
 exit 0
