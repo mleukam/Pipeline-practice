@@ -21,8 +21,8 @@
 # The following inputs are required:
 # 1. Single read fastq file containing all the reads
 # 2. Reference sequence for alignment -- indexed for bwa and with picard dictionary (see musprep script)
-# 3. Known indels from mouse genome project for BQSR
-# 4. Known snps from mouse genome project for BQSR
+# 3. Known indels from mouse genome project for BQSR -- indexed with GATK IndexFeatureFile
+# 4. Known snps from mouse genome project for BQSR -- indexed with GATK IndexFeatureFile
 
 # The following outputs are obtained:
 # 1. ${sample}_aligned.bam --> ready for variant calling

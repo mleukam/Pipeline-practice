@@ -1,10 +1,33 @@
 #!/bin/bash
-# 
-# script to align short (50bp) single end whole genome reads
-# custom project for mouse tumor sequencing project, no generalizable variables in current version
-#
-# Corrected last steps due to typo in prior edition of musalignfinish. Not intended for future use.
-#
+
+###########################################
+## PRE-PROCESSING AND ALIGNING MOUSE WGS ##
+###########################################
+
+## README
+
+# purpose: realign 100bp *paired-end* whole genome reads from balb/c sanger mouse genome project
+# in addition to aligning, script will
+# -- mark illumina adapters
+# -- filter unmapped reads and multimapped reads
+# -- index results of alignment and sort by coordinate
+# -- merge results with unaligned bam to restore read group info and correct hard clipping
+# -- mark duplicates after alignment
+# intended to run on gardner HPC with PBS wrapper
+# before using, make executable with chmod
+# before starting, update the readgroup information (not currently encoded as a variable)
+
+# The following inputs are required:
+# 1. BAM file containing all the reads
+# 2. Reference sequence for alignment -- indexed for bwa and with picard dictionary (see musprep script)
+# 3. Known indels from mouse genome project for BQSR
+# 4. Known snps from mouse genome project for BQSR
+
+# The following outputs are obtained:
+# 1. ${sample}_aligned.bam --> ready for variant calling
+
+## PBS script must call for 8G of mem and 12 threads
+
 ## Set script to fail if any command, variable, or output fails
 set -euo pipefail
 
@@ -14,11 +37,13 @@ IFS=$'\n\t'
 ## Assign variables given as arguments
 progname=$(basename $0)
 sample=$1
-fq=$2
+inbam=$2
 
 ## Assign additional variables including working directory containing files
 wkdir=/scratch/mleukam/mouse/
 ref=/scratch/mleukam/mouse/genome.fa
+# Note: mm10, patch 6 from Ensembl via igenomes; Ensembl contigs are named: 1, 2, etc
+# This script expects the reference genome, picard dict, and bwa index files in the working directory
 knownsites1=/scratch/mleukam/mouse/mgp.v5.merged.indels.dbSNP142.normed.vcf
 knownsites2=/scratch/mleukam/mouse/mgp.v5.merged.snps_all.dbSNP142.vcf
 fqdir=/scratch/mleukam/mouse/fastqc
@@ -48,7 +73,8 @@ module load fastqc/0.11.5
 
 ## navigate to file containing fastq files
 cd ${wkdir} || error_exit "unable to navigate to working directory"
-#
+
+
 ## Base quality score re-alignment
 ## Input: marked duplicates BAM
 ## Output: BQSR table and recalibrated BAM (bqsr.bam)
@@ -71,4 +97,3 @@ rm ${sample}_markduplicates.bam
 # Exit
 echo "Alignment and BQSR completed. ${sample}_bqsr.bam is ready for further analysis"
 exit 0
-#
