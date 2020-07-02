@@ -7,21 +7,21 @@
 #PBS -N mark_duplicates
 
 ## Request resources
-#PBS -l walltime=20:00:00
+#PBS -l walltime=8:00:00
 #PBS -l nodes=1:ppn=1
 #PBS -l mem=32gb
 
 ## Specify the standard output file (rather than printing to screen)
-#PBS -o /home/mleukam/duplicateoutput.log
+#PBS -o /home/mleukam/duplicate.output.log
 
 ## Specify the standard error (rather than printing to screen)
-#PBS -e /home/mleukam/duplicateerror.log
+#PBS -e /home/mleukam/duplicate.error.log
 
 # navigate to shell dir
 cd /home/mleukam/shell
 
 # call shell scrpt
-./mlduplicates.sh
+./duplicates.sh
 
 # exit code
 exit 0

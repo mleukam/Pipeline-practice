@@ -1,0 +1,24 @@
+[Thu Oct 11 00:26:19 CDT 2018] picard.sam.AddOrReplaceReadGroups INPUT=HG00151.alt_bwamem_GRCh38DH.20150826.GBR.exome.bam OUTPUT=HG00151.alt_bwamem_GRCh38DH.20150826.GBR.exome.bam SORT_ORDER=coordinate RGID=Z:SRR766045 RGLB=library1 RGPL=illumina RGPU=20150826 RGSM=HG00151.alt_bwamem_GRCh38DH.20150826.GBR.exome TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Oct 11 00:26:19 CDT 2018] Executing as mleukam@cri16cn086 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-10-11 00:26:19	AddOrReplaceReadGroups	Created read group ID=Z:SRR766045 PL=illumina LB=library1 SM=HG00151.alt_bwamem_GRCh38DH.20150826.GBR.exome
+
+[Thu Oct 11 00:26:19 CDT 2018] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2025848832
+[Thu Oct 11 00:26:20 CDT 2018] picard.sam.AddOrReplaceReadGroups INPUT=HG00240.alt_bwamem_GRCh38DH.20150826.GBR.exome.bam OUTPUT=HG00240.alt_bwamem_GRCh38DH.20150826.GBR.exome.bam SORT_ORDER=coordinate RGID=Z:SRR766045 RGLB=library1 RGPL=illumina RGPU=20150826 RGSM=HG00240.alt_bwamem_GRCh38DH.20150826.GBR.exome TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Oct 11 00:26:20 CDT 2018] Executing as mleukam@cri16cn086 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-10-11 00:26:20	AddOrReplaceReadGroups	Created read group ID=Z:SRR766045 PL=illumina LB=library1 SM=HG00240.alt_bwamem_GRCh38DH.20150826.GBR.exome
+
+[Thu Oct 11 00:26:21 CDT 2018] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 0.02 minutes.
+Runtime.totalMemory()=2025848832
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.util.RuntimeIOException: Invalid file pointer: 7610564608 for /gpfs/data/kline-lab/ref/1000G_PoN/HG00240.alt_bwamem_GRCh38DH.20150826.GBR.exome.bam
+	at htsjdk.samtools.BAMFileReader.getIterator(BAMFileReader.java:331)
+	at htsjdk.samtools.SamReader$PrimitiveSamReaderToSamReaderAdapter.iterator(SamReader.java:473)
+	at picard.sam.AddOrReplaceReadGroups.doWork(AddOrReplaceReadGroups.java:140)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:208)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+Caused by: java.io.IOException: Invalid file pointer: 7610564608 for /gpfs/data/kline-lab/ref/1000G_PoN/HG00240.alt_bwamem_GRCh38DH.20150826.GBR.exome.bam
+	at htsjdk.samtools.util.BlockCompressedInputStream.seek(BlockCompressedInputStream.java:305)
+	at htsjdk.samtools.BAMFileReader.getIterator(BAMFileReader.java:329)
+	... 5 more

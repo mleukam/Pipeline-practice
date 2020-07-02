@@ -1,0 +1,54 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9830523.cri16sc001
+User ID:           mleukam
+Job Name:          cram_to_bam
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=20:08:54,vmem=325604kb,walltime=20:10:47,mem=102272kb,energy_used=0
+Exit Code:         271
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9836846.cri16sc001
+User ID:           mleukam
+Job Name:          cram_to_bam
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=40:00:00,nodes=1:ppn=1,mem=32gb,neednodes=1:ppn=1
+Resources Used:    cput=26:47:58,vmem=328332kb,walltime=26:50:13,mem=104784kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn218
+
+Execution Nodes: 
+cri16cn218
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9942286.cri16sc001
+User ID:           mleukam
+Job Name:          cram_to_bam
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=40:00:00,nodes=1:ppn=1,mem=32gb,neednodes=1:ppn=1
+Resources Used:    cput=02:50:55,vmem=307920kb,walltime=02:51:10,mem=83528kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn209
+
+Execution Nodes: 
+cri16cn209
+
+

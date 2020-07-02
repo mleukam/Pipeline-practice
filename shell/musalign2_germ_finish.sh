@@ -26,7 +26,7 @@
 # The following outputs are obtained:
 # 1. ${sample}_aligned.bam --> ready for variant calling
 
-## PBS script must call for 8G of mem and 12 threads
+## PBS script must call for 16G of mem and 1 thread
 
 ## Set script to fail if any command, variable, or output fails
 set -euo pipefail
@@ -78,7 +78,7 @@ cd ${wkdir} || error_exit "unable to navigate to working directory"
 ## Base quality score re-alignment
 ## Input: marked duplicates BAM
 ## Output: BQSR table and recalibrated BAM (bqsr.bam)
-java -Xmx8G -jar ${GATK} BaseRecalibrator \
+java -Xmx16G -jar ${GATK} BaseRecalibrator \
 -R ${ref} \
 -I ${sample}_markduplicates.bam \
 --known-sites ${knownsites1} \

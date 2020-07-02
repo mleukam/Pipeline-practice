@@ -1,0 +1,3732 @@
+Program folder is: /scratch/mleukam/EXCAVATOR2
+Preparing Multiprocessor Analysis...
+Starting Multiprocessor Analysis!
+Creating '/scratch/mleukam/wes_controls/ABC-01-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-01-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-01-C/Images' folder...
+Working on sample ABC-01-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/AMP-03-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-03-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-03-C/Images' folder...
+Working on sample AMP-03-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/ABC-07-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-07-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-07-C/Images' folder...
+Working on sample ABC-07-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/AMP-08-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-08-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-08-C/Images' folder...
+Working on sample AMP-08-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/CG-01-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/CG-01-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/CG-01-C/Images' folder...
+Working on sample CG-01-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/AMP-01-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-01-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-01-C/Images' folder...
+Working on sample AMP-01-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/AMP-06-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-06-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-06-C/Images' folder...
+Working on sample AMP-06-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/AMP-10-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-10-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-10-C/Images' folder...
+Working on sample AMP-10-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/ABC-11-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-11-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-11-C/Images' folder...
+Working on sample ABC-11-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/ABC-03-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-03-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-03-C/Images' folder...
+Working on sample ABC-03-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/ABC-05-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-05-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-05-C/Images' folder...
+Working on sample ABC-05-C.
+Creating Read Count Data...
+Creating '/scratch/mleukam/wes_controls/ABC-09-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-09-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-09-C/Images' folder...
+Working on sample ABC-09-C.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/ABC-02-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-02-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-02-C/Images' folder...
+Working on sample ABC-02-C.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/AMP-04-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-04-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-04-C/Images' folder...
+Working on sample AMP-04-C.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+CG-01-Cnull device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/AMP-02-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-02-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-02-C/Images' folder...
+Working on sample AMP-02-C.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/ABC-06-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-06-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-06-C/Images' folder...
+Working on sample ABC-06-C.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/ABC-04-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-04-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-04-C/Images' folder...
+Working on sample ABC-04-C.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/ABC-12-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-12-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-12-C/Images' folder...
+Working on sample ABC-12-C.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/AMP-07-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-07-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-07-C/Images' folder...
+Working on sample AMP-07-C.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/AMP-09-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-09-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/AMP-09-C/Images' folder...
+Working on sample AMP-09-C.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/ABC-08-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-08-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-08-C/Images' folder...
+Working on sample ABC-08-C.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-10-Cnull device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/wes_controls/ABC-10-C/RC' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-10-C/RCNorm' folder...
+Creating '/scratch/mleukam/wes_controls/ABC-10-C/Images' folder...
+Working on sample ABC-10-C.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-03-C AMP-04-CRemoving temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-01-C ABC-02-CRemoving temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-01-C AMP-02-Cnull device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-03-C ABC-04-CRemoving temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-11-C ABC-12-CRemoving temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: survival
+Loading required package: survival
+Loading required package: Formula
+Loading required package: Formula
+Loading required package: ggplot2
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-07-C ABC-08-CNormalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-06-C AMP-07-Cnull device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-05-C ABC-06-CRemoving temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-08-C AMP-09-Cnull device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-09-C ABC-10-CMultiprocessor Analysis Complete!
+tory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-05-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/CG-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/CG-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-03-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/ABC-04-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-04-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-04-C/Images' folder...
+Working on sample ABC-04-C.
+Creating Read Count Data...
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/ABC-06-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-06-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-06-C/Images' folder...
+Working on sample ABC-06-C.
+Creating Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+CG-01-C[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-11-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-01-C_bqsr.bam" for reading: No such file or directory
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/AMP-04-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-04-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-04-C/Images' folder...
+Working on sample AMP-04-C.
+Creating Read Count Data...
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-01-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-08-C_bqsr.bam" for reading: No such file or directory
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/ABC-08-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-08-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-08-C/Images' folder...
+Working on sample ABC-08-C.
+Creating Read Count Data...
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/ABC-02-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-02-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-02-C/Images' folder...
+Working on sample ABC-02-C.
+Creating Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/ABC-12-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-12-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-12-C/Images' folder...
+Working on sample ABC-12-C.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/AMP-07-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-07-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-07-C/Images' folder...
+Working on sample AMP-07-C.
+Creating Read Count Data...
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/ABC-10-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-10-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/ABC-10-C/Images' folder...
+Working on sample ABC-10-C.
+Creating Read Count Data...
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-10-CError in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/AMP-02-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-02-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-02-C/Images' folder...
+Working on sample AMP-02-C.
+Creating Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Normalization done!
+Creating '/scratch/mleukam/wescontrols/AMP-09-C/RC' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-09-C/RCNorm' folder...
+Creating '/scratch/mleukam/wescontrols/AMP-09-C/Images' folder...
+Working on sample AMP-09-C.
+Creating Read Count Data...
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] [E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bamFailed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+
+samtools view: samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for readingfailed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-04-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-06-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-10-C_bqsr.bam" for reading: No such file or directory
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-03-C ABC-04-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-03-C AMP-04-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-07-C_bqsr.bam" for reading: No such file or directory
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-05-C ABC-06-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-02-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-09-C ABC-10-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/AMP-09-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-08-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-02-C_bqsr.bam" for reading: No such file or directory
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-06-C AMP-07-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-01-C AMP-02-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+[E::hts_open_format] Failed to open file /scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam
+samtools view: failed to open "/scratch/mleukam/wescontrols/ABC-12-C_bqsr.bam" for reading: No such file or directory
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+AMP-08-C AMP-09-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-07-C ABC-08-CError in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-11-C ABC-12-CError in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+ABC-01-C ABC-02-CMultiprocessor Analysis Complete!
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11532469.cri16sc001
+User ID:           mleukam
+Job Name:          con_dataprepare
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=12,mem=8gb,neednodes=1:ppn=12
+Resources Used:    cput=00:15:15,vmem=6016276kb,walltime=00:01:41,mem=815768kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn083
+
+Execution Nodes: 
+cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11535018.cri16sc001
+User ID:           mleukam
+Job Name:          con_dataprepare
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=12,mem=8gb,neednodes=1:ppn=12
+Resources Used:    cput=08:59:30,vmem=10599876kb,walltime=00:49:19,mem=1656512kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn087
+
+Execution Nodes: 
+cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087 cri16cn087
+
+

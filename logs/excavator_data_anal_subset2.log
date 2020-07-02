@@ -1,0 +1,156 @@
+START Mon Dec 24 20:09:10 CST 2018
+project = dataAnalysis
+assembly = hg19
+agilent = 
+targetName = S04380110_V5_w50k
+[  Mon Dec 24 20:09:10 CST 2018  ] Parsing BAM and normalization: EXCAVATORDataPrepare.pl
+expAnal= /gpfs/data/kline-lab/inputs/ExperimentalFileAnalysis.subset.w50K.txt
+Checking output folders...
+'/scratch/mleukam/Results_Duke_w50K' folder ready!
+Checking output subfolders...
+'/scratch/mleukam/Results_Duke_w50K/Results' folder ready!
+'/scratch/mleukam/Results_Duke_w50K/Plots' folder ready!
+'/scratch/mleukam/Results_Duke_w50K/.tmp' folder ready!
+Creating Pooling Control!
+Warning message:
+In dir.create(file.path(DataFolder, "Control")) :
+  '/scratch/mleukam/Results_Duke_w50K/Control' already exists
+Warning message:
+In dir.create(file.path(DataFolder, "Control", "RCNorm")) :
+  '/scratch/mleukam/Results_Duke_w50K/Control/RCNorm' already exists
+Pooling Control Created!
+Preparing Multiprocessor Analysis...
+Multiprocessor Analysis Complete
+Starting Multiprocessor Analysis!
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+My Children: 69197 69198 69199 69200 69201 69202
+Multiprocessor Analysis Complete!
+END Mon Dec 24 21:22:08 CST 2018
+tation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/2253/HSLMResults_2253.txt': No such file or directory
+Execution halted
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/3846/RCNorm/3846.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/2073/RCNorm/2073.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/3846/HSLMResults_3846.txt': No such file or directory
+Execution halted
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/2727/RCNorm/2727.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/2073/HSLMResults_2073.txt': No such file or directory
+Execution halted
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/2727/HSLMResults_2727.txt': No such file or directory
+Execution halted
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/3660/RCNorm/3660.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/3660/HSLMResults_3660.txt': No such file or directory
+Execution halted
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/3597/RCNorm/3597.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/3597/HSLMResults_3597.txt': No such file or directory
+Execution halted
+My Children: 56782 56783 56784 56785 56786 56787
+Multiprocessor Analysis Complete!
+END Mon Dec 24 18:52:35 CST 2018
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11567376.cri16sc001
+User ID:           mleukam
+Job Name:          excavator_anal
+Queue Name:        mid
+Working Directory: /home/mleukam/shell
+Resource List:     walltime=12:00:00,nodes=1:ppn=6,mem=16gb,neednodes=1:ppn=6
+Resources Used:    cput=02:11:40,vmem=6353960kb,walltime=01:06:46,mem=3676796kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11567389.cri16sc001
+User ID:           mleukam
+Job Name:          excavator_anal
+Queue Name:        mid
+Working Directory: /home/mleukam/shell
+Resource List:     walltime=12:00:00,nodes=1:ppn=6,mem=16gb,neednodes=1:ppn=6
+Resources Used:    cput=06:35:38,vmem=7205540kb,walltime=01:12:58,mem=4567576kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228
+
+

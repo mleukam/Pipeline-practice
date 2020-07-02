@@ -1,0 +1,162 @@
+START Fri Dec 21 19:40:11 CST 2018
+project = redo_list_1
+assembly = hg19
+agilent = 
+targetName = S04380110_V5_w50k
+[  Fri Dec 21 19:40:12 CST 2018  ] Parsing BAM and normalization: EXCAVATORDataPrepare.pl
+expPrepapre = /gpfs/data/kline-lab/inputs/ExperimentalFilePrepare.w50000.lasttwo.txt
+Program folder is: /gpfs/data/kline-lab/rbao_test/software/excavator2/1.1.2
+Preparing Multiprocessor Analysis...
+Starting Multiprocessor Analysis!
+'/scratch/mleukam/duke_wes/3821/RC' folder ready!
+'/scratch/mleukam/duke_wes/3821/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/3821/Images' folder ready!
+Working on sample 3821.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/2591/RC' folder ready!
+'/scratch/mleukam/duke_wes/2591/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2591/Images' folder ready!
+Working on sample 2591.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2591Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+3821Multiprocessor Analysis Complete!
+END Fri Dec 21 19:54:59 CST 2018
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11563551.cri16sc001
+User ID:           mleukam
+Job Name:          excavator_error_last2
+Queue Name:        mid
+Working Directory: /gpfs/data/kline-lab
+Resource List:     walltime=08:00:00,nodes=1:ppn=6,mem=16gb,neednodes=1:ppn=6
+Resources Used:    cput=00:20:48,vmem=1596804kb,walltime=00:14:48,mem=242676kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228
+
+

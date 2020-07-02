@@ -1,0 +1,52 @@
+Started analysis of JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 5% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 10% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 15% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 20% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 25% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 30% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 35% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 40% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 45% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 50% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 55% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 60% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 65% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 70% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 75% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 80% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 85% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 90% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Approx 95% complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Analysis complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+Failed to process file JK-XC-6_S5_L007_R1_001.fastq.gz
+java.lang.IllegalArgumentException: image == null!
+	at javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+	at javax.imageio.ImageIO.getWriter(ImageIO.java:1592)
+	at javax.imageio.ImageIO.write(ImageIO.java:1578)
+	at uk.ac.babraham.FastQC.Utilities.ImageToBase64.imageToBase64(ImageToBase64.java:38)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.base64ForIcon(HTMLReportArchive.java:380)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.startDocument(HTMLReportArchive.java:303)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:84)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:155)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:110)
+	at java.lang.Thread.run(Thread.java:745)
+script complete for JK-XC-6_S5_L007_R1_001.fastq.gz
+
+
+------------ Job WrapUp ------------
+
+Job ID:            16801830.cri16sc001
+User ID:           mleukam
+Job Name:          fastqc_JK-XC-6_S5_L007_R1_001.fastq.gz
+Queue Name:        standard
+Working Directory: /gpfs/data/kline-lab/tg101_sequences/code
+Resource List:     walltime=01:00:00,nodes=1:ppn=6,mem=4gb,neednodes=1:ppn=6
+Resources Used:    cput=00:03:19,vmem=4472160kb,walltime=00:03:18,mem=411292kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn006
+
+Execution Nodes: 
+cri16cn006 cri16cn006 cri16cn006 cri16cn006 cri16cn006 cri16cn006
+
+

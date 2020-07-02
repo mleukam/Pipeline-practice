@@ -1,0 +1,43 @@
+
+[build] loading fasta file gencode.v29.transcripts.fa
+[build] k-mer length: 31
+[build] warning: clipped off poly-A tail (longer than 10)
+        from 1630 target sequences
+[build] warning: replaced 4 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+[build] counting k-mers ... done.
+[build] building target de Bruijn graph ...  done 
+[build] creating equivalence classes ...  done
+[build] target de Bruijn graph has 1329850 contigs and contains 129198140 k-mers 
+
+kam
+Job Name:          Kallisto_index
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:04:15,vmem=3872388kb,walltime=00:04:17,mem=3781180kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn064
+
+Execution Nodes: 
+cri16cn064
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11451466.cri16sc001
+User ID:           mleukam
+Job Name:          Kallisto_index
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:06:23,vmem=9949556kb,walltime=00:11:10,mem=8388588kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn047
+
+Execution Nodes: 
+cri16cn047
+
+

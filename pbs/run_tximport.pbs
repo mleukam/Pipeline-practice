@@ -1,0 +1,23 @@
+## Define the shell
+#PBS -S /bin/bash
+
+## Name the job
+#PBS -N tximport
+
+## Request resources
+#PBS -l walltime=8:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=100G
+
+## Specify the combined output/error log
+#PBS -j oe
+#PBS -o /home/mleukam/logs/tximport_100G_take2.log
+
+# navigate to shell dir
+cd /home/mleukam/shell
+
+# call shell scrpt
+./tximport.sh
+
+# exit code
+exit 0

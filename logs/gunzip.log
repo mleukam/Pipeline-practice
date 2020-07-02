@@ -1,0 +1,38 @@
+job's done
+ No such file or directory
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11507835.cri16sc001
+User ID:           mleukam
+Job Name:          gunzip
+Queue Name:        mid
+Working Directory: /gpfs/data/kline-lab/ref/hg19/hg19
+Resource List:     walltime=06:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:00,vmem=21592kb,walltime=00:00:00,mem=644kb,energy_used=0
+Exit Code:         1
+Mother Superior:   cri16cn227
+
+Execution Nodes: 
+cri16cn227
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11507837.cri16sc001
+User ID:           mleukam
+Job Name:          gunzip
+Queue Name:        mid
+Working Directory: /gpfs/data/kline-lab/ref/hg19/hg19
+Resource List:     walltime=06:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:03:25,vmem=47628kb,walltime=00:03:36,mem=644kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn227
+
+Execution Nodes: 
+cri16cn227
+
+

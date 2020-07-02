@@ -1,0 +1,19 @@
+#!/bin/bash
+
+###############################
+## PBS RUN SCRIPT FOR BAM2FQ ##
+###############################
+
+## Define the shell
+#PBS -S /bin/bash
+
+# Navigate to shell dir
+cd /home/mleukam/shell
+
+## File variable is passed as argument through the qsub command that invokes this script
+
+## Call shell scrpt
+./bam2fq.sh $file
+
+# exit
+exit 0

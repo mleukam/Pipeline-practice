@@ -1,0 +1,44 @@
+Analysis complete for ABC-06-T_1.fq
+Analysis complete for ABC-06-T_2.fq
+Analysis complete for ABC-08-T_1.fq
+Analysis complete for ABC-08-T_2.fq
+Analysis complete for ABC-09-T_1.fq
+Analysis complete for ABC-09-T_2.fq
+Analysis complete for ABC-10-T_1.fq
+Analysis complete for ABC-10-T_2.fq
+Analysis complete for ABC-11-T_1.fq
+Analysis complete for ABC-11-T_2.fq
+Analysis complete for ABC-12-T_1.fq
+Analysis complete for ABC-12-T_2.fq
+Analysis complete for AMP-06-T_1.fq
+Analysis complete for AMP-06-T_2.fq
+Analysis complete for AMP-07-T_1.fq
+Analysis complete for AMP-07-T_2.fq
+Analysis complete for AMP-08-T_1.fq
+Analysis complete for AMP-08-T_2.fq
+Analysis complete for AMP-09-T_1.fq
+Analysis complete for AMP-09-T_2.fq
+Analysis complete for AMP-10-T_1.fq
+Analysis complete for AMP-10-T_2.fq
+Analysis complete for AMP-11-T_1.fq
+Analysis complete for AMP-11-T_2.fq
+Analysis complete for AMP-12-T_1.fq
+Analysis complete for AMP-12-T_2.fq
+
+
+------------ Job WrapUp ------------
+
+Job ID:            7658082.cri16sc001
+User ID:           mleukam
+Job Name:          test_FASTQC
+Queue Name:        express
+Working Directory: /home/mleukam
+Resource List:     walltime=02:00:00,nodes=1:ppn=1,mem=4gb,neednodes=1:ppn=1
+Resources Used:    cput=01:25:14,vmem=3250376kb,walltime=01:25:40,mem=250596kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn088
+
+Execution Nodes: 
+cri16cn088
+
+

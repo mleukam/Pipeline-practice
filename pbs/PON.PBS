@@ -4,24 +4,24 @@
 #PBS -S /bin/bash
 
 ## Name the job
-#PBS -N PoN
+#PBS -N PoN_align
 
 ## Request resources
-#PBS -l walltime=12:00:00
-#PBS -l nodes=1:ppn=1
-#PBS -l mem=16gb
+#PBS -l walltime=48:00:00
+#PBS -l nodes=1:ppn=12
+#PBS -l mem=32gb
 
 ## Specify the standard output file (rather than printing to screen)
-#PBS -o /home/mleukam/pon.output.log
+#PBS -o /home/mleukam/pon.align.output.log
 
 ## Specify the standard error (rather than printing to screen)
-#PBS -e /home/mleukam/pon.error.log
+#PBS -e /home/mleukam/pon.align.error.log
 
 # navigate to shell dir
-cd /home/mleukam/shell
+cd /gpfs/data/kline-lab/ref/1000G_PoN
 
 # call shell scrpt
-./pon.sh
+./pon_align.sh
 
 # exit code
 exit 0

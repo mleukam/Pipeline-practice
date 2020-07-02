@@ -62,21 +62,5 @@ cd /scratch/mleukam/mouse
 # X NC_000086.7
 # Y NC_000087.7
 # MT NC_005089.1
-bcftools annotate --rename-chrs replace_chr.file mgp.v5.merged.snps_all.dbSNP142.vcf > mgp.v5.merged.snps_all.dbSNP142.renamed.vcf
-bcftools annotate --rename-chrs replace_chr.file mgp.v5.merged.indels.dbSNP142.normed.vcf > mgp.v5.merged.indels.dbSNP142.normed.renamed.vcf
-
-########################
-# GENERATE INDEX FILES #
-########################
-
-# the reference genome used in this case is GRCm38 (mm10) patch 6 (most recent)
-# generate bwa index files from reference
-bwa index -a bwtsw GRCm38p6_ref.fa 
-
-# generate samtools index from reference
-samtools faidx GRCm38p6_ref.fa
-
-# generate picard dictionary from reference
-java -jar ${PICARD} CreateSequenceDictionary \
-REFERENCE=GRCm38p6_ref.fa \
-OUTPUT=GRCm38p6_ref.dict
+bcftools annotate --rename-chrs replace_chr.file mgp.v5.merged.snps_all.dbSNP142.vcf
+bcftools annotate --rename-chrs replace_chr.file mgp.v5.merged.indels.dbSNP142.normed.vcf

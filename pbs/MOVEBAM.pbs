@@ -1,0 +1,27 @@
+## Before using, change permissions to make executable with chmod
+
+## Define the shell
+#PBS -S /bin/bash
+
+## Name the job
+#PBS -N move_sam
+
+## Request resources
+#PBS -l walltime=20:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=16gb
+
+## Specify the standard output file (rather than printing to screen)
+#PBS -o /home/mleukam/logs/movebam.output.log
+
+## Specify the standard error (rather than printing to screen)
+#PBS -e /home/mleukam/logs/movebam.error.log
+
+# navigate to shell dir
+cd /home/mleukam/shell
+
+# call shell scrpt
+./movebam.sh
+
+# exit code
+exit 0

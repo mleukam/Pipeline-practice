@@ -1,0 +1,36 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8219860.cri16sc001
+User ID:           mleukam
+Job Name:          make_hash_list
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=00:30:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:40:05,vmem=89580kb,walltime=00:40:30,mem=17524kb,energy_used=0
+Exit Code:         271
+Mother Superior:   cri16cn005
+
+Execution Nodes: 
+cri16cn005
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8219965.cri16sc001
+User ID:           mleukam
+Job Name:          make_hash_list
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=04:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=01:57:35,vmem=89580kb,walltime=01:58:40,mem=17532kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn076
+
+Execution Nodes: 
+cri16cn076
+
+

@@ -7,21 +7,21 @@
 #PBS -N test_align
 
 ## Request resources
-#PBS -l walltime=20:00:00
+#PBS -l walltime=8:00:00
 #PBS -l nodes=1:ppn=1
 #PBS -l mem=16gb
 
 ## Specify the standard output file (rather than printing to screen)
-#PBS -o /home/mleukam/alignoutput.log
+#PBS -o /home/mleukam/align.output.log
 
 ## Specify the standard error (rather than printing to screen)
-#PBS -e /home/mleukam/alignerror.log
+#PBS -e /home/mleukam/align.error.log
 
 # navigate to shell dir
 cd /home/mleukam/shell
 
 # call shell scrpt
-./mlalign.sh
+./align.sh
 
 # exit code
 exit 0

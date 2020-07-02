@@ -1,0 +1,26 @@
+./mlbamsambam.sh: line 43: ${file/.bam/.sam}: ambiguous redirect
+nal.bam OUTPUT=2228_revertsam.bam SORT_ORDER=queryname RESTORE_ORIGINAL_QUALITIES=true REMOVE_DUPLICATE_INFORMATION=true REMOVE_ALIGNMENT_INFORMATION=true ATTRIBUTE_TO_CLEAR=[NM, UQ, PG, MD, MQ, SA, MC, AS, XT, XN, AS, OC, OP] SANITIZE=true MAX_DISCARD_FRACTION=0.005    OUTPUT_BY_READGROUP=false OUTPUT_BY_READGROUP_FILE_FORMAT=dynamic VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 16:37:08 CDT 2018] Executing as mleukam@cri16cn052 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Wed Aug 22 16:37:13 CDT 2018] picard.sam.RevertSam done. Elapsed time: 0.08 minutes.
+Runtime.totalMemory()=2025848832
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.FileTruncatedException: Premature end of file: /scratch/mleukam/dave_subset/2228.final.bam
+	at htsjdk.samtools.util.BlockCompressedInputStream.readBlock(BlockCompressedInputStream.java:388)
+	at htsjdk.samtools.util.BlockCompressedInputStream.available(BlockCompressedInputStream.java:132)
+	at htsjdk.samtools.util.BlockCompressedInputStream.read(BlockCompressedInputStream.java:261)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at htsjdk.samtools.util.BinaryCodec.readBytesOrFewer(BinaryCodec.java:404)
+	at htsjdk.samtools.util.BinaryCodec.readBytes(BinaryCodec.java:380)
+	at htsjdk.samtools.util.BinaryCodec.readByteBuffer(BinaryCodec.java:490)
+	at htsjdk.samtools.util.BinaryCodec.readInt(BinaryCodec.java:501)
+	at htsjdk.samtools.BAMRecordCodec.decode(BAMRecordCodec.java:177)
+	at htsjdk.samtools.BAMFileReader$BAMFileIterator.getNextRecord(BAMFileReader.java:682)
+	at htsjdk.samtools.BAMFileReader$BAMFileIterator.advance(BAMFileReader.java:656)
+	at htsjdk.samtools.BAMFileReader$BAMFileIterator.next(BAMFileReader.java:650)
+	at htsjdk.samtools.BAMFileReader$BAMFileIterator.next(BAMFileReader.java:620)
+	at htsjdk.samtools.SamReader$AssertingIterator.next(SamReader.java:569)
+	at htsjdk.samtools.SamReader$AssertingIterator.next(SamReader.java:543)
+	at picard.sam.RevertSam.doWork(RevertSam.java:244)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:208)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)

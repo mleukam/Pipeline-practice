@@ -48,6 +48,7 @@ knownsites1=/scratch/mleukam/mouse/mgp.v5.merged.indels.dbSNP142.normed.vcf
 knownsites2=/scratch/mleukam/mouse/mgp.v5.merged.snps_all.dbSNP142.vcf
 fqdir=/scratch/mleukam/mouse/fastqc
 tmpdir=/scratch/mleukam/temp
+mem=Xmx16G
 
 ## Error handling
 error_exit()
@@ -76,7 +77,7 @@ cd ${wkdir} || error_exit "unable to navigate to working directory"
 
 # convert bam to unaligned bam file
 # include necessary read information - this will need to be added by hand!
-java -Xmx8G -jar ${PICARD} RevertSam \
+java -${mem} -jar ${PICARD} RevertSam \
     I=${inbam} \
     O=${sample}_unaligned.bam \
     SANITIZE=true \
@@ -94,7 +95,7 @@ java -Xmx8G -jar ${PICARD} RevertSam \
 ## Mark Illumina adapters
 ## Input: unaligned BAM
 ## Output: marked Illumina adapters
-java -Xmx8G -jar ${PICARD} MarkIlluminaAdapters \
+java -${mem} -jar ${PICARD} MarkIlluminaAdapters \
 I=${sample}_unaligned.bam \
 O=${sample}_markilluminaadapters.bam \
 M=${sample}_markilluminaadapters_metrics.txt \
@@ -105,13 +106,13 @@ TMP_DIR=${tmpdir} || error_exit "failed to mark Illumina adapters"
 ## Initial alignment, merge with uBAM
 ## Input: marked Illumina adapters BAM
 ## Output: Piped (aligned and merged) BAM
-java -Xmx8G -jar ${PICARD} SamToFastq \
+java -${mem} -jar ${PICARD} SamToFastq \
 I=${sample}_markilluminaadapters.bam \
 FASTQ=/dev/stdout \
 CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 INTERLEAVE=true NON_PF=true \
 TMP_DIR=${tmpdir} | \
 bwa mem -M -t 12 -p ${ref} /dev/stdin | \
-java -Xmx8G -jar ${PICARD} MergeBamAlignment \
+java -${mem} -jar ${PICARD} MergeBamAlignment \
 ALIGNED_BAM=/dev/stdin \
 UNMAPPED_BAM=${sample}_unaligned.bam \
 OUTPUT=${sample}_piped.bam \
@@ -128,7 +129,7 @@ rm ${sample}_markilluminaadapters.bam
 ## Mark duplicates
 ## Input: piped BAM from alignment
 ## Output: marked duplicates BAM
-java -Xmx8G -jar ${PICARD} MarkDuplicates \
+java -${mem} -jar ${PICARD} MarkDuplicates \
 INPUT=${sample}_piped.bam \
 OUTPUT=${sample}_markduplicates.bam \
 METRICS_FILE=${sample}_markduplicates_metrics.txt \
@@ -143,14 +144,14 @@ rm ${sample}_piped.bam
 ## Base quality score re-alignment
 ## Input: marked duplicates BAM
 ## Output: BQSR table and recalibrated BAM (bqsr.bam)
-java -Xmx8G -jar ${GATK} BaseRecalibrator \
+java -${mem} -jar ${GATK} BaseRecalibrator \
 -R ${ref} \
 -I ${sample}_markduplicates.bam \
 --known-sites ${knownsites1} \
 --known-sites ${knownsites2} \
 -O ${sample}_bqsr.table || error_exit "failed to create BQSR table"
 
-java -Xmx8G -jar ${GATK} ApplyBQSR \
+java -${mem} -jar ${GATK} ApplyBQSR \
 -R ${ref} \
 -I ${sample}_markduplicates.bam \
 --bqsr-recal-file ${sample}_bqsr.table \

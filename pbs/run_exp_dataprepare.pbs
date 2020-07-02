@@ -1,0 +1,11 @@
+## Define the shell
+#PBS -S /bin/bash/
+
+## navigate to shell dir
+cd /home/mleukam/shell
+
+## call shell scrpt
+./exp_dataprepare.sh ${infile}
+
+## exit code
+exit 0

@@ -1,0 +1,1170 @@
+START Sat Dec 22 16:19:11 CST 2018
+project = redo_list_1
+assembly = hg19
+agilent = 
+targetName = S04380110_V5_w50k
+[  Sat Dec 22 16:19:11 CST 2018  ] Parsing BAM and normalization: EXCAVATORDataPrepare.pl
+expPrepapre = /gpfs/data/kline-lab/inputs/ExperimentalFilePrepare.w50000.missing.txt
+Program folder is: /gpfs/data/kline-lab/rbao_test/software/excavator2/1.1.2
+Preparing Multiprocessor Analysis...
+Starting Multiprocessor Analysis!
+'/scratch/mleukam/duke_wes/2475/RC' folder ready!
+'/scratch/mleukam/duke_wes/2475/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2475/Images' folder ready!
+Working on sample 2475.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/3717/RC' folder ready!
+'/scratch/mleukam/duke_wes/3717/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/3717/Images' folder ready!
+Working on sample 3717.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/2663/RC' folder ready!
+'/scratch/mleukam/duke_wes/2663/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2663/Images' folder ready!
+Working on sample 2663.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/2144/RC' folder ready!
+'/scratch/mleukam/duke_wes/2144/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2144/Images' folder ready!
+Working on sample 2144.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/2073/RC' folder ready!
+'/scratch/mleukam/duke_wes/2073/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2073/Images' folder ready!
+Working on sample 2073.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/3597/RC' folder ready!
+'/scratch/mleukam/duke_wes/3597/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/3597/Images' folder ready!
+Working on sample 3597.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/2785/RC' folder ready!
+'/scratch/mleukam/duke_wes/2785/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2785/Images' folder ready!
+Working on sample 2785.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/3660/RC' folder ready!
+'/scratch/mleukam/duke_wes/3660/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/3660/Images' folder ready!
+Working on sample 3660.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/3777/RC' folder ready!
+'/scratch/mleukam/duke_wes/3777/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/3777/Images' folder ready!
+Working on sample 3777.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/2783/RC' folder ready!
+'/scratch/mleukam/duke_wes/2783/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2783/Images' folder ready!
+Working on sample 2783.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/3846/RC' folder ready!
+'/scratch/mleukam/duke_wes/3846/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/3846/Images' folder ready!
+Working on sample 3846.
+Creating Read Count Data...
+'/scratch/mleukam/duke_wes/2253/RC' folder ready!
+'/scratch/mleukam/duke_wes/2253/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2253/Images' folder ready!
+Working on sample 2253.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+3597Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+3846Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+'/scratch/mleukam/duke_wes/2591/RC' folder ready!
+'/scratch/mleukam/duke_wes/2591/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2591/Images' folder ready!
+Working on sample 2591.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2475 2591Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2783Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+'/scratch/mleukam/duke_wes/2464/RC' folder ready!
+'/scratch/mleukam/duke_wes/2464/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2464/Images' folder ready!
+Working on sample 2464.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+3777Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+'/scratch/mleukam/duke_wes/2107/RC' folder ready!
+'/scratch/mleukam/duke_wes/2107/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2107/Images' folder ready!
+Working on sample 2107.
+Creating Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+'/scratch/mleukam/duke_wes/2727/RC' folder ready!
+'/scratch/mleukam/duke_wes/2727/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2727/Images' folder ready!
+Working on sample 2727.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2253 2464Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+3660Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2073 2107Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+3717Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+'/scratch/mleukam/duke_wes/2212/RC' folder ready!
+'/scratch/mleukam/duke_wes/2212/RCNorm' folder ready!
+'/scratch/mleukam/duke_wes/2212/Images' folder ready!
+Working on sample 2212.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2785Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2663 2727Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2144 2212Multiprocessor Analysis Complete!
+END Sat Dec 22 16:43:24 CST 2018
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11566479.cri16sc001
+User ID:           mleukam
+Job Name:          excavator_missing
+Queue Name:        mid
+Working Directory: /gpfs/data/kline-lab
+Resource List:     walltime=12:00:00,nodes=1:ppn=12,mem=16gb,neednodes=1:ppn=12
+Resources Used:    cput=02:30:02,vmem=10486744kb,walltime=00:24:14,mem=1139736kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn215
+
+Execution Nodes: 
+cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215
+
+

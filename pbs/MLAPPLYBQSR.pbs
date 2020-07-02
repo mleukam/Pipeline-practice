@@ -4,7 +4,7 @@
 #PBS -S /bin/bash
 
 ## Name the job
-#PBS -N apply_bqsr
+#PBS -N recal_bases
 
 ## Request resources
 #PBS -l walltime=20:00:00

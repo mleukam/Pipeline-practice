@@ -1,0 +1,54 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10196191.cri16sc001
+User ID:           mleukam
+Job Name:          bwa_index
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn227
+
+Execution Nodes: 
+cri16cn227
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10199069.cri16sc001
+User ID:           mleukam
+Job Name:          bwa_index
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:54:03,vmem=4061380kb,walltime=00:54:10,mem=3995464kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn220
+
+Execution Nodes: 
+cri16cn220
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10303874.cri16sc001
+User ID:           mleukam
+Job Name:          bwa_index
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:54:29,vmem=4061380kb,walltime=00:54:36,mem=3995448kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn209
+
+Execution Nodes: 
+cri16cn209
+
+

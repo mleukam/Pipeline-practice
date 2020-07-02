@@ -1,0 +1,22 @@
+starting run for BALB_cJ
+fastqc completed for BALB_cJ
+BALB_cJ converted to unaligned BAM
+illumina adapters marked
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10324108.cri16sc001
+User ID:           mleukam
+Job Name:          full_mouse_germ_align
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=24:32:35,vmem=38078628kb,walltime=23:19:34,mem=12467392kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn216
+
+Execution Nodes: 
+cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216 cri16cn216
+
+

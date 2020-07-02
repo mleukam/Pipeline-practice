@@ -1,0 +1,30 @@
+index for EGAR00001588602_3642.a.1kDLBCL.DLBCL.SL103982.exome_1tier.hg19.final.bam complete
+finding positions of the duplicate reads in the file...
+  sorted 13598068 end pairs
+     and 360792 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 21120 ms
+  found 7805783 duplicates
+collected list of positions in 9 min 37 sec
+removing duplicates...
+total time elapsed: 39 min 3 sec
+low quality reads removed from EGAR00001588602_3642.a.1kDLBCL.DLBCL.SL103982.exome_1tier.hg19.final.bam
+duplicates removed from EGAR00001588602_3642.a.1kDLBCL.DLBCL.SL103982.exome_1tier.hg19.final.bam
+script complete for EGAR00001588602_3642.a.1kDLBCL.DLBCL.SL103982.exome_1tier.hg19.final.bam
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11325519.cri16sc001
+User ID:           mleukam
+Job Name:          sambamba_EGAR00001588602_3642.a.1kDLBCL.DLBCL.SL103982.exome_1tier.hg19.final.bam
+Queue Name:        express
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=03:00:00,nodes=1:ppn=1,mem=4gb,neednodes=1:ppn=1
+Resources Used:    cput=00:41:16,vmem=4127544kb,walltime=00:41:20,mem=1747384kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn018
+
+Execution Nodes: 
+cri16cn018
+
+

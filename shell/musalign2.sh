@@ -21,8 +21,7 @@
 # The following inputs are required:
 # 1. Single read fastq file containing all the reads
 # 2. Reference sequence for alignment -- indexed for bwa and with picard dictionary (see musprep script)
-# 3. Known indels from mouse genome project for BQSR -- indexed with GATK IndexFeatureFile
-# 4. Known snps from mouse genome project for BQSR -- indexed with GATK IndexFeatureFile
+# NB: this script expects the reference genome, index files and known variants in working directory
 
 # The following outputs are obtained:
 # 1. ${sample}_aligned.bam --> ready for variant calling
@@ -47,6 +46,7 @@ knownsites1=/scratch/mleukam/mouse/mgp.v5.merged.indels.dbSNP142.normed.vcf
 knownsites2=/scratch/mleukam/mouse/mgp.v5.merged.snps_all.dbSNP142.vcf
 fqdir=/scratch/mleukam/mouse/fastqc
 tmpdir=/scratch/mleukam/temp
+mem=Xmx16G
 
 ## Error handling
 error_exit()
@@ -67,7 +67,7 @@ module load gcc/6.2.0
 ## Load modules
 module load picard/2.8.1
 module load gatk/4.0.6.0
-module load bwa/0.7.17
+module load bwa/0.7.17 
 module load fastqc/0.11.5
 
 ## navigate to file containing fastq files
@@ -81,7 +81,7 @@ echo fastqc completed for ${sample}
 ## Inputs: fq file from arguments
 ## Output: unaligned BAM
 ## NB: include necessary read information - this will need to be added by hand!
-java -Xmx8G -jar ${PICARD} FastqToSam \
+java -${mem} -jar ${PICARD} FastqToSam \
 FASTQ=${sample}.fq \
 O=${sample}_unaligned.bam \
 READ_GROUP_NAME=HW5FWBBXX.6 \
@@ -95,7 +95,7 @@ RUN_DATE=2018-09-30T00:00:00-0400 || error_exit "fastq conversion to BAM failed"
 ## Mark Illumina adapters
 ## Input: unaligned BAM
 ## Output: marked Illumina adapters
-java -Xmx8G -jar ${PICARD} MarkIlluminaAdapters \
+java -${mem} -jar ${PICARD} MarkIlluminaAdapters \
 I=${sample}_unaligned.bam \
 O=${sample}_markilluminaadapters.bam \
 M=${sample}_markilluminaadapters_metrics.txt \
@@ -106,13 +106,13 @@ TMP_DIR=${tmpdir} || error_exit "failed to mark Illumina adapters"
 ## Initial alignment, merge with uBAM
 ## Input: marked Illumina adapters BAM
 ## Output: Piped (aligned and merged) BAM
-java -Xmx8G -jar ${PICARD} SamToFastq \
+java -${mem} -jar ${PICARD} SamToFastq \
 I=${sample}_markilluminaadapters.bam \
 FASTQ=/dev/stdout \
 CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 INTERLEAVE=true NON_PF=true \
 TMP_DIR=${tmpdir} | \
 bwa mem -M -t 12 -p ${ref} /dev/stdin | \
-java -Xmx8G -jar ${PICARD} MergeBamAlignment \
+java -${mem} -jar ${PICARD} MergeBamAlignment \
 ALIGNED_BAM=/dev/stdin \
 UNMAPPED_BAM=${sample}_unaligned.bam \
 OUTPUT=${sample}_piped.bam \
@@ -129,7 +129,7 @@ rm ${sample}_markilluminaadapters.bam
 ## Mark duplicates
 ## Input: piped BAM from alignment
 ## Output: marked duplicates BAM
-java -Xmx8G -jar ${PICARD} MarkDuplicates \
+java -${mem} -jar ${PICARD} MarkDuplicates \
 INPUT=${sample}_piped.bam \
 OUTPUT=${sample}_markduplicates.bam \
 METRICS_FILE=${sample}_markduplicates_metrics.txt \
@@ -144,14 +144,14 @@ rm ${sample}_piped.bam
 ## Base quality score re-alignment
 ## Input: marked duplicates BAM
 ## Output: BQSR table and recalibrated BAM (bqsr.bam)
-java -Xmx8G -jar ${GATK} BaseRecalibrator \
+java -${mem} -jar ${GATK} BaseRecalibrator \
 -R ${ref} \
 -I ${sample}_markduplicates.bam \
 --known-sites ${knownsites1} \
 --known-sites ${knownsites2} \
 -O ${sample}_bqsr.table || error_exit "failed to create BQSR table"
 
-java -Xmx8G -jar ${GATK} ApplyBQSR \
+java -${mem} -jar ${GATK} ApplyBQSR \
 -R ${ref} \
 -I ${sample}_markduplicates.bam \
 --bqsr-recal-file ${sample}_bqsr.table \

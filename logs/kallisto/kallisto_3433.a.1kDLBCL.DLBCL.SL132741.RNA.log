@@ -1,0 +1,53 @@
+./kallisto.sh: line 23: 3: unbound variable
+e estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 206,694
+[index] number of k-mers: 129,198,140
+[index] number of equivalence classes: 859,446
+[quant] running in paired-end mode
+[quant] will process pair 1: EGAR00001595049_3433.a.1kDLBCL.DLBCL.SL132741.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+                             EGAR00001595049_3433.a.1kDLBCL.DLBCL.SL132741.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_2.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] learning parameters for sequence specific bias
+[quant] processed 10,928,696 reads, 9,719,207 reads pseudoaligned
+[quant] estimated average fragment length: 135.863
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 5,630 rounds
+[bstrp] number of EM bootstraps complete: 1[bstrp] number of EM bootstraps complete: 2[bstrp] number of EM bootstraps complete: 3[bstrp] number of EM bootstraps complete: 4[bstrp] number of EM bootstraps complete: 5[bstrp] number of EM bootstraps complete: 6[bstrp] number of EM bootstraps complete: 7[bstrp] number of EM bootstraps complete: 8[bstrp] number of EM bootstraps complete: 9[bstrp] number of EM bootstraps complete: 10[bstrp] number of EM bootstraps complete: 11[bstrp] number of EM bootstraps complete: 12[bstrp] number of EM bootstraps complete: 13[bstrp] number of EM bootstraps complete: 14[bstrp] number of EM bootstraps complete: 15[bstrp] number of EM bootstraps complete: 16[bstrp] number of EM bootstraps complete: 17[bstrp] number of EM bootstraps complete: 18[bstrp] number of EM bootstraps complete: 19[bstrp] number of EM bootstraps complete: 20[bstrp] number of EM bootstraps complete: 21[bstrp] number of EM bootstraps complete: 22[bstrp] number of EM bootstraps complete: 23[bstrp] number of EM bootstraps complete: 24[bstrp] number of EM bootstraps complete: 25[bstrp] number of EM bootstraps complete: 26[bstrp] number of EM bootstraps complete: 27[bstrp] number of EM bootstraps complete: 28[bstrp] number of EM bootstraps complete: 29[bstrp] number of EM bootstraps complete: 30[bstrp] number of EM bootstraps complete: 31[bstrp] number of EM bootstraps complete: 32[bstrp] number of EM bootstraps complete: 33[bstrp] number of EM bootstraps complete: 34[bstrp] number of EM bootstraps complete: 35[bstrp] number of EM bootstraps complete: 36[bstrp] number of EM bootstraps complete: 37[bstrp] number of EM bootstraps complete: 38[bstrp] number of EM bootstraps complete: 39[bstrp] number of EM bootstraps complete: 40[bstrp] number of EM bootstraps complete: 41[bstrp] number of EM bootstraps complete: 42[bstrp] number of EM bootstraps complete: 43[bstrp] number of EM bootstraps complete: 44[bstrp] number of EM bootstraps complete: 45[bstrp] number of EM bootstraps complete: 46[bstrp] number of EM bootstraps complete: 47[bstrp] number of EM bootstraps complete: 48[bstrp] number of EM bootstraps complete: 49[bstrp] number of EM bootstraps complete: 50[bstrp] number of EM bootstraps complete: 51[bstrp] number of EM bootstraps complete: 52[bstrp] number of EM bootstraps complete: 53[bstrp] number of EM bootstraps complete: 54[bstrp] number of EM bootstraps complete: 55[bstrp] number of EM bootstraps complete: 56[bstrp] number of EM bootstraps complete: 57[bstrp] number of EM bootstraps complete: 58[bstrp] number of EM bootstraps complete: 59[bstrp] number of EM bootstraps complete: 60[bstrp] number of EM bootstraps complete: 61[bstrp] number of EM bootstraps complete: 62[bstrp] number of EM bootstraps complete: 63[bstrp] number of EM bootstraps complete: 64[bstrp] number of EM bootstraps complete: 65[bstrp] number of EM bootstraps complete: 66[bstrp] number of EM bootstraps complete: 67[bstrp] number of EM bootstraps complete: 68[bstrp] number of EM bootstraps complete: 69[bstrp] number of EM bootstraps complete: 70[bstrp] number of EM bootstraps complete: 71[bstrp] number of EM bootstraps complete: 72[bstrp] number of EM bootstraps complete: 73[bstrp] number of EM bootstraps complete: 74[bstrp] number of EM bootstraps complete: 75[bstrp] number of EM bootstraps complete: 76[bstrp] number of EM bootstraps complete: 77[bstrp] number of EM bootstraps complete: 78[bstrp] number of EM bootstraps complete: 79[bstrp] number of EM bootstraps complete: 80[bstrp] number of EM bootstraps complete: 81[bstrp] number of EM bootstraps complete: 82[bstrp] number of EM bootstraps complete: 83[bstrp] number of EM bootstraps complete: 84[bstrp] number of EM bootstraps complete: 85[bstrp] number of EM bootstraps complete: 86[bstrp] number of EM bootstraps complete: 87[bstrp] number of EM bootstraps complete: 88[bstrp] number of EM bootstraps complete: 89[bstrp] number of EM bootstraps complete: 90[bstrp] number of EM bootstraps complete: 91[bstrp] number of EM bootstraps complete: 92[bstrp] number of EM bootstraps complete: 93[bstrp] number of EM bootstraps complete: 94[bstrp] number of EM bootstraps complete: 95[bstrp] number of EM bootstraps complete: 96[bstrp] number of EM bootstraps complete: 97[bstrp] number of EM bootstraps complete: 98[bstrp] number of EM bootstraps complete: 99[bstrp] number of EM bootstraps complete: 100
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11504849.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_3433.a.1kDLBCL.DLBCL.SL132741.RNA
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=01:00:41,vmem=8663180kb,walltime=00:10:45,mem=8292292kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn023
+
+Execution Nodes: 
+cri16cn023 cri16cn023 cri16cn023 cri16cn023 cri16cn023 cri16cn023 cri16cn023 cri16cn023
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11505623.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_3433.a.1kDLBCL.DLBCL.SL132741.RNA
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn014
+
+Execution Nodes: 
+cri16cn014 cri16cn014 cri16cn014 cri16cn014 cri16cn014 cri16cn014 cri16cn014 cri16cn014
+
+

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+###############################
+## PBS RUN SCRIPT FOR BAM2FQ ##
+###############################
+
+## Define the shell
+#PBS -S /bin/bash
+
+# Navigate to shell dir
+cd /home/mleukam/shell
+
+## File variables passed as arguments through the qsub command that invokes this script
+## Call shell scrpt
+./fastqc.sh ${file}
+
+# exit
+exit 0

@@ -1,0 +1,36 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9879750.cri16sc001
+User ID:           mleukam
+Job Name:          mouse_bqsr
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=1,mem=32gb,neednodes=1:ppn=1
+Resources Used:    cput=01:36:01,vmem=37830264kb,walltime=01:36:11,mem=26586432kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn218
+
+Execution Nodes: 
+cri16cn218
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9880572.cri16sc001
+User ID:           mleukam
+Job Name:          mouse_bqsr
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=1,mem=32gb,neednodes=1:ppn=1
+Resources Used:    cput=01:35:34,vmem=37959288kb,walltime=01:35:45,mem=26131132kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn207
+
+Execution Nodes: 
+cri16cn207
+
+

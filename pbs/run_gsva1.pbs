@@ -1,0 +1,24 @@
+## Define the shell
+#PBS -S /bin/bash
+
+## Name the job
+#PBS -N gsva_dlbcl
+
+## Request resources
+#PBS -l walltime=8:00:00
+#PBS -l nodes=1:ppn=8
+#PBS -l mem=32G
+
+## Specify the combined output/error log
+#PBS -j oe
+#PBS -o /home/mleukam/logs/gsva1_dlbcl.log
+
+# navigate to shell dir
+cd ~/shell
+
+# call shell scrpt
+bash gsva1.sh && exit 0
+
+# exit code
+echo "Pipeline failed !!"
+exit 1

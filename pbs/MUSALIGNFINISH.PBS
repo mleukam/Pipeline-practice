@@ -1,0 +1,23 @@
+## Define the shell
+#PBS -S /bin/bash
+
+## Name the job
+#PBS -N malignfin2
+
+## Request resources
+#PBS -l walltime=20:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=8G
+
+## Specify the combined output/error log
+#PBS -j oe
+#PBS -o /home/mleukam/logs/musalignfinish.log
+
+# navigate to shell dir
+cd /home/mleukam/shell
+
+# call shell scrpt
+./musalignfinish2.sh A20 /scratch/mleukam/mouse/A20.fq
+
+# exit code
+exit 0o

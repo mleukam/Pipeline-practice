@@ -1,0 +1,33 @@
+Tool returned:
+/group/kline-lab/ref/dbsnp_151.vcf.idx
+Tool returned:
+/group/kline-lab/ref/1000G_phase1.snps.high_confidence.hg38.vcf.idx
+Tool returned:
+/group/kline-lab/ref/Mills_and_1000G_gold_standard.indels.hg38.vcf.idx
+time=04:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn047
+
+Execution Nodes: 
+cri16cn047
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            7976857.cri16sc001
+User ID:           mleukam
+Job Name:          gatk_index
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=04:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:58:31,vmem=12831200kb,walltime=01:01:48,mem=4549280kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn047
+
+Execution Nodes: 
+cri16cn047
+
+

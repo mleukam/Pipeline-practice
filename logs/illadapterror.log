@@ -1,0 +1,36 @@
+[Wed Aug 22 23:18:01 CDT 2018] picard.illumina.MarkIlluminaAdapters INPUT=2228_revertsam.bam OUTPUT=2228_markilluminaadapters.bam METRICS=2228_markilluminaadapters_metrics.txt TMP_DIR=[/group/kline-lab/temp]    MIN_MATCH_BASES_SE=12 MIN_MATCH_BASES_PE=6 MAX_ERROR_RATE_SE=0.1 MAX_ERROR_RATE_PE=0.1 ADAPTERS=[INDEXED, DUAL_INDEXED, PAIRED_END] ADAPTER_TRUNCATION_LENGTH=30 PRUNE_ADAPTER_LIST_AFTER_THIS_MANY_ADAPTERS_SEEN=100 NUM_ADAPTERS_TO_KEEP=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 23:18:01 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Wed Aug 22 23:18:09 CDT 2018] picard.illumina.MarkIlluminaAdapters done. Elapsed time: 0.13 minutes.
+Runtime.totalMemory()=2025848832
+[Wed Aug 22 23:18:09 CDT 2018] picard.illumina.MarkIlluminaAdapters INPUT=2263_revertsam.bam OUTPUT=2263_markilluminaadapters.bam METRICS=2263_markilluminaadapters_metrics.txt TMP_DIR=[/group/kline-lab/temp]    MIN_MATCH_BASES_SE=12 MIN_MATCH_BASES_PE=6 MAX_ERROR_RATE_SE=0.1 MAX_ERROR_RATE_PE=0.1 ADAPTERS=[INDEXED, DUAL_INDEXED, PAIRED_END] ADAPTER_TRUNCATION_LENGTH=30 PRUNE_ADAPTER_LIST_AFTER_THIS_MANY_ADAPTERS_SEEN=100 NUM_ADAPTERS_TO_KEEP=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 23:18:09 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-22 23:19:01	MarkIlluminaAdapters	Read     1,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:   51s.  Last read position: */*
+INFO	2018-08-22 23:19:49	MarkIlluminaAdapters	Read     2,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:20:37	MarkIlluminaAdapters	Read     3,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:21:25	MarkIlluminaAdapters	Read     4,000,000 records.  Elapsed time: 00:03:15s.  Time for last 1,000,000:   48s.  Last read position: */*
+INFO	2018-08-22 23:22:12	MarkIlluminaAdapters	Read     5,000,000 records.  Elapsed time: 00:04:02s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:23:00	MarkIlluminaAdapters	Read     6,000,000 records.  Elapsed time: 00:04:50s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:23:47	MarkIlluminaAdapters	Read     7,000,000 records.  Elapsed time: 00:05:37s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:24:35	MarkIlluminaAdapters	Read     8,000,000 records.  Elapsed time: 00:06:25s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:25:23	MarkIlluminaAdapters	Read     9,000,000 records.  Elapsed time: 00:07:12s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:26:10	MarkIlluminaAdapters	Read    10,000,000 records.  Elapsed time: 00:08:00s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:26:58	MarkIlluminaAdapters	Read    11,000,000 records.  Elapsed time: 00:08:48s.  Time for last 1,000,000:   47s.  Last read position: */*
+[Wed Aug 22 23:27:13 CDT 2018] picard.illumina.MarkIlluminaAdapters done. Elapsed time: 9.05 minutes.
+Runtime.totalMemory()=1512570880
+[Wed Aug 22 23:27:13 CDT 2018] picard.illumina.MarkIlluminaAdapters INPUT=2642_revertsam.bam OUTPUT=2642_markilluminaadapters.bam METRICS=2642_markilluminaadapters_metrics.txt TMP_DIR=[/group/kline-lab/temp]    MIN_MATCH_BASES_SE=12 MIN_MATCH_BASES_PE=6 MAX_ERROR_RATE_SE=0.1 MAX_ERROR_RATE_PE=0.1 ADAPTERS=[INDEXED, DUAL_INDEXED, PAIRED_END] ADAPTER_TRUNCATION_LENGTH=30 PRUNE_ADAPTER_LIST_AFTER_THIS_MANY_ADAPTERS_SEEN=100 NUM_ADAPTERS_TO_KEEP=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 23:27:13 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-22 23:28:07	MarkIlluminaAdapters	Read     1,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:   53s.  Last read position: */*
+[Wed Aug 22 23:28:53 CDT 2018] picard.illumina.MarkIlluminaAdapters done. Elapsed time: 1.66 minutes.
+Runtime.totalMemory()=1867513856
+[Wed Aug 22 23:28:54 CDT 2018] picard.illumina.MarkIlluminaAdapters INPUT=2671_revertsam.bam OUTPUT=2671_markilluminaadapters.bam METRICS=2671_markilluminaadapters_metrics.txt TMP_DIR=[/group/kline-lab/temp]    MIN_MATCH_BASES_SE=12 MIN_MATCH_BASES_PE=6 MAX_ERROR_RATE_SE=0.1 MAX_ERROR_RATE_PE=0.1 ADAPTERS=[INDEXED, DUAL_INDEXED, PAIRED_END] ADAPTER_TRUNCATION_LENGTH=30 PRUNE_ADAPTER_LIST_AFTER_THIS_MANY_ADAPTERS_SEEN=100 NUM_ADAPTERS_TO_KEEP=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 23:28:54 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Wed Aug 22 23:29:00 CDT 2018] picard.illumina.MarkIlluminaAdapters done. Elapsed time: 0.11 minutes.
+Runtime.totalMemory()=2025848832
+[Wed Aug 22 23:29:01 CDT 2018] picard.illumina.MarkIlluminaAdapters INPUT=2889_revertsam.bam OUTPUT=2889_markilluminaadapters.bam METRICS=2889_markilluminaadapters_metrics.txt TMP_DIR=[/group/kline-lab/temp]    MIN_MATCH_BASES_SE=12 MIN_MATCH_BASES_PE=6 MAX_ERROR_RATE_SE=0.1 MAX_ERROR_RATE_PE=0.1 ADAPTERS=[INDEXED, DUAL_INDEXED, PAIRED_END] ADAPTER_TRUNCATION_LENGTH=30 PRUNE_ADAPTER_LIST_AFTER_THIS_MANY_ADAPTERS_SEEN=100 NUM_ADAPTERS_TO_KEEP=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 23:29:01 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-22 23:29:52	MarkIlluminaAdapters	Read     1,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:   51s.  Last read position: */*
+INFO	2018-08-22 23:30:39	MarkIlluminaAdapters	Read     2,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:31:26	MarkIlluminaAdapters	Read     3,000,000 records.  Elapsed time: 00:02:25s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2018-08-22 23:32:14	MarkIlluminaAdapters	Read     4,000,000 records.  Elapsed time: 00:03:13s.  Time for last 1,000,000:   47s.  Last read position: */*
+[Wed Aug 22 23:32:36 CDT 2018] picard.illumina.MarkIlluminaAdapters done. Elapsed time: 3.59 minutes.
+Runtime.totalMemory()=1723334656

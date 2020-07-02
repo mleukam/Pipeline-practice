@@ -1,0 +1,56 @@
+-- Attaching packages --------------------------------------- tidyverse 1.2.1 --
+<U+221A> ggplot2 3.0.0     <U+221A> purrr   0.2.5
+<U+221A> tibble  1.4.2     <U+221A> dplyr   0.7.6
+<U+221A> tidyr   0.8.1     <U+221A> stringr 1.3.1
+<U+221A> readr   1.1.1     <U+221A> forcats 0.3.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Parsed with column specification:
+cols(
+  PosOrder = col_integer(),
+  Chromosome = col_double(),
+  Position = col_integer(),
+  LogRatio = col_double()
+)
+Analyzing: DLBCL10780 
+  current chromosome: 1 
+  current chromosome: 2 
+  current chromosome: 3 
+  current chromosome: 4 
+  current chromosome: 5 
+  current chromosome: 6 
+  current chromosome: 7 
+  current chromosome: 8 
+  current chromosome: 9 
+  current chromosome: 10 
+  current chromosome: 11 
+  current chromosome: 12 
+  current chromosome: 13 
+  current chromosome: 14 
+  current chromosome: 15 
+  current chromosome: 16 
+  current chromosome: 17 
+  current chromosome: 18 
+  current chromosome: 19 
+  current chromosome: 20 
+  current chromosome: 21 
+  current chromosome: 22 
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11622064.cri16sc001
+User ID:           mleukam
+Job Name:          CBS_DLBCL10780
+Queue Name:        standard
+Working Directory: /home/mleukam/shell
+Resource List:     walltime=01:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:02:40,vmem=539084kb,walltime=00:02:41,mem=333564kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn062
+
+Execution Nodes: 
+cri16cn062
+
+

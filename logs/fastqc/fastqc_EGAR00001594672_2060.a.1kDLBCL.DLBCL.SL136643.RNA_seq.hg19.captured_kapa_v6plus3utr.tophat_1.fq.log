@@ -1,0 +1,40 @@
+Started analysis of EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 5% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 10% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 15% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 20% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 25% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 30% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 35% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 40% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 45% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 50% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 55% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 60% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 65% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 70% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 75% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 80% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 85% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 90% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Approx 95% complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Analysis complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+script complete for EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11400987.cri16sc001
+User ID:           mleukam
+Job Name:          fastqc_EGAR00001594672_2060.a.1kDLBCL.DLBCL.SL136643.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=01:00:00,nodes=1:ppn=6,mem=4gb,neednodes=1:ppn=6
+Resources Used:    cput=00:00:29,vmem=4472160kb,walltime=00:00:26,mem=490088kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn072
+
+Execution Nodes: 
+cri16cn072 cri16cn072 cri16cn072 cri16cn072 cri16cn072 cri16cn072
+
+

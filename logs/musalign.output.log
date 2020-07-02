@@ -1,0 +1,26 @@
+starting run for A20
+Analysis complete for A20.fq
+fastqc completed for A20
+A20.fq converted to unaligned BAM
+illumina adapters marked
+A20 is aligned
+unmatched reads filtered, A20 is merged
+duplicates marked
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10323966.cri16sc001
+User ID:           mleukam
+Job Name:          full_mouse_tumor_align
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=48:16:32,vmem=38015792kb,walltime=12:12:56,mem=14036592kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn222
+
+Execution Nodes: 
+cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222
+
+

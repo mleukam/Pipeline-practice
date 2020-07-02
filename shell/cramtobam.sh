@@ -15,14 +15,12 @@ IFS=$'\n\t'
 #
 # load compilers
 module load gcc/6.2.0
-module load java-jdk/1.8.0_92
 #
 # load modules
 module load samtools/1.6.0
-module load gatk/4.0.6.0
 # 
 # navigate to the directory containing panel of normal input files
-cd /gpfs/data/kline-lab/ref/1000G_PoN/
+cd /gpfs/data/kline-lab/ref/1000G_PoN/Bamredo
 #
 # gather the desired input files in the directory as an array
 CRAMLIST=($(ls *.cram))
@@ -35,7 +33,11 @@ SMLIST=(${CRAMLIST[*]%.*})
 # -b flag specifies output as BAM file
 for SAMPLE in ${SMLIST[*]}; 
 do 
-	samtools view -b -T GRCh38_full_analysis_set_plus_decoy_hla.fa -o ${SAMPLE}.bam	${SAMPLE}.cram;
+	samtools view \
+	-T GRCh38_full_analysis_set_plus_decoy_hla.fa \
+	-b \
+	-o ${SAMPLE}.bam \
+	${SAMPLE}.cram;
 done
 
 

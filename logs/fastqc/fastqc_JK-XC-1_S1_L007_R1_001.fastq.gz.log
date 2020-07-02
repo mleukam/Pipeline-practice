@@ -1,0 +1,56 @@
+Started analysis of JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 5% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 10% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 15% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 20% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 25% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 30% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 35% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 40% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 45% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 50% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 55% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 60% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 65% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 70% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 75% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 80% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 85% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 90% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Approx 95% complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+Analysis complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+script complete for JK-XC-1_S1_L007_R1_001.fastq.gz
+ ------------
+
+Job ID:            16801795.cri16sc001
+User ID:           mleukam
+Job Name:          fastqc_JK-XC-1_S1_L007_R1_001.fastq.gz
+Queue Name:        standard
+Working Directory: /gpfs/data/kline-lab/tg101_sequences/code
+Resource List:     walltime=01:00:00,nodes=1:ppn=6,mem=4gb,neednodes=1:ppn=6
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:02,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn083
+
+Execution Nodes: 
+cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            16801822.cri16sc001
+User ID:           mleukam
+Job Name:          fastqc_JK-XC-1_S1_L007_R1_001.fastq.gz
+Queue Name:        standard
+Working Directory: /gpfs/data/kline-lab/tg101_sequences/code
+Resource List:     walltime=01:00:00,nodes=1:ppn=6,mem=4gb,neednodes=1:ppn=6
+Resources Used:    cput=00:01:17,vmem=4472160kb,walltime=00:01:15,mem=449544kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn077
+
+Execution Nodes: 
+cri16cn077 cri16cn077 cri16cn077 cri16cn077 cri16cn077 cri16cn077
+
+

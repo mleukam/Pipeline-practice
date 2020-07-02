@@ -8,7 +8,6 @@
 ## Designed for batch submission to Gardner HPC at UChicago
 ## First line = shebang to specify interpretor (bash)
 ## Before using, use chmod to make executable
-## Before using ensure that Picard tools reference dictionary and BWA index are ready
 
 #!/bin/bash
 
@@ -42,9 +41,10 @@ SMLIST=(${ILLBAMLIST[*]%_*})
 ## The reference genome used in this case is GRCh38 with decoys: GRCh38_full_plus_hs38d1_analysis_set
 ## Analysis set is processed as recommended by Heng Li, writer of BWA
 ## See http://lh3.github.io/2017/11/13/which-human-reference-genome-to-use for more
-## Index file for bwa downloaded with reference genome from NCBI
+## Index file for bwa produced with script mlbwaindex.sh
+## Picard tools .dict file produced in stand-alone operation on interactive node
 for SAMPLE in ${SMLIST[*]}; 
-do 
+do
 	java -Xmx8G -jar ${PICARD} SamToFastq \
 	I=${SAMPLE}_markilluminaadapters.bam \
 	FASTQ=/dev/stdout \

@@ -1,0 +1,28 @@
+####################
+# decryptor_v2.0.4 #
+####################
+Java Vendor:  Oracle Corporation
+Java Version: 1.8.0_92
+/gpfs/data/kline-lab/password.txt's MD5 checksum is: 47b0ee058d157ec55cbd0a9cde45d237
+--------------------
+
+* Processing file '/scratch/mleukam/eda_data_decryptor_2018-10-18_11-42-02/EGAR00001594896_2705.a.1kDLBCL.DLBCL.SL136955.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat.bam.crypt'
+MD5 integrity verified, decryption successfully completed in '/scratch/mleukam/eda_data_decryptor_2018-10-18_11-42-02/EGAR00001594896_2705.a.1kDLBCL.DLBCL.SL136955.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat.bam'.
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9940942.cri16sc001
+User ID:           mleukam
+Job Name:          qsub_decryptor.pbs
+Queue Name:        express
+Working Directory: /gpfs/data/kline-lab
+Resource List:     mem=1gb,walltime=05:59:00
+Resources Used:    cput=00:00:01,vmem=36662116kb,walltime=00:00:07,mem=25076kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn032
+
+Execution Nodes: 
+cri16cn032
+
+

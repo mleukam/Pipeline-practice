@@ -1,0 +1,23 @@
+modules loaded, starting analysis
+[M::bam2fq_mainloop] discarded 112322 singletons
+[M::bam2fq_mainloop] processed 13655810 reads
+EGAR00001594661_831.a.1kDLBCL.DLBCL.SL137430.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat.bam converted to EGAR00001594661_831.a.1kDLBCL.DLBCL.SL137430.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq and EGAR00001594661_831.a.1kDLBCL.DLBCL.SL137430.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_2.fq
+script complete for EGAR00001594661_831.a.1kDLBCL.DLBCL.SL137430.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat.bam
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11343896.cri16sc001
+User ID:           mleukam
+Job Name:          bam2fq_EGAR00001594661_831.a.1kDLBCL.DLBCL.SL137430.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat.bam
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=02:00:00,nodes=1:ppn=8,mem=4gb,neednodes=1:ppn=8
+Resources Used:    cput=00:04:30,vmem=2038716kb,walltime=00:02:16,mem=431336kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn059
+
+Execution Nodes: 
+cri16cn059 cri16cn059 cri16cn059 cri16cn059 cri16cn059 cri16cn059 cri16cn059 cri16cn059
+
+

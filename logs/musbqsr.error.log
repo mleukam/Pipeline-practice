@@ -1,0 +1,661 @@
+[Fri Oct 12 22:00:36 CDT 2018] picard.sam.markduplicates.MarkDuplicates INPUT=[A20_merged.sorted.bam] OUTPUT=A20_markduplicates.bam METRICS_FILE=A20_markduplicates_metrics.txt OPTICAL_DUPLICATE_PIXEL_DISTANCE=2500 TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag REMOVE_DUPLICATES=false ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Fri Oct 12 22:00:36 CDT 2018] Executing as mleukam@cri16cn207 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-10-12 22:00:36	MarkDuplicates	Start of doWork freeMemory: 2031320360; totalMemory: 2058354688; maxMemory: 30542397440
+INFO	2018-10-12 22:00:36	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2018-10-12 22:00:36	MarkDuplicates	Will retain up to 117470759 data points before spilling to disk.
+INFO	2018-10-12 22:00:50	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:   12s.  Last read position: NC_000067.6:12,293,295
+INFO	2018-10-12 22:00:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:00:59	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:21,338,142
+INFO	2018-10-12 22:00:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:01:06	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:28s.  Time for last 1,000,000:    6s.  Last read position: NC_000067.6:30,473,814
+INFO	2018-10-12 22:01:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:01:12	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    6s.  Last read position: NC_000067.6:39,116,699
+INFO	2018-10-12 22:01:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:01:20	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    7s.  Last read position: NC_000067.6:47,734,929
+INFO	2018-10-12 22:01:20	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:01:22	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:52,885,258
+INFO	2018-10-12 22:01:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:01:31	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    8s.  Last read position: NC_000067.6:57,461,566
+INFO	2018-10-12 22:01:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:01:33	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:62,401,509
+INFO	2018-10-12 22:01:33	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:01:35	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:69,396,809
+INFO	2018-10-12 22:01:35	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:06	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:   30s.  Last read position: NC_000067.6:73,487,608
+INFO	2018-10-12 22:02:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:08	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:01:30s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:77,809,416
+INFO	2018-10-12 22:02:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:10	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:85,076,494
+INFO	2018-10-12 22:02:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:23	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:01:45s.  Time for last 1,000,000:   12s.  Last read position: NC_000067.6:93,301,788
+INFO	2018-10-12 22:02:23	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:25	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:01:47s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:102,329,976
+INFO	2018-10-12 22:02:25	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:27	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:49s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:111,019,349
+INFO	2018-10-12 22:02:27	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:29	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:119,880,285
+INFO	2018-10-12 22:02:29	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:41	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:02:03s.  Time for last 1,000,000:   11s.  Last read position: NC_000067.6:128,511,511
+INFO	2018-10-12 22:02:41	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:43	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:02:05s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:137,496,257
+INFO	2018-10-12 22:02:43	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:45	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:02:07s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:146,986,112
+INFO	2018-10-12 22:02:45	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:02:47	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:155,835,102
+INFO	2018-10-12 22:02:47	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:03:57	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:03:19s.  Time for last 1,000,000:   69s.  Last read position: NC_000067.6:164,637,638
+INFO	2018-10-12 22:03:57	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:03:59	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:03:21s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:173,229,021
+INFO	2018-10-12 22:03:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:01	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:03:23s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:182,472,290
+INFO	2018-10-12 22:04:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:03	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:03:25s.  Time for last 1,000,000:    2s.  Last read position: NC_000067.6:191,005,796
+INFO	2018-10-12 22:04:03	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:18	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:03:40s.  Time for last 1,000,000:   14s.  Last read position: NC_000068.7:7,143,998
+INFO	2018-10-12 22:04:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:20	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:03:42s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:16,061,895
+INFO	2018-10-12 22:04:20	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:22	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:03:45s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:24,899,028
+INFO	2018-10-12 22:04:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:24	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:03:47s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:33,608,918
+INFO	2018-10-12 22:04:24	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:26	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:03:49s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:42,232,258
+INFO	2018-10-12 22:04:26	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:43	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:04:05s.  Time for last 1,000,000:   16s.  Last read position: NC_000068.7:50,650,475
+INFO	2018-10-12 22:04:43	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:45	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:04:07s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:59,675,093
+INFO	2018-10-12 22:04:45	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:47	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:04:09s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:68,162,288
+INFO	2018-10-12 22:04:47	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:04:49	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:04:11s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:76,418,638
+INFO	2018-10-12 22:04:49	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:14	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:05:36s.  Time for last 1,000,000:   84s.  Last read position: NC_000068.7:85,191,741
+INFO	2018-10-12 22:06:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:16	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:05:38s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:94,311,190
+INFO	2018-10-12 22:06:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:18	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:05:40s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:98,662,249
+INFO	2018-10-12 22:06:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:20	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:05:42s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:98,662,720
+INFO	2018-10-12 22:06:20	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:30	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:05:53s.  Time for last 1,000,000:   10s.  Last read position: NC_000068.7:98,666,580
+INFO	2018-10-12 22:06:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:32	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:05:55s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:98,667,092
+INFO	2018-10-12 22:06:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:34	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:05:57s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:98,667,102
+INFO	2018-10-12 22:06:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:37	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:05:59s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:98,667,113
+INFO	2018-10-12 22:06:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:48	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:06:11s.  Time for last 1,000,000:   11s.  Last read position: NC_000068.7:98,667,125
+INFO	2018-10-12 22:06:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:50	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:06:13s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:98,667,231
+INFO	2018-10-12 22:06:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:53	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:06:15s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:104,668,702
+INFO	2018-10-12 22:06:53	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:06:55	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:06:17s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:113,453,404
+INFO	2018-10-12 22:06:55	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:08	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:06:31s.  Time for last 1,000,000:   13s.  Last read position: NC_000068.7:122,102,954
+INFO	2018-10-12 22:07:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:10	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:06:33s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:130,844,827
+INFO	2018-10-12 22:07:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:12	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:06:35s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:139,449,500
+INFO	2018-10-12 22:07:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:14	MarkDuplicates	Read    49,000,000 records.  Elapsed time: 00:06:37s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:147,744,519
+INFO	2018-10-12 22:07:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:28	MarkDuplicates	Read    50,000,000 records.  Elapsed time: 00:06:50s.  Time for last 1,000,000:   13s.  Last read position: NC_000068.7:156,921,463
+INFO	2018-10-12 22:07:28	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:30	MarkDuplicates	Read    51,000,000 records.  Elapsed time: 00:06:52s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:165,331,843
+INFO	2018-10-12 22:07:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:32	MarkDuplicates	Read    52,000,000 records.  Elapsed time: 00:06:54s.  Time for last 1,000,000:    2s.  Last read position: NC_000068.7:173,379,638
+INFO	2018-10-12 22:07:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:07:34	MarkDuplicates	Read    53,000,000 records.  Elapsed time: 00:06:57s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:5,714,435
+INFO	2018-10-12 22:07:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:36	MarkDuplicates	Read    54,000,000 records.  Elapsed time: 00:08:58s.  Time for last 1,000,000:  121s.  Last read position: NC_000069.6:14,755,089
+INFO	2018-10-12 22:09:36	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:38	MarkDuplicates	Read    55,000,000 records.  Elapsed time: 00:09:01s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:24,035,905
+INFO	2018-10-12 22:09:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:40	MarkDuplicates	Read    56,000,000 records.  Elapsed time: 00:09:03s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:32,451,787
+INFO	2018-10-12 22:09:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:42	MarkDuplicates	Read    57,000,000 records.  Elapsed time: 00:09:05s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:42,138,412
+INFO	2018-10-12 22:09:42	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:53	MarkDuplicates	Read    58,000,000 records.  Elapsed time: 00:09:15s.  Time for last 1,000,000:   10s.  Last read position: NC_000069.6:52,275,424
+INFO	2018-10-12 22:09:53	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:55	MarkDuplicates	Read    59,000,000 records.  Elapsed time: 00:09:17s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:60,750,514
+INFO	2018-10-12 22:09:55	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:57	MarkDuplicates	Read    60,000,000 records.  Elapsed time: 00:09:19s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:69,632,147
+INFO	2018-10-12 22:09:57	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:09:59	MarkDuplicates	Read    61,000,000 records.  Elapsed time: 00:09:22s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:79,076,345
+INFO	2018-10-12 22:09:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:14	MarkDuplicates	Read    62,000,000 records.  Elapsed time: 00:09:36s.  Time for last 1,000,000:   14s.  Last read position: NC_000069.6:88,079,488
+INFO	2018-10-12 22:10:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:16	MarkDuplicates	Read    63,000,000 records.  Elapsed time: 00:09:39s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:96,339,451
+INFO	2018-10-12 22:10:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:18	MarkDuplicates	Read    64,000,000 records.  Elapsed time: 00:09:41s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:106,550,916
+INFO	2018-10-12 22:10:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:20	MarkDuplicates	Read    65,000,000 records.  Elapsed time: 00:09:43s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:116,972,292
+INFO	2018-10-12 22:10:20	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:22	MarkDuplicates	Read    66,000,000 records.  Elapsed time: 00:09:45s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:125,917,377
+INFO	2018-10-12 22:10:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:37	MarkDuplicates	Read    67,000,000 records.  Elapsed time: 00:09:59s.  Time for last 1,000,000:   14s.  Last read position: NC_000069.6:134,996,405
+INFO	2018-10-12 22:10:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:39	MarkDuplicates	Read    68,000,000 records.  Elapsed time: 00:10:01s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:144,077,753
+INFO	2018-10-12 22:10:39	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:41	MarkDuplicates	Read    69,000,000 records.  Elapsed time: 00:10:04s.  Time for last 1,000,000:    2s.  Last read position: NC_000069.6:152,726,292
+INFO	2018-10-12 22:10:41	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:43	MarkDuplicates	Read    70,000,000 records.  Elapsed time: 00:10:06s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:6,010,394
+INFO	2018-10-12 22:10:43	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:10:58	MarkDuplicates	Read    71,000,000 records.  Elapsed time: 00:10:21s.  Time for last 1,000,000:   15s.  Last read position: NC_000070.6:23,389,715
+INFO	2018-10-12 22:10:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:11:01	MarkDuplicates	Read    72,000,000 records.  Elapsed time: 00:10:23s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:40,618,161
+INFO	2018-10-12 22:11:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:11:03	MarkDuplicates	Read    73,000,000 records.  Elapsed time: 00:10:25s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:50,350,478
+INFO	2018-10-12 22:11:03	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:11:05	MarkDuplicates	Read    74,000,000 records.  Elapsed time: 00:10:27s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:59,056,500
+INFO	2018-10-12 22:11:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:11:20	MarkDuplicates	Read    75,000,000 records.  Elapsed time: 00:10:43s.  Time for last 1,000,000:   15s.  Last read position: NC_000070.6:69,939,044
+INFO	2018-10-12 22:11:20	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:11:22	MarkDuplicates	Read    76,000,000 records.  Elapsed time: 00:10:45s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:79,287,797
+INFO	2018-10-12 22:11:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:11:24	MarkDuplicates	Read    77,000,000 records.  Elapsed time: 00:10:47s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:88,068,351
+INFO	2018-10-12 22:11:24	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:11:26	MarkDuplicates	Read    78,000,000 records.  Elapsed time: 00:10:49s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:97,386,400
+INFO	2018-10-12 22:11:26	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:08	MarkDuplicates	Read    79,000,000 records.  Elapsed time: 00:13:30s.  Time for last 1,000,000:  161s.  Last read position: NC_000070.6:106,106,745
+INFO	2018-10-12 22:14:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:10	MarkDuplicates	Read    80,000,000 records.  Elapsed time: 00:13:32s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:116,715,537
+INFO	2018-10-12 22:14:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:12	MarkDuplicates	Read    81,000,000 records.  Elapsed time: 00:13:34s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:126,481,658
+INFO	2018-10-12 22:14:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:14	MarkDuplicates	Read    82,000,000 records.  Elapsed time: 00:13:36s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:136,130,701
+INFO	2018-10-12 22:14:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:25	MarkDuplicates	Read    83,000,000 records.  Elapsed time: 00:13:47s.  Time for last 1,000,000:   10s.  Last read position: NC_000070.6:143,068,446
+INFO	2018-10-12 22:14:25	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:27	MarkDuplicates	Read    84,000,000 records.  Elapsed time: 00:13:49s.  Time for last 1,000,000:    2s.  Last read position: NC_000070.6:153,777,641
+INFO	2018-10-12 22:14:27	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:29	MarkDuplicates	Read    85,000,000 records.  Elapsed time: 00:13:51s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:7,850,256
+INFO	2018-10-12 22:14:29	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:31	MarkDuplicates	Read    86,000,000 records.  Elapsed time: 00:13:54s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:18,258,159
+INFO	2018-10-12 22:14:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:46	MarkDuplicates	Read    87,000,000 records.  Elapsed time: 00:14:09s.  Time for last 1,000,000:   15s.  Last read position: NC_000071.6:27,213,695
+INFO	2018-10-12 22:14:47	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:49	MarkDuplicates	Read    88,000,000 records.  Elapsed time: 00:14:11s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:35,945,955
+INFO	2018-10-12 22:14:49	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:51	MarkDuplicates	Read    89,000,000 records.  Elapsed time: 00:14:13s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:44,695,270
+INFO	2018-10-12 22:14:51	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:14:53	MarkDuplicates	Read    90,000,000 records.  Elapsed time: 00:14:15s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:53,228,847
+INFO	2018-10-12 22:14:53	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:10	MarkDuplicates	Read    91,000,000 records.  Elapsed time: 00:14:32s.  Time for last 1,000,000:   16s.  Last read position: NC_000071.6:62,859,780
+INFO	2018-10-12 22:15:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:12	MarkDuplicates	Read    92,000,000 records.  Elapsed time: 00:14:34s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:71,964,863
+INFO	2018-10-12 22:15:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:14	MarkDuplicates	Read    93,000,000 records.  Elapsed time: 00:14:36s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:80,735,382
+INFO	2018-10-12 22:15:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:16	MarkDuplicates	Read    94,000,000 records.  Elapsed time: 00:14:39s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:89,887,001
+INFO	2018-10-12 22:15:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:31	MarkDuplicates	Read    95,000,000 records.  Elapsed time: 00:14:53s.  Time for last 1,000,000:   14s.  Last read position: NC_000071.6:99,753,922
+INFO	2018-10-12 22:15:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:33	MarkDuplicates	Read    96,000,000 records.  Elapsed time: 00:14:55s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:108,352,896
+INFO	2018-10-12 22:15:33	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:35	MarkDuplicates	Read    97,000,000 records.  Elapsed time: 00:14:57s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:116,862,793
+INFO	2018-10-12 22:15:35	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:37	MarkDuplicates	Read    98,000,000 records.  Elapsed time: 00:15:00s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:125,222,101
+INFO	2018-10-12 22:15:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:53	MarkDuplicates	Read    99,000,000 records.  Elapsed time: 00:15:15s.  Time for last 1,000,000:   15s.  Last read position: NC_000071.6:134,392,007
+INFO	2018-10-12 22:15:53	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:55	MarkDuplicates	Read   100,000,000 records.  Elapsed time: 00:15:17s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:142,722,061
+INFO	2018-10-12 22:15:55	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:57	MarkDuplicates	Read   101,000,000 records.  Elapsed time: 00:15:19s.  Time for last 1,000,000:    2s.  Last read position: NC_000071.6:151,376,047
+INFO	2018-10-12 22:15:57	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:15:59	MarkDuplicates	Read   102,000,000 records.  Elapsed time: 00:15:21s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:11,725,674
+INFO	2018-10-12 22:15:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:16:01	MarkDuplicates	Read   103,000,000 records.  Elapsed time: 00:15:24s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:20,740,204
+INFO	2018-10-12 22:16:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:16:17	MarkDuplicates	Read   104,000,000 records.  Elapsed time: 00:15:39s.  Time for last 1,000,000:   15s.  Last read position: NC_000072.6:29,462,169
+INFO	2018-10-12 22:16:17	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:16:19	MarkDuplicates	Read   105,000,000 records.  Elapsed time: 00:15:41s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:37,892,088
+INFO	2018-10-12 22:16:19	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:16:21	MarkDuplicates	Read   106,000,000 records.  Elapsed time: 00:15:43s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:46,561,259
+INFO	2018-10-12 22:16:21	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:16:23	MarkDuplicates	Read   107,000,000 records.  Elapsed time: 00:15:45s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:55,250,752
+INFO	2018-10-12 22:16:23	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:19:51	MarkDuplicates	Read   108,000,000 records.  Elapsed time: 00:19:14s.  Time for last 1,000,000:  208s.  Last read position: NC_000072.6:64,010,089
+INFO	2018-10-12 22:19:51	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:19:54	MarkDuplicates	Read   109,000,000 records.  Elapsed time: 00:19:16s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:74,845,316
+INFO	2018-10-12 22:19:54	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:19:56	MarkDuplicates	Read   110,000,000 records.  Elapsed time: 00:19:18s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:84,253,544
+INFO	2018-10-12 22:19:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:19:58	MarkDuplicates	Read   111,000,000 records.  Elapsed time: 00:19:20s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:93,286,683
+INFO	2018-10-12 22:19:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:20:09	MarkDuplicates	Read   112,000,000 records.  Elapsed time: 00:19:31s.  Time for last 1,000,000:   10s.  Last read position: NC_000072.6:101,823,110
+INFO	2018-10-12 22:20:09	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:20:11	MarkDuplicates	Read   113,000,000 records.  Elapsed time: 00:19:33s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:109,824,675
+INFO	2018-10-12 22:20:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:20:13	MarkDuplicates	Read   114,000,000 records.  Elapsed time: 00:19:35s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:118,548,504
+INFO	2018-10-12 22:20:13	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:20:15	MarkDuplicates	Read   115,000,000 records.  Elapsed time: 00:19:38s.  Time for last 1,000,000:    2s.  Last read position: NC_000072.6:127,956,141
+INFO	2018-10-12 22:20:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:20:30	MarkDuplicates	Read   116,000,000 records.  Elapsed time: 00:19:53s.  Time for last 1,000,000:   15s.  Last read position: NC_000072.6:138,476,077
+INFO	2018-10-12 22:20:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:20:32	MarkDuplicates	Read   117,000,000 records.  Elapsed time: 00:19:55s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:7,526,110
+INFO	2018-10-12 22:20:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:21:29	MarkDuplicates	Read   118,000,000 records.  Elapsed time: 00:20:52s.  Time for last 1,000,000:   56s.  Last read position: NC_000073.6:23,385,862
+INFO	2018-10-12 22:21:29	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:21:31	MarkDuplicates	Read   119,000,000 records.  Elapsed time: 00:20:54s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:43,654,196
+INFO	2018-10-12 22:21:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:21:40	MarkDuplicates	Read   120,000,000 records.  Elapsed time: 00:21:03s.  Time for last 1,000,000:    8s.  Last read position: NC_000073.6:61,626,409
+INFO	2018-10-12 22:21:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:21:42	MarkDuplicates	Read   121,000,000 records.  Elapsed time: 00:21:05s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:72,470,082
+INFO	2018-10-12 22:21:42	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:21:45	MarkDuplicates	Read   122,000,000 records.  Elapsed time: 00:21:07s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:80,805,508
+INFO	2018-10-12 22:21:45	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:21:47	MarkDuplicates	Read   123,000,000 records.  Elapsed time: 00:21:09s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:89,564,422
+INFO	2018-10-12 22:21:47	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:01	MarkDuplicates	Read   124,000,000 records.  Elapsed time: 00:21:24s.  Time for last 1,000,000:   14s.  Last read position: NC_000073.6:98,258,224
+INFO	2018-10-12 22:22:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:03	MarkDuplicates	Read   125,000,000 records.  Elapsed time: 00:21:26s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:107,771,614
+INFO	2018-10-12 22:22:03	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:05	MarkDuplicates	Read   126,000,000 records.  Elapsed time: 00:21:28s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:116,330,643
+INFO	2018-10-12 22:22:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:08	MarkDuplicates	Read   127,000,000 records.  Elapsed time: 00:21:30s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:124,571,393
+INFO	2018-10-12 22:22:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:26	MarkDuplicates	Read   128,000,000 records.  Elapsed time: 00:21:48s.  Time for last 1,000,000:   18s.  Last read position: NC_000073.6:132,638,773
+INFO	2018-10-12 22:22:26	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:28	MarkDuplicates	Read   129,000,000 records.  Elapsed time: 00:21:50s.  Time for last 1,000,000:    2s.  Last read position: NC_000073.6:141,321,613
+INFO	2018-10-12 22:22:28	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:30	MarkDuplicates	Read   130,000,000 records.  Elapsed time: 00:21:52s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:7,998,689
+INFO	2018-10-12 22:22:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:32	MarkDuplicates	Read   131,000,000 records.  Elapsed time: 00:21:55s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:16,467,332
+INFO	2018-10-12 22:22:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:51	MarkDuplicates	Read   132,000,000 records.  Elapsed time: 00:22:14s.  Time for last 1,000,000:   19s.  Last read position: NC_000074.6:25,811,519
+INFO	2018-10-12 22:22:51	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:54	MarkDuplicates	Read   133,000,000 records.  Elapsed time: 00:22:16s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:34,687,419
+INFO	2018-10-12 22:22:54	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:56	MarkDuplicates	Read   134,000,000 records.  Elapsed time: 00:22:18s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:44,612,658
+INFO	2018-10-12 22:22:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:22:58	MarkDuplicates	Read   135,000,000 records.  Elapsed time: 00:22:20s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:53,019,265
+INFO	2018-10-12 22:22:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:17	MarkDuplicates	Read   136,000,000 records.  Elapsed time: 00:22:40s.  Time for last 1,000,000:   19s.  Last read position: NC_000074.6:62,101,352
+INFO	2018-10-12 22:23:17	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:19	MarkDuplicates	Read   137,000,000 records.  Elapsed time: 00:22:42s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:71,600,524
+INFO	2018-10-12 22:23:19	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:22	MarkDuplicates	Read   138,000,000 records.  Elapsed time: 00:22:44s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:80,451,044
+INFO	2018-10-12 22:23:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:24	MarkDuplicates	Read   139,000,000 records.  Elapsed time: 00:22:46s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:89,239,245
+INFO	2018-10-12 22:23:24	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:44	MarkDuplicates	Read   140,000,000 records.  Elapsed time: 00:23:06s.  Time for last 1,000,000:   19s.  Last read position: NC_000074.6:97,420,415
+INFO	2018-10-12 22:23:44	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:46	MarkDuplicates	Read   141,000,000 records.  Elapsed time: 00:23:08s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:105,775,183
+INFO	2018-10-12 22:23:46	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:48	MarkDuplicates	Read   142,000,000 records.  Elapsed time: 00:23:10s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:113,971,335
+INFO	2018-10-12 22:23:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:23:50	MarkDuplicates	Read   143,000,000 records.  Elapsed time: 00:23:12s.  Time for last 1,000,000:    2s.  Last read position: NC_000074.6:122,378,880
+INFO	2018-10-12 22:23:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:24:06	MarkDuplicates	Read   144,000,000 records.  Elapsed time: 00:23:28s.  Time for last 1,000,000:   15s.  Last read position: NC_000075.6:3,004,780
+INFO	2018-10-12 22:24:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:24:08	MarkDuplicates	Read   145,000,000 records.  Elapsed time: 00:23:30s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:7,355,269
+INFO	2018-10-12 22:24:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:24:10	MarkDuplicates	Read   146,000,000 records.  Elapsed time: 00:23:32s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:16,470,628
+INFO	2018-10-12 22:24:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:24:12	MarkDuplicates	Read   147,000,000 records.  Elapsed time: 00:23:35s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:24,895,109
+INFO	2018-10-12 22:24:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:25:56	MarkDuplicates	Read   148,000,000 records.  Elapsed time: 00:25:19s.  Time for last 1,000,000:  104s.  Last read position: NC_000075.6:32,972,448
+INFO	2018-10-12 22:25:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:25:58	MarkDuplicates	Read   149,000,000 records.  Elapsed time: 00:25:21s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:38,721,475
+INFO	2018-10-12 22:25:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:00	MarkDuplicates	Read   150,000,000 records.  Elapsed time: 00:25:23s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:47,161,386
+INFO	2018-10-12 22:26:00	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:03	MarkDuplicates	Read   151,000,000 records.  Elapsed time: 00:25:25s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:55,555,051
+INFO	2018-10-12 22:26:03	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:13	MarkDuplicates	Read   152,000,000 records.  Elapsed time: 00:25:36s.  Time for last 1,000,000:   10s.  Last read position: NC_000075.6:64,172,185
+INFO	2018-10-12 22:26:13	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:15	MarkDuplicates	Read   153,000,000 records.  Elapsed time: 00:25:38s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:72,544,789
+INFO	2018-10-12 22:26:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:18	MarkDuplicates	Read   154,000,000 records.  Elapsed time: 00:25:40s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:80,871,159
+INFO	2018-10-12 22:26:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:31	MarkDuplicates	Read   155,000,000 records.  Elapsed time: 00:25:53s.  Time for last 1,000,000:   13s.  Last read position: NC_000075.6:90,301,585
+INFO	2018-10-12 22:26:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:33	MarkDuplicates	Read   156,000,000 records.  Elapsed time: 00:25:55s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:98,952,938
+INFO	2018-10-12 22:26:33	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:35	MarkDuplicates	Read   157,000,000 records.  Elapsed time: 00:25:57s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:107,559,747
+INFO	2018-10-12 22:26:35	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:37	MarkDuplicates	Read   158,000,000 records.  Elapsed time: 00:26:00s.  Time for last 1,000,000:    2s.  Last read position: NC_000075.6:116,173,316
+INFO	2018-10-12 22:26:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:51	MarkDuplicates	Read   159,000,000 records.  Elapsed time: 00:26:13s.  Time for last 1,000,000:   13s.  Last read position: NC_000076.6:3,522,915
+INFO	2018-10-12 22:26:51	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:53	MarkDuplicates	Read   160,000,000 records.  Elapsed time: 00:26:16s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:12,938,573
+INFO	2018-10-12 22:26:53	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:55	MarkDuplicates	Read   161,000,000 records.  Elapsed time: 00:26:18s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:21,961,170
+INFO	2018-10-12 22:26:55	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:26:57	MarkDuplicates	Read   162,000,000 records.  Elapsed time: 00:26:20s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:31,023,310
+INFO	2018-10-12 22:26:57	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:11	MarkDuplicates	Read   163,000,000 records.  Elapsed time: 00:26:33s.  Time for last 1,000,000:   13s.  Last read position: NC_000076.6:39,813,887
+INFO	2018-10-12 22:27:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:13	MarkDuplicates	Read   164,000,000 records.  Elapsed time: 00:26:36s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:48,803,806
+INFO	2018-10-12 22:27:13	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:15	MarkDuplicates	Read   165,000,000 records.  Elapsed time: 00:26:38s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:58,593,550
+INFO	2018-10-12 22:27:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:17	MarkDuplicates	Read   166,000,000 records.  Elapsed time: 00:26:40s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:67,722,896
+INFO	2018-10-12 22:27:17	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:31	MarkDuplicates	Read   167,000,000 records.  Elapsed time: 00:26:54s.  Time for last 1,000,000:   13s.  Last read position: NC_000076.6:76,328,815
+INFO	2018-10-12 22:27:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:33	MarkDuplicates	Read   168,000,000 records.  Elapsed time: 00:26:56s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:85,280,853
+INFO	2018-10-12 22:27:33	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:35	MarkDuplicates	Read   169,000,000 records.  Elapsed time: 00:26:58s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:93,783,681
+INFO	2018-10-12 22:27:35	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:38	MarkDuplicates	Read   170,000,000 records.  Elapsed time: 00:27:00s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:102,780,092
+INFO	2018-10-12 22:27:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:51	MarkDuplicates	Read   171,000,000 records.  Elapsed time: 00:27:14s.  Time for last 1,000,000:   13s.  Last read position: NC_000076.6:111,987,957
+INFO	2018-10-12 22:27:51	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:53	MarkDuplicates	Read   172,000,000 records.  Elapsed time: 00:27:16s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:120,959,013
+INFO	2018-10-12 22:27:53	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:56	MarkDuplicates	Read   173,000,000 records.  Elapsed time: 00:27:18s.  Time for last 1,000,000:    2s.  Last read position: NC_000076.6:129,498,335
+INFO	2018-10-12 22:27:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:27:58	MarkDuplicates	Read   174,000,000 records.  Elapsed time: 00:27:20s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:9,965,417
+INFO	2018-10-12 22:27:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:11	MarkDuplicates	Read   175,000,000 records.  Elapsed time: 00:27:34s.  Time for last 1,000,000:   13s.  Last read position: NC_000077.6:13,571,450
+INFO	2018-10-12 22:28:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:13	MarkDuplicates	Read   176,000,000 records.  Elapsed time: 00:27:36s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:17,197,373
+INFO	2018-10-12 22:28:13	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:15	MarkDuplicates	Read   177,000,000 records.  Elapsed time: 00:27:38s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:22,379,964
+INFO	2018-10-12 22:28:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:18	MarkDuplicates	Read   178,000,000 records.  Elapsed time: 00:27:40s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:28,311,677
+INFO	2018-10-12 22:28:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:32	MarkDuplicates	Read   179,000,000 records.  Elapsed time: 00:27:54s.  Time for last 1,000,000:   14s.  Last read position: NC_000077.6:33,531,650
+INFO	2018-10-12 22:28:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:34	MarkDuplicates	Read   180,000,000 records.  Elapsed time: 00:27:56s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:36,994,432
+INFO	2018-10-12 22:28:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:36	MarkDuplicates	Read   181,000,000 records.  Elapsed time: 00:27:59s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:43,391,234
+INFO	2018-10-12 22:28:36	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:38	MarkDuplicates	Read   182,000,000 records.  Elapsed time: 00:28:01s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:52,227,717
+INFO	2018-10-12 22:28:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:52	MarkDuplicates	Read   183,000,000 records.  Elapsed time: 00:28:14s.  Time for last 1,000,000:   13s.  Last read position: NC_000077.6:60,938,399
+INFO	2018-10-12 22:28:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:54	MarkDuplicates	Read   184,000,000 records.  Elapsed time: 00:28:17s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:69,255,353
+INFO	2018-10-12 22:28:54	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:56	MarkDuplicates	Read   185,000,000 records.  Elapsed time: 00:28:19s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:80,642,367
+INFO	2018-10-12 22:28:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:28:58	MarkDuplicates	Read   186,000,000 records.  Elapsed time: 00:28:21s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:92,484,649
+INFO	2018-10-12 22:28:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:31:48	MarkDuplicates	Read   187,000,000 records.  Elapsed time: 00:31:10s.  Time for last 1,000,000:  169s.  Last read position: NC_000077.6:100,526,177
+INFO	2018-10-12 22:31:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:31:50	MarkDuplicates	Read   188,000,000 records.  Elapsed time: 00:31:12s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:108,820,036
+INFO	2018-10-12 22:31:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:31:52	MarkDuplicates	Read   189,000,000 records.  Elapsed time: 00:31:15s.  Time for last 1,000,000:    2s.  Last read position: NC_000077.6:117,331,383
+INFO	2018-10-12 22:31:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:31:54	MarkDuplicates	Read   190,000,000 records.  Elapsed time: 00:31:17s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:6,911,559
+INFO	2018-10-12 22:31:54	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:05	MarkDuplicates	Read   191,000,000 records.  Elapsed time: 00:31:27s.  Time for last 1,000,000:   10s.  Last read position: NC_000078.6:14,879,072
+INFO	2018-10-12 22:32:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:07	MarkDuplicates	Read   192,000,000 records.  Elapsed time: 00:31:29s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:27,792,581
+INFO	2018-10-12 22:32:07	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:09	MarkDuplicates	Read   193,000,000 records.  Elapsed time: 00:31:32s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:45,600,406
+INFO	2018-10-12 22:32:09	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:11	MarkDuplicates	Read   194,000,000 records.  Elapsed time: 00:31:34s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:58,436,547
+INFO	2018-10-12 22:32:11	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:26	MarkDuplicates	Read   195,000,000 records.  Elapsed time: 00:31:49s.  Time for last 1,000,000:   15s.  Last read position: NC_000078.6:67,846,836
+INFO	2018-10-12 22:32:26	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:28	MarkDuplicates	Read   196,000,000 records.  Elapsed time: 00:31:51s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:76,408,797
+INFO	2018-10-12 22:32:28	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:31	MarkDuplicates	Read   197,000,000 records.  Elapsed time: 00:31:53s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:85,011,394
+INFO	2018-10-12 22:32:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:33	MarkDuplicates	Read   198,000,000 records.  Elapsed time: 00:31:55s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:94,114,043
+INFO	2018-10-12 22:32:33	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:35	MarkDuplicates	Read   199,000,000 records.  Elapsed time: 00:31:57s.  Time for last 1,000,000:    2s.  Last read position: NC_000078.6:102,766,488
+INFO	2018-10-12 22:32:35	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:50	MarkDuplicates	Read   200,000,000 records.  Elapsed time: 00:32:13s.  Time for last 1,000,000:   15s.  Last read position: NC_000078.6:111,431,283
+INFO	2018-10-12 22:32:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:52	MarkDuplicates	Read   201,000,000 records.  Elapsed time: 00:32:15s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:5,267,677
+INFO	2018-10-12 22:32:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:55	MarkDuplicates	Read   202,000,000 records.  Elapsed time: 00:32:17s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:13,876,903
+INFO	2018-10-12 22:32:55	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:32:57	MarkDuplicates	Read   203,000,000 records.  Elapsed time: 00:32:19s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:21,666,352
+INFO	2018-10-12 22:32:57	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:12	MarkDuplicates	Read   204,000,000 records.  Elapsed time: 00:32:34s.  Time for last 1,000,000:   14s.  Last read position: NC_000079.6:30,477,785
+INFO	2018-10-12 22:33:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:14	MarkDuplicates	Read   205,000,000 records.  Elapsed time: 00:32:36s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:39,257,931
+INFO	2018-10-12 22:33:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:16	MarkDuplicates	Read   206,000,000 records.  Elapsed time: 00:32:38s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:47,576,087
+INFO	2018-10-12 22:33:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:18	MarkDuplicates	Read   207,000,000 records.  Elapsed time: 00:32:41s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:56,164,204
+INFO	2018-10-12 22:33:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:34	MarkDuplicates	Read   208,000,000 records.  Elapsed time: 00:32:56s.  Time for last 1,000,000:   15s.  Last read position: NC_000079.6:64,695,676
+INFO	2018-10-12 22:33:34	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:36	MarkDuplicates	Read   209,000,000 records.  Elapsed time: 00:32:58s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:74,908,986
+INFO	2018-10-12 22:33:36	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:38	MarkDuplicates	Read   210,000,000 records.  Elapsed time: 00:33:00s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:84,024,783
+INFO	2018-10-12 22:33:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:40	MarkDuplicates	Read   211,000,000 records.  Elapsed time: 00:33:03s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:93,473,251
+INFO	2018-10-12 22:33:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:56	MarkDuplicates	Read   212,000,000 records.  Elapsed time: 00:33:18s.  Time for last 1,000,000:   15s.  Last read position: NC_000079.6:101,767,303
+INFO	2018-10-12 22:33:56	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:33:58	MarkDuplicates	Read   213,000,000 records.  Elapsed time: 00:33:20s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:110,206,500
+INFO	2018-10-12 22:33:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:00	MarkDuplicates	Read   214,000,000 records.  Elapsed time: 00:33:22s.  Time for last 1,000,000:    2s.  Last read position: NC_000079.6:118,690,092
+INFO	2018-10-12 22:34:00	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:02	MarkDuplicates	Read   215,000,000 records.  Elapsed time: 00:33:25s.  Time for last 1,000,000:    2s.  Last read position: NC_000080.6:14,794,087
+INFO	2018-10-12 22:34:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:18	MarkDuplicates	Read   216,000,000 records.  Elapsed time: 00:33:40s.  Time for last 1,000,000:   15s.  Last read position: NC_000080.6:19,417,888
+INFO	2018-10-12 22:34:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:20	MarkDuplicates	Read   217,000,000 records.  Elapsed time: 00:33:42s.  Time for last 1,000,000:    2s.  Last read position: NC_000080.6:27,722,244
+INFO	2018-10-12 22:34:20	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:22	MarkDuplicates	Read   218,000,000 records.  Elapsed time: 00:33:44s.  Time for last 1,000,000:    2s.  Last read position: NC_000080.6:35,759,957
+INFO	2018-10-12 22:34:22	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:24	MarkDuplicates	Read   219,000,000 records.  Elapsed time: 00:33:47s.  Time for last 1,000,000:    2s.  Last read position: NC_000080.6:46,940,928
+INFO	2018-10-12 22:34:24	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:40	MarkDuplicates	Read   220,000,000 records.  Elapsed time: 00:34:02s.  Time for last 1,000,000:   15s.  Last read position: NC_000080.6:57,833,906
+INFO	2018-10-12 22:34:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:42	MarkDuplicates	Read   221,000,000 records.  Elapsed time: 00:34:04s.  Time for last 1,000,000:    2s.  Last read position: NC_000080.6:66,379,628
+INFO	2018-10-12 22:34:42	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:44	MarkDuplicates	Read   222,000,000 records.  Elapsed time: 00:34:06s.  Time for last 1,000,000:    2s.  Last read position: NC_000080.6:75,158,659
+INFO	2018-10-12 22:34:44	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:34:46	MarkDuplicates	Read   223,000,000 records.  Elapsed time: 00:34:08s.  Time for last 1,000,000:    2s.  Last read position: NC_000080.6:89,833,852
+INFO	2018-10-12 22:34:46	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:35:01	MarkDuplicates	Read   224,000,000 records.  Elapsed time: 00:34:24s.  Time for last 1,000,000:   15s.  Last read position: NC_000080.6:109,362,358
+INFO	2018-10-12 22:35:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:35:03	MarkDuplicates	Read   225,000,000 records.  Elapsed time: 00:34:26s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:4,606,516
+INFO	2018-10-12 22:35:03	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:35:06	MarkDuplicates	Read   226,000,000 records.  Elapsed time: 00:34:28s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:13,403,944
+INFO	2018-10-12 22:35:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:35:08	MarkDuplicates	Read   227,000,000 records.  Elapsed time: 00:34:30s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:22,079,079
+INFO	2018-10-12 22:35:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:35:10	MarkDuplicates	Read   228,000,000 records.  Elapsed time: 00:34:32s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:30,486,597
+INFO	2018-10-12 22:35:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:38:59	MarkDuplicates	Read   229,000,000 records.  Elapsed time: 00:38:22s.  Time for last 1,000,000:  229s.  Last read position: NC_000081.6:39,555,476
+INFO	2018-10-12 22:38:59	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:39:02	MarkDuplicates	Read   230,000,000 records.  Elapsed time: 00:38:24s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:47,953,803
+INFO	2018-10-12 22:39:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:39:04	MarkDuplicates	Read   231,000,000 records.  Elapsed time: 00:38:26s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:56,428,550
+INFO	2018-10-12 22:39:04	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:39:06	MarkDuplicates	Read   232,000,000 records.  Elapsed time: 00:38:28s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:64,854,740
+INFO	2018-10-12 22:39:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:39:17	MarkDuplicates	Read   233,000,000 records.  Elapsed time: 00:38:39s.  Time for last 1,000,000:   10s.  Last read position: NC_000081.6:73,180,466
+INFO	2018-10-12 22:39:17	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:39:19	MarkDuplicates	Read   234,000,000 records.  Elapsed time: 00:38:41s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:82,046,047
+INFO	2018-10-12 22:39:19	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:15	MarkDuplicates	Read   235,000,000 records.  Elapsed time: 00:39:37s.  Time for last 1,000,000:   55s.  Last read position: NC_000081.6:90,378,295
+INFO	2018-10-12 22:40:15	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:17	MarkDuplicates	Read   236,000,000 records.  Elapsed time: 00:39:39s.  Time for last 1,000,000:    2s.  Last read position: NC_000081.6:98,365,523
+INFO	2018-10-12 22:40:17	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:25	MarkDuplicates	Read   237,000,000 records.  Elapsed time: 00:39:47s.  Time for last 1,000,000:    8s.  Last read position: NC_000082.6:5,394,424
+INFO	2018-10-12 22:40:25	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:27	MarkDuplicates	Read   238,000,000 records.  Elapsed time: 00:39:50s.  Time for last 1,000,000:    2s.  Last read position: NC_000082.6:13,786,211
+INFO	2018-10-12 22:40:27	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:29	MarkDuplicates	Read   239,000,000 records.  Elapsed time: 00:39:52s.  Time for last 1,000,000:    2s.  Last read position: NC_000082.6:23,695,812
+INFO	2018-10-12 22:40:29	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:31	MarkDuplicates	Read   240,000,000 records.  Elapsed time: 00:39:54s.  Time for last 1,000,000:    2s.  Last read position: NC_000082.6:32,109,143
+INFO	2018-10-12 22:40:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:46	MarkDuplicates	Read   241,000,000 records.  Elapsed time: 00:40:08s.  Time for last 1,000,000:   14s.  Last read position: NC_000082.6:40,887,588
+INFO	2018-10-12 22:40:46	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:48	MarkDuplicates	Read   242,000,000 records.  Elapsed time: 00:40:10s.  Time for last 1,000,000:    2s.  Last read position: NC_000082.6:49,836,850
+INFO	2018-10-12 22:40:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:50	MarkDuplicates	Read   243,000,000 records.  Elapsed time: 00:40:12s.  Time for last 1,000,000:    2s.  Last read position: NC_000082.6:59,068,833
+INFO	2018-10-12 22:40:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:40:52	MarkDuplicates	Read   244,000,000 records.  Elapsed time: 00:40:15s.  Time for last 1,000,000:    2s.  Last read position: NC_000082.6:68,584,297
+INFO	2018-10-12 22:40:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:10	MarkDuplicates	Read   245,000,000 records.  Elapsed time: 00:40:32s.  Time for last 1,000,000:   17s.  Last read position: NC_000082.6:78,250,803
+INFO	2018-10-12 22:41:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:12	MarkDuplicates	Read   246,000,000 records.  Elapsed time: 00:40:35s.  Time for last 1,000,000:    2s.  Last read position: NC_000082.6:87,691,221
+INFO	2018-10-12 22:41:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:14	MarkDuplicates	Read   247,000,000 records.  Elapsed time: 00:40:37s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:3,023,019
+INFO	2018-10-12 22:41:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:16	MarkDuplicates	Read   248,000,000 records.  Elapsed time: 00:40:39s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:12,515,057
+INFO	2018-10-12 22:41:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:36	MarkDuplicates	Read   249,000,000 records.  Elapsed time: 00:40:58s.  Time for last 1,000,000:   19s.  Last read position: NC_000083.6:21,370,238
+INFO	2018-10-12 22:41:36	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:38	MarkDuplicates	Read   250,000,000 records.  Elapsed time: 00:41:00s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:31,865,190
+INFO	2018-10-12 22:41:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:40	MarkDuplicates	Read   251,000,000 records.  Elapsed time: 00:41:03s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:45,493,462
+INFO	2018-10-12 22:41:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:42	MarkDuplicates	Read   252,000,000 records.  Elapsed time: 00:41:05s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:55,983,195
+INFO	2018-10-12 22:41:42	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:41:44	MarkDuplicates	Read   253,000,000 records.  Elapsed time: 00:41:07s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:64,833,703
+INFO	2018-10-12 22:41:44	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:01	MarkDuplicates	Read   254,000,000 records.  Elapsed time: 00:41:24s.  Time for last 1,000,000:   16s.  Last read position: NC_000083.6:73,088,535
+INFO	2018-10-12 22:42:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:03	MarkDuplicates	Read   255,000,000 records.  Elapsed time: 00:41:26s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:81,427,757
+INFO	2018-10-12 22:42:03	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:06	MarkDuplicates	Read   256,000,000 records.  Elapsed time: 00:41:28s.  Time for last 1,000,000:    2s.  Last read position: NC_000083.6:89,719,889
+INFO	2018-10-12 22:42:06	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:08	MarkDuplicates	Read   257,000,000 records.  Elapsed time: 00:41:30s.  Time for last 1,000,000:    2s.  Last read position: NC_000084.6:6,525,833
+INFO	2018-10-12 22:42:08	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:25	MarkDuplicates	Read   258,000,000 records.  Elapsed time: 00:41:47s.  Time for last 1,000,000:   17s.  Last read position: NC_000084.6:15,774,208
+INFO	2018-10-12 22:42:25	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:27	MarkDuplicates	Read   259,000,000 records.  Elapsed time: 00:41:49s.  Time for last 1,000,000:    2s.  Last read position: NC_000084.6:25,087,742
+INFO	2018-10-12 22:42:27	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:29	MarkDuplicates	Read   260,000,000 records.  Elapsed time: 00:41:52s.  Time for last 1,000,000:    2s.  Last read position: NC_000084.6:33,834,902
+INFO	2018-10-12 22:42:29	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:31	MarkDuplicates	Read   261,000,000 records.  Elapsed time: 00:41:54s.  Time for last 1,000,000:    2s.  Last read position: NC_000084.6:42,123,575
+INFO	2018-10-12 22:42:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:48	MarkDuplicates	Read   262,000,000 records.  Elapsed time: 00:42:10s.  Time for last 1,000,000:   16s.  Last read position: NC_000084.6:50,729,174
+INFO	2018-10-12 22:42:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:50	MarkDuplicates	Read   263,000,000 records.  Elapsed time: 00:42:13s.  Time for last 1,000,000:    2s.  Last read position: NC_000084.6:59,429,206
+INFO	2018-10-12 22:42:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:52	MarkDuplicates	Read   264,000,000 records.  Elapsed time: 00:42:15s.  Time for last 1,000,000:    2s.  Last read position: NC_000084.6:68,272,619
+INFO	2018-10-12 22:42:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:42:54	MarkDuplicates	Read   265,000,000 records.  Elapsed time: 00:42:17s.  Time for last 1,000,000:    2s.  Last read position: NC_000084.6:77,104,262
+INFO	2018-10-12 22:42:54	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:12	MarkDuplicates	Read   266,000,000 records.  Elapsed time: 00:42:34s.  Time for last 1,000,000:   17s.  Last read position: NC_000084.6:86,442,977
+INFO	2018-10-12 22:43:12	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:14	MarkDuplicates	Read   267,000,000 records.  Elapsed time: 00:42:36s.  Time for last 1,000,000:    2s.  Last read position: NC_000085.6:9,039,297
+INFO	2018-10-12 22:43:14	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:16	MarkDuplicates	Read   268,000,000 records.  Elapsed time: 00:42:39s.  Time for last 1,000,000:    2s.  Last read position: NC_000085.6:25,151,333
+INFO	2018-10-12 22:43:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:18	MarkDuplicates	Read   269,000,000 records.  Elapsed time: 00:42:41s.  Time for last 1,000,000:    2s.  Last read position: NC_000085.6:38,676,276
+INFO	2018-10-12 22:43:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:35	MarkDuplicates	Read   270,000,000 records.  Elapsed time: 00:42:58s.  Time for last 1,000,000:   16s.  Last read position: NC_000085.6:45,285,884
+INFO	2018-10-12 22:43:35	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:37	MarkDuplicates	Read   271,000,000 records.  Elapsed time: 00:43:00s.  Time for last 1,000,000:    2s.  Last read position: NC_000085.6:52,713,582
+INFO	2018-10-12 22:43:37	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:39	MarkDuplicates	Read   272,000,000 records.  Elapsed time: 00:43:02s.  Time for last 1,000,000:    2s.  Last read position: NC_000085.6:61,287,662
+INFO	2018-10-12 22:43:39	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:42	MarkDuplicates	Read   273,000,000 records.  Elapsed time: 00:43:04s.  Time for last 1,000,000:    2s.  Last read position: NC_000086.7:23,070,936
+INFO	2018-10-12 22:43:42	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:43:58	MarkDuplicates	Read   274,000,000 records.  Elapsed time: 00:43:21s.  Time for last 1,000,000:   16s.  Last read position: NC_000086.7:52,050,963
+INFO	2018-10-12 22:43:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:44:01	MarkDuplicates	Read   275,000,000 records.  Elapsed time: 00:43:23s.  Time for last 1,000,000:    2s.  Last read position: NC_000086.7:73,402,982
+INFO	2018-10-12 22:44:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:44:03	MarkDuplicates	Read   276,000,000 records.  Elapsed time: 00:43:25s.  Time for last 1,000,000:    2s.  Last read position: NC_000086.7:93,381,352
+INFO	2018-10-12 22:44:03	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:44:05	MarkDuplicates	Read   277,000,000 records.  Elapsed time: 00:43:27s.  Time for last 1,000,000:    2s.  Last read position: NC_000086.7:112,935,172
+INFO	2018-10-12 22:44:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:46:26	MarkDuplicates	Read   278,000,000 records.  Elapsed time: 00:45:48s.  Time for last 1,000,000:  140s.  Last read position: NC_000086.7:131,659,376
+INFO	2018-10-12 22:46:26	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:46:28	MarkDuplicates	Read   279,000,000 records.  Elapsed time: 00:45:50s.  Time for last 1,000,000:    2s.  Last read position: NC_000086.7:141,802,757
+INFO	2018-10-12 22:46:28	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:46:30	MarkDuplicates	Read   280,000,000 records.  Elapsed time: 00:45:52s.  Time for last 1,000,000:    2s.  Last read position: NC_000086.7:152,258,087
+INFO	2018-10-12 22:46:30	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:46:32	MarkDuplicates	Read   281,000,000 records.  Elapsed time: 00:45:54s.  Time for last 1,000,000:    2s.  Last read position: NC_000086.7:161,741,880
+INFO	2018-10-12 22:46:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:46:43	MarkDuplicates	Read   282,000,000 records.  Elapsed time: 00:46:06s.  Time for last 1,000,000:   11s.  Last read position: NT_166476.1:22,109
+INFO	2018-10-12 22:46:43	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:46:45	MarkDuplicates	Read   283,000,000 records.  Elapsed time: 00:46:08s.  Time for last 1,000,000:    2s.  Last read position: NT_187020.1:2,757,679
+INFO	2018-10-12 22:46:45	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2018-10-12 22:46:47	MarkDuplicates	Read 283619176 records. 0 pairs never matched.
+INFO	2018-10-12 22:47:17	MarkDuplicates	After buildSortedReadEndLists freeMemory: 18643402656; totalMemory: 19794493440; maxMemory: 30542397440
+INFO	2018-10-12 22:47:17	MarkDuplicates	Will retain up to 954449920 duplicate indices before spilling to disk.
+INFO	2018-10-12 22:47:18	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2018-10-12 22:47:18	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2018-10-12 22:48:52	MarkDuplicates	Sorting list of duplicate records.
+INFO	2018-10-12 22:49:18	MarkDuplicates	After generateDuplicateIndexes freeMemory: 17788287288; totalMemory: 25629818880; maxMemory: 30542397440
+INFO	2018-10-12 22:49:18	MarkDuplicates	Marking 132216971 records as duplicates.
+INFO	2018-10-12 22:49:18	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2018-10-12 22:49:18	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2018-10-12 22:50:35	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:17s.  Time for last 10,000,000:   77s.  Last read position: NC_000067.6:73,487,608
+INFO	2018-10-12 22:51:53	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:02:34s.  Time for last 10,000,000:   77s.  Last read position: NC_000067.6:155,835,102
+INFO	2018-10-12 22:53:11	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:03:52s.  Time for last 10,000,000:   77s.  Last read position: NC_000068.7:50,650,475
+INFO	2018-10-12 22:54:21	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:05:03s.  Time for last 10,000,000:   70s.  Last read position: NC_000068.7:98,667,102
+INFO	2018-10-12 22:55:34	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:06:15s.  Time for last 10,000,000:   72s.  Last read position: NC_000068.7:156,921,463
+INFO	2018-10-12 22:56:50	MarkDuplicates	Written    60,000,000 records.  Elapsed time: 00:07:32s.  Time for last 10,000,000:   76s.  Last read position: NC_000069.6:69,632,147
+INFO	2018-10-12 22:58:08	MarkDuplicates	Written    70,000,000 records.  Elapsed time: 00:08:49s.  Time for last 10,000,000:   77s.  Last read position: NC_000070.6:6,010,394
+INFO	2018-10-12 22:59:25	MarkDuplicates	Written    80,000,000 records.  Elapsed time: 00:10:07s.  Time for last 10,000,000:   77s.  Last read position: NC_000070.6:116,715,537
+INFO	2018-10-12 23:00:42	MarkDuplicates	Written    90,000,000 records.  Elapsed time: 00:11:24s.  Time for last 10,000,000:   77s.  Last read position: NC_000071.6:53,228,847
+INFO	2018-10-12 23:02:00	MarkDuplicates	Written   100,000,000 records.  Elapsed time: 00:12:42s.  Time for last 10,000,000:   78s.  Last read position: NC_000071.6:142,722,061
+INFO	2018-10-12 23:03:18	MarkDuplicates	Written   110,000,000 records.  Elapsed time: 00:13:59s.  Time for last 10,000,000:   77s.  Last read position: NC_000072.6:84,253,544
+INFO	2018-10-12 23:04:35	MarkDuplicates	Written   120,000,000 records.  Elapsed time: 00:15:17s.  Time for last 10,000,000:   77s.  Last read position: NC_000073.6:61,626,409
+INFO	2018-10-12 23:05:52	MarkDuplicates	Written   130,000,000 records.  Elapsed time: 00:16:34s.  Time for last 10,000,000:   77s.  Last read position: NC_000074.6:7,998,689
+INFO	2018-10-12 23:07:10	MarkDuplicates	Written   140,000,000 records.  Elapsed time: 00:17:51s.  Time for last 10,000,000:   77s.  Last read position: NC_000074.6:97,420,415
+INFO	2018-10-12 23:08:25	MarkDuplicates	Written   150,000,000 records.  Elapsed time: 00:19:07s.  Time for last 10,000,000:   75s.  Last read position: NC_000075.6:47,161,386
+INFO	2018-10-12 23:09:43	MarkDuplicates	Written   160,000,000 records.  Elapsed time: 00:20:24s.  Time for last 10,000,000:   77s.  Last read position: NC_000076.6:12,938,573
+INFO	2018-10-12 23:11:00	MarkDuplicates	Written   170,000,000 records.  Elapsed time: 00:21:42s.  Time for last 10,000,000:   77s.  Last read position: NC_000076.6:102,780,092
+INFO	2018-10-12 23:12:16	MarkDuplicates	Written   180,000,000 records.  Elapsed time: 00:22:57s.  Time for last 10,000,000:   75s.  Last read position: NC_000077.6:36,994,432
+INFO	2018-10-12 23:13:33	MarkDuplicates	Written   190,000,000 records.  Elapsed time: 00:24:14s.  Time for last 10,000,000:   77s.  Last read position: NC_000078.6:6,911,559
+INFO	2018-10-12 23:14:50	MarkDuplicates	Written   200,000,000 records.  Elapsed time: 00:25:31s.  Time for last 10,000,000:   77s.  Last read position: NC_000078.6:111,431,283
+INFO	2018-10-12 23:16:07	MarkDuplicates	Written   210,000,000 records.  Elapsed time: 00:26:48s.  Time for last 10,000,000:   76s.  Last read position: NC_000079.6:84,024,783
+INFO	2018-10-12 23:17:23	MarkDuplicates	Written   220,000,000 records.  Elapsed time: 00:28:05s.  Time for last 10,000,000:   76s.  Last read position: NC_000080.6:57,833,906
+INFO	2018-10-12 23:18:40	MarkDuplicates	Written   230,000,000 records.  Elapsed time: 00:29:22s.  Time for last 10,000,000:   76s.  Last read position: NC_000081.6:47,953,803
+INFO	2018-10-12 23:19:57	MarkDuplicates	Written   240,000,000 records.  Elapsed time: 00:30:38s.  Time for last 10,000,000:   76s.  Last read position: NC_000082.6:32,109,143
+INFO	2018-10-12 23:21:15	MarkDuplicates	Written   250,000,000 records.  Elapsed time: 00:31:56s.  Time for last 10,000,000:   77s.  Last read position: NC_000083.6:31,865,190
+INFO	2018-10-12 23:22:31	MarkDuplicates	Written   260,000,000 records.  Elapsed time: 00:33:13s.  Time for last 10,000,000:   76s.  Last read position: NC_000084.6:33,834,902
+INFO	2018-10-12 23:23:49	MarkDuplicates	Written   270,000,000 records.  Elapsed time: 00:34:30s.  Time for last 10,000,000:   77s.  Last read position: NC_000085.6:45,285,884
+INFO	2018-10-12 23:25:06	MarkDuplicates	Written   280,000,000 records.  Elapsed time: 00:35:48s.  Time for last 10,000,000:   77s.  Last read position: NC_000086.7:152,258,087
+INFO	2018-10-12 23:26:17	MarkDuplicates	Written   290,000,000 records.  Elapsed time: 00:36:58s.  Time for last 10,000,000:   70s.  Last read position: */*
+INFO	2018-10-12 23:27:21	MarkDuplicates	Written   300,000,000 records.  Elapsed time: 00:38:02s.  Time for last 10,000,000:   64s.  Last read position: */*
+INFO	2018-10-12 23:28:25	MarkDuplicates	Written   310,000,000 records.  Elapsed time: 00:39:06s.  Time for last 10,000,000:   64s.  Last read position: */*
+INFO	2018-10-12 23:29:29	MarkDuplicates	Written   320,000,000 records.  Elapsed time: 00:40:10s.  Time for last 10,000,000:   64s.  Last read position: */*
+INFO	2018-10-12 23:30:33	MarkDuplicates	Written   330,000,000 records.  Elapsed time: 00:41:14s.  Time for last 10,000,000:   63s.  Last read position: */*
+INFO	2018-10-12 23:31:37	MarkDuplicates	Written   340,000,000 records.  Elapsed time: 00:42:18s.  Time for last 10,000,000:   64s.  Last read position: */*
+INFO	2018-10-12 23:32:40	MarkDuplicates	Written   350,000,000 records.  Elapsed time: 00:43:22s.  Time for last 10,000,000:   63s.  Last read position: */*
+INFO	2018-10-12 23:33:43	MarkDuplicates	Written   360,000,000 records.  Elapsed time: 00:44:25s.  Time for last 10,000,000:   63s.  Last read position: */*
+INFO	2018-10-12 23:34:47	MarkDuplicates	Written   370,000,000 records.  Elapsed time: 00:45:28s.  Time for last 10,000,000:   63s.  Last read position: */*
+INFO	2018-10-12 23:35:51	MarkDuplicates	Written   380,000,000 records.  Elapsed time: 00:46:32s.  Time for last 10,000,000:   63s.  Last read position: */*
+INFO	2018-10-12 23:36:10	MarkDuplicates	Before output close freeMemory: 25993518160; totalMemory: 26224361472; maxMemory: 30542397440
+INFO	2018-10-12 23:36:10	MarkDuplicates	After output close freeMemory: 25993514760; totalMemory: 26224361472; maxMemory: 30542397440
+[Fri Oct 12 23:36:10 CDT 2018] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 95.57 minutes.
+Runtime.totalMemory()=26224361472
+23:36:17.442 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs/apps/haswell/software/java-jdk-1.8.0_92/gatk/4.0.6.0/gatk-package-4.0.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+23:36:17.463 WARN  NativeLibraryLoader - Unable to load libgkl_compression.so from native/libgkl_compression.so (/tmp/mleukam/libgkl_compression2307181459349118192.so: /tmp/mleukam/libgkl_compression2307181459349118192.so: failed to map segment from shared object: Operation not permitted)
+23:36:17.465 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs/apps/haswell/software/java-jdk-1.8.0_92/gatk/4.0.6.0/gatk-package-4.0.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+23:36:17.483 WARN  NativeLibraryLoader - Unable to load libgkl_compression.so from native/libgkl_compression.so (/tmp/mleukam/libgkl_compression5965627311823417012.so: /tmp/mleukam/libgkl_compression5965627311823417012.so: failed to map segment from shared object: Operation not permitted)
+23:36:17.823 INFO  BaseRecalibrator - ------------------------------------------------------------
+23:36:17.823 INFO  BaseRecalibrator - The Genome Analysis Toolkit (GATK) v4.0.6.0
+23:36:17.824 INFO  BaseRecalibrator - For support and documentation go to https://software.broadinstitute.org/gatk/
+23:36:17.824 INFO  BaseRecalibrator - Executing as mleukam@cri16cn207 on Linux v2.6.32-573.12.1.el6.x86_64 amd64
+23:36:17.824 INFO  BaseRecalibrator - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+23:36:17.824 INFO  BaseRecalibrator - Start Date/Time: October 12, 2018 11:36:17 PM CDT
+23:36:17.824 INFO  BaseRecalibrator - ------------------------------------------------------------
+23:36:17.824 INFO  BaseRecalibrator - ------------------------------------------------------------
+23:36:17.825 INFO  BaseRecalibrator - HTSJDK Version: 2.16.0
+23:36:17.825 INFO  BaseRecalibrator - Picard Version: 2.18.7
+23:36:17.825 INFO  BaseRecalibrator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+23:36:17.827 INFO  BaseRecalibrator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+23:36:17.828 INFO  BaseRecalibrator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+23:36:17.828 INFO  BaseRecalibrator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+23:36:17.828 INFO  BaseRecalibrator - Deflater: JdkDeflater
+23:36:17.828 INFO  BaseRecalibrator - Inflater: JdkInflater
+23:36:17.828 INFO  BaseRecalibrator - GCS max retries/reopens: 20
+23:36:17.828 INFO  BaseRecalibrator - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+23:36:17.828 INFO  BaseRecalibrator - Initializing engine
+23:36:18.554 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+23:36:18.569 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+23:36:19.022 INFO  FeatureManager - Using codec VCFCodec to read file file:///scratch/mleukam/mouse/mgp.v5.merged.snps_all.dbSNP142.vcf
+23:36:19.102 INFO  FeatureManager - Using codec VCFCodec to read file file:///scratch/mleukam/mouse/mgp.v5.merged.indels.dbSNP142.normed.vcf
+23:36:19.136 INFO  BaseRecalibrator - Shutting down engine
+[October 12, 2018 11:36:19 PM CDT] org.broadinstitute.hellbender.tools.walkers.bqsr.BaseRecalibrator done. Elapsed time: 0.03 minutes.
+Runtime.totalMemory()=2174222336
+***********************************************************************
+
+A USER ERROR has occurred: Input files reference and features have incompatible contigs: No overlapping contigs found.
+  reference contigs = [NC_000067.6, NT_166280.1, NT_166281.1, NT_166282.1, NT_166283.1, NT_162750.1, NC_000068.7, NC_000069.6, NC_000070.6, NT_166291.1, NT_187052.1, NT_166434.1, NT_187053.1, NT_187054.1, NT_187055.1, NC_000071.6, NT_187056.1, NT_187057.1, NT_187058.1, NT_166438.1, NT_187059.1, NC_000072.6, NC_000073.6, NT_166307.1, NC_000074.6, NC_000075.6, NC_000076.6, NC_000077.6, NC_000078.6, NC_000079.6, NC_000080.6, NC_000081.6, NC_000082.6, NC_000083.6, NC_000084.6, NC_000085.6, NC_000086.7, NT_165789.2, NC_000087.7, NT_187060.1, NT_187061.1, NT_187062.1, NT_187063.1, NT_166338.1, NT_166451.1, NT_166462.1, NT_166465.1, NT_166466.1, NT_166467.1, NT_166469.1, NT_166474.1, NT_166476.1, NT_166477.1, NT_166478.1, NT_166443.1, NT_166444.1, NT_166480.1, NT_166456.1, NT_166471.1, NT_166473.1, NT_166454.1, NT_166463.1, NT_166450.1, NT_166452.1, NT_187064.1, NW_016097314.1, NW_006763128.1, NW_016097312.1, NW_016097313.1, NW_016097315.1, NW_016097316.1, NW_012132900.1, NW_019168505.1, NW_019168504.1, NW_019168503.1, NW_012132901.1, NW_012132902.1, NW_019168509.1, NW_019168506.1, NW_012132903.1, NW_012132904.1, NW_012132905.1, NW_019168508.1, NW_004058050.1, NW_019168507.1, NW_004058051.1, NW_016097317.1, NW_006763130.1, NW_006763129.1, NW_004058052.1, NW_016097318.1, NW_016097319.1, NW_016097320.1, NW_012132906.1, NW_004450259.3, NW_019168510.1, NW_012132907.1, NW_019168511.1, NW_019168515.1, NW_019168512.1, NW_019168516.1, NW_019168519.1, NW_019168517.1, NW_019168513.1, NW_019168520.1, NW_019168518.1, NW_019168514.1, NW_004450260.1, NW_004450261.1, NW_019168521.1, NW_019168522.1, NW_019168523.1, NW_012132908.1, NW_016097321.1, NW_012132909.2, NW_019168525.1, NW_019168524.1, NW_004450262.2, NW_019168526.1, NW_019168527.1, NW_019168528.1, NW_004450263.1, NW_004058053.1, NW_019168529.1, NW_019168530.1, NW_004058054.1, NW_012132910.1, NW_016097322.1, NW_019168532.1, NW_012132912.1, NW_012132913.1, NW_004058055.2, NW_019168533.1, NW_012132911.1, NW_019168534.1, NW_019168531.1, NW_004058056.1, NW_004058058.1, NW_004058057.1, NT_039697.1, NT_039223.3, NT_039256.1, NT_039248.1, NT_080257.1, NT_109599.1, NT_039373.1, NT_039382.4, NT_078572.1, NT_114988.1, NT_114985.3, NT_187006.1, NT_039614.1, NT_187007.1, NT_187008.1, NT_187009.1, NT_187010.1, NT_187011.1, NT_039744.2, NT_039747.4, NT_111920.1, NT_039443.1, NT_039198.1, NT_039192.2, NT_039194.5, NT_039291.1, NT_039334.1, NT_039469.1, NT_039470.1, NT_078683.1, NT_039594.3, NT_039622.1, NT_187012.1, NT_187013.1, NT_187014.1, NT_039634.4, NT_187015.1, NT_187016.1, NT_039661.4, NT_039666.2, NT_039739.2, NT_099024.1, NT_187017.1, NT_039195.1, NT_039296.1, NT_039372.2, NT_039367.1, NT_039525.1, NT_096797.1, NT_039630.5, NT_039662.3, NT_039593.1, NT_166394.1, NT_166397.1, NT_166400.1, NT_095534.1, NT_096355.1, NT_187028.1, NT_187029.1, NT_187030.1, NT_166396.1, NT_166398.1, NT_166399.1, NT_187019.1, NT_187020.1, NT_187021.1, NT_039252.1, NT_039247.2, NT_039257.4, NT_187022.1, NT_166287.2, NT_114257.4, NT_187023.1, NT_187024.1, NT_166299.2, NT_187025.1, NT_187026.1, NT_166317.2, NT_187027.1, NT_080256.1, NT_187002.1, NT_166305.2, NT_187003.1, NT_187005.1, NT_187004.1, NT_166433.1, NT_165784.1, NT_039292.1, NT_109318.2, NT_078651.1, NT_097336.1, NT_187018.1, NT_187000.1, NT_186999.1, NT_166295.1, NT_166293.1, NT_166294.1, NT_166322.1, NT_187001.1, NC_005089.1]
+  features contigs = [1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 3, 4, 5, 6, 7, 8, 9, X, Y, MT]
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.

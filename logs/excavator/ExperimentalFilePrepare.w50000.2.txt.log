@@ -1,0 +1,3079 @@
+input file is /gpfs/data/kline-lab/inputs/ExperimentalFilePrepare.w50000.2.txt
+Program folder is: /scratch/mleukam/EXCAVATOR2
+Preparing Multiprocessor Analysis...
+Starting Multiprocessor Analysis!
+Creating '/scratch/mleukam/duke_wes/2260/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2260/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2260/Images' folder...
+Working on sample 2260.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2273/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2273/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2273/Images' folder...
+Working on sample 2273.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2165/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2165/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2165/Images' folder...
+Working on sample 2165.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2156/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2156/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2156/Images' folder...
+Working on sample 2156.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2251/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2251/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2251/Images' folder...
+Working on sample 2251.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2208/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2208/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2208/Images' folder...
+Working on sample 2208.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2198/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2198/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2198/Images' folder...
+Working on sample 2198.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2226/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2226/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2226/Images' folder...
+Working on sample 2226.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2297/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2297/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2297/Images' folder...
+Working on sample 2297.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2242/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2242/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2242/Images' folder...
+Working on sample 2242.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2217/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2217/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2217/Images' folder...
+Working on sample 2217.
+Creating Read Count Data...
+Creating '/scratch/mleukam/duke_wes/2234/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2234/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2234/Images' folder...
+Working on sample 2234.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2252/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2252/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2252/Images' folder...
+Working on sample 2252.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2278/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2278/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2278/Images' folder...
+Working on sample 2278.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2253/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2253/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2253/Images' folder...
+Working on sample 2253.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2261/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2261/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2261/Images' folder...
+Working on sample 2261.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2227/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2227/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2227/Images' folder...
+Working on sample 2227.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+null device 
+          1 
+null device 
+          1 
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2157/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2157/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2157/Images' folder...
+Working on sample 2157.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2254/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2254/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2254/Images' folder...
+Working on sample 2254.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2166/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2166/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2166/Images' folder...
+Working on sample 2166.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2298/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2298/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2298/Images' folder...
+Working on sample 2298.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2235/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2235/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2235/Images' folder...
+Working on sample 2235.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2219/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2219/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2219/Images' folder...
+Working on sample 2219.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2209/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2209/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2209/Images' folder...
+Working on sample 2209.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2243/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2243/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2243/Images' folder...
+Working on sample 2243.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2262/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2262/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2262/Images' folder...
+Working on sample 2262.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2199/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2199/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2199/Images' folder...
+Working on sample 2199.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2279/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2279/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2279/Images' folder...
+Working on sample 2279.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2158/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2158/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2158/Images' folder...
+Working on sample 2158.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2236/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2236/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2236/Images' folder...
+Working on sample 2236.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2255/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2255/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2255/Images' folder...
+Working on sample 2255.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2228/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2228/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2228/Images' folder...
+Working on sample 2228.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2263/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2263/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2263/Images' folder...
+Working on sample 2263.
+Creating Read Count Data...
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2300/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2300/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2300/Images' folder...
+Working on sample 2300.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2190/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2190/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2190/Images' folder...
+Working on sample 2190.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2220/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2220/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2220/Images' folder...
+Working on sample 2220.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2210/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2210/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2210/Images' folder...
+Working on sample 2210.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2200/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2200/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2200/Images' folder...
+Working on sample 2200.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2159/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2159/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2159/Images' folder...
+Working on sample 2159.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2281/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2281/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2281/Images' folder...
+Working on sample 2281.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2244/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2244/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2244/Images' folder...
+Working on sample 2244.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2237/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2237/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2237/Images' folder...
+Working on sample 2237.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2302/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2302/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2302/Images' folder...
+Working on sample 2302.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2229/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2229/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2229/Images' folder...
+Working on sample 2229.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2256/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2256/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2256/Images' folder...
+Working on sample 2256.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2211/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2211/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2211/Images' folder...
+Working on sample 2211.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2269/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2269/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2269/Images' folder...
+Working on sample 2269.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2191/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2191/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2191/Images' folder...
+Working on sample 2191.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2221/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2221/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2221/Images' folder...
+Working on sample 2221.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2201/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2201/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2201/Images' folder...
+Working on sample 2201.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2160/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2160/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2160/Images' folder...
+Working on sample 2160.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2303/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2303/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2303/Images' folder...
+Working on sample 2303.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2203/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2203/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2203/Images' folder...
+Working on sample 2203.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2212/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2212/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2212/Images' folder...
+Working on sample 2212.
+Creating Read Count Data...
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2257/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2257/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2257/Images' folder...
+Working on sample 2257.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2246/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2246/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2246/Images' folder...
+Working on sample 2246.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2259/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2259/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2259/Images' folder...
+Working on sample 2259.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2270/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2270/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2270/Images' folder...
+Working on sample 2270.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2286/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2286/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2286/Images' folder...
+Working on sample 2286.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2230/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2230/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2230/Images' folder...
+Working on sample 2230.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2192/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2192/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2192/Images' folder...
+Working on sample 2192.
+Creating Read Count Data...
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+null device 
+          1 
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2204/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2204/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2204/Images' folder...
+Working on sample 2204.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2222/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2222/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2222/Images' folder...
+Working on sample 2222.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2306/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2306/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2306/Images' folder...
+Working on sample 2306.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2238/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2238/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2238/Images' folder...
+Working on sample 2238.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2251 2252 2253 2254 2255 2256 2257 2259Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2161/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2161/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2161/Images' folder...
+Working on sample 2161.
+Creating Read Count Data...
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Error in seq.default(2, length(tt) * 2, by = 2) : 
+  wrong sign in 'by' argument
+Calls: seq -> seq.default
+Execution halted
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Error in gzfile(file) : invalid 'description' argument
+Calls: loadRC -> load -> gzfile
+Execution halted
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2213/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2213/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2213/Images' folder...
+Working on sample 2213.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2271/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2271/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2271/Images' folder...
+Working on sample 2271.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2205/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2205/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2205/Images' folder...
+Working on sample 2205.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2290/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2290/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2290/Images' folder...
+Working on sample 2290.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2231/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2231/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2231/Images' folder...
+Working on sample 2231.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2193/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2193/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2193/Images' folder...
+Working on sample 2193.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2307/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2307/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2307/Images' folder...
+Working on sample 2307.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2247/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2247/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2247/Images' folder...
+Working on sample 2247.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2223/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2223/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2223/Images' folder...
+Working on sample 2223.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2239/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2239/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2239/Images' folder...
+Working on sample 2239.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2214/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2214/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2214/Images' folder...
+Working on sample 2214.
+Creating Read Count Data...
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2162/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2162/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2162/Images' folder...
+Working on sample 2162.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2272/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2272/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2272/Images' folder...
+Working on sample 2272.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2291/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2291/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2291/Images' folder...
+Working on sample 2291.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2448/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2448/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2448/Images' folder...
+Working on sample 2448.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2224/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2224/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2224/Images' folder...
+Working on sample 2224.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2163/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2163/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2163/Images' folder...
+Working on sample 2163.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2206/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2206/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2206/Images' folder...
+Working on sample 2206.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2297 2298 2300 2302 2303 2306 2307 2448Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2194/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2194/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2194/Images' folder...
+Working on sample 2194.
+Creating Read Count Data...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2232/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2232/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2232/Images' folder...
+Working on sample 2232.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2293/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2293/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2293/Images' folder...
+Working on sample 2293.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2260 2261 2262 2263 2269 2270 2271 2272Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2240/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2240/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2240/Images' folder...
+Working on sample 2240.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2248/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2248/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2248/Images' folder...
+Working on sample 2248.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2207/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2207/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2207/Images' folder...
+Working on sample 2207.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2164/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2164/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2164/Images' folder...
+Working on sample 2164.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2215/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2215/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2215/Images' folder...
+Working on sample 2215.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2156 2157 2158 2159 2160 2161 2162 2163 2164null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2225/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2225/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2225/Images' folder...
+Working on sample 2225.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2195/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2195/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2195/Images' folder...
+Working on sample 2195.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2198 2199 2200 2201 2203 2204 2205 2206 2207Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2273 2278 2279 2281 2286 2290 2291 2293Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2249/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2249/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2249/Images' folder...
+Working on sample 2249.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2233/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2233/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2233/Images' folder...
+Working on sample 2233.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2216/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2216/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2216/Images' folder...
+Working on sample 2216.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2241/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2241/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2241/Images' folder...
+Working on sample 2241.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2196/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2196/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2196/Images' folder...
+Working on sample 2196.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Creating '/scratch/mleukam/duke_wes/2250/RC' folder...
+Creating '/scratch/mleukam/duke_wes/2250/RCNorm' folder...
+Creating '/scratch/mleukam/duke_wes/2250/Images' folder...
+Working on sample 2250.
+Creating Read Count Data...
+Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2217 2219 2220 2221 2222 2223 2224 2225Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2234 2235 2236 2237 2238 2239 2240 2241Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2208 2209 2210 2211 2212 2213 2214 2215 2216Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2226 2227 2228 2229 2230 2231 2232 2233Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2242 2243 2244 2246 2247 2248 2249 2250Removing temporary files...
+Read Count done!
+Normalizing Read Count Data...
+Loading required package: lattice
+Loading required package: survival
+Loading required package: Formula
+Loading required package: ggplot2
+
+Attaching package: ‘Hmisc’
+
+The following objects are masked from ‘package:base’:
+
+    format.pval, units
+
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Normalization done!
+Performed RC calculations and Normalization on samples: 
+2165 2166 2190 2191 2192 2193 2194 2195 2196Multiprocessor Analysis Complete!
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11532245.cri16sc001
+User ID:           mleukam
+Job Name:          excavator_dataprep_/gpfs/data/kline-lab/inputs/ExperimentalFilePrepare.w50000.2.txt
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=08:00:00,nodes=1:ppn=12,mem=8gb,neednodes=1:ppn=12
+Resources Used:    cput=26:46:57,vmem=10595940kb,walltime=02:33:45,mem=1429476kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn082
+
+Execution Nodes: 
+cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082
+
+

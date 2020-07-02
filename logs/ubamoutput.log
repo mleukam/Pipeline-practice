@@ -1,0 +1,18 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            7697880.cri16sc001
+User ID:           mleukam
+Job Name:          test_uBAM
+Queue Name:        standard
+Working Directory: /home/mleukam
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=03:54:04,vmem=6265088kb,walltime=03:56:49,mem=2067700kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn082
+
+Execution Nodes: 
+cri16cn082
+
+

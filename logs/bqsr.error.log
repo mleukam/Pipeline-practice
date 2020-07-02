@@ -1,0 +1,89 @@
+10:48:05.305 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs/apps/haswell/software/java-jdk-1.8.0_92/gatk/4.0.6.0/gatk-package-4.0.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+10:48:05.336 WARN  NativeLibraryLoader - Unable to load libgkl_compression.so from native/libgkl_compression.so (/tmp/mleukam/libgkl_compression2521679348053143302.so: /tmp/mleukam/libgkl_compression2521679348053143302.so: failed to map segment from shared object: Operation not permitted)
+10:48:05.338 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs/apps/haswell/software/java-jdk-1.8.0_92/gatk/4.0.6.0/gatk-package-4.0.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+10:48:05.361 WARN  NativeLibraryLoader - Unable to load libgkl_compression.so from native/libgkl_compression.so (/tmp/mleukam/libgkl_compression1627330590711573267.so: /tmp/mleukam/libgkl_compression1627330590711573267.so: failed to map segment from shared object: Operation not permitted)
+10:48:05.532 INFO  BaseRecalibrator - ------------------------------------------------------------
+10:48:05.532 INFO  BaseRecalibrator - The Genome Analysis Toolkit (GATK) v4.0.6.0
+10:48:05.532 INFO  BaseRecalibrator - For support and documentation go to https://software.broadinstitute.org/gatk/
+10:48:05.534 INFO  BaseRecalibrator - Executing as mleukam@cri16cn224 on Linux v2.6.32-573.12.1.el6.x86_64 amd64
+10:48:05.534 INFO  BaseRecalibrator - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+10:48:05.534 INFO  BaseRecalibrator - Start Date/Time: August 23, 2018 10:48:05 AM CDT
+10:48:05.534 INFO  BaseRecalibrator - ------------------------------------------------------------
+10:48:05.534 INFO  BaseRecalibrator - ------------------------------------------------------------
+10:48:05.534 INFO  BaseRecalibrator - HTSJDK Version: 2.16.0
+10:48:05.535 INFO  BaseRecalibrator - Picard Version: 2.18.7
+10:48:05.535 INFO  BaseRecalibrator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+10:48:05.535 INFO  BaseRecalibrator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+10:48:05.535 INFO  BaseRecalibrator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+10:48:05.535 INFO  BaseRecalibrator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+10:48:05.535 INFO  BaseRecalibrator - Deflater: JdkDeflater
+10:48:05.535 INFO  BaseRecalibrator - Inflater: JdkInflater
+10:48:05.535 INFO  BaseRecalibrator - GCS max retries/reopens: 20
+10:48:05.535 INFO  BaseRecalibrator - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+10:48:05.535 INFO  BaseRecalibrator - Initializing engine
+10:48:06.906 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+10:48:06.910 WARN  IntelDeflaterFactory - IntelInflater is not supported, using Java.util.zip.Inflater
+10:48:07.760 INFO  FeatureManager - Using codec VCFCodec to read file file:///group/kline-lab/ref/dbsnp_151.vcf
+10:48:13.113 INFO  FeatureManager - Using codec VCFCodec to read file file:///group/kline-lab/ref/Mills_and_1000G_gold_standard.indels.hg38.vcf
+10:48:13.532 INFO  FeatureManager - Using codec VCFCodec to read file file:///group/kline-lab/ref/1000G_phase1.snps.high_confidence.hg38.vcf
+10:48:13.819 WARN  IndexUtils - Feature file "/group/kline-lab/ref/dbsnp_151.vcf" appears to contain no sequence dictionary. Attempting to retrieve a sequence dictionary from the associated index file
+10:48:32.966 INFO  BaseRecalibrator - Done initializing engine
+10:48:33.010 INFO  BaseRecalibrationEngine - The covariates being used here: 
+10:48:33.010 INFO  BaseRecalibrationEngine - 	ReadGroupCovariate
+10:48:33.010 INFO  BaseRecalibrationEngine - 	QualityScoreCovariate
+10:48:33.010 INFO  BaseRecalibrationEngine - 	ContextCovariate
+10:48:33.010 INFO  BaseRecalibrationEngine - 	CycleCovariate
+10:48:33.077 INFO  ProgressMeter - Starting traversal
+10:48:33.079 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Reads Processed     Reads/Minute
+10:48:43.173 INFO  ProgressMeter -         chr1:1072001              0.2                 12000          71371.9
+10:48:59.398 INFO  ProgressMeter -             chrM:649              0.4                 54000         123105.0
+10:48:59.883 INFO  BaseRecalibrator - 23140 read(s) filtered by: ((((((MappingQualityNotZeroReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND WellformedReadFilter)
+  23140 read(s) filtered by: (((((MappingQualityNotZeroReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter)
+      23140 read(s) filtered by: ((((MappingQualityNotZeroReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter)
+          10295 read(s) filtered by: (((MappingQualityNotZeroReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter)
+              7357 read(s) filtered by: ((MappingQualityNotZeroReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter)
+                  7357 read(s) filtered by: (MappingQualityNotZeroReadFilter AND MappingQualityAvailableReadFilter)
+                      7357 read(s) filtered by: MappingQualityNotZeroReadFilter 
+              2938 read(s) filtered by: NotSecondaryAlignmentReadFilter 
+          12845 read(s) filtered by: NotDuplicateReadFilter 
+
+10:48:59.883 INFO  ProgressMeter -           chrM:15756              0.4                 65520         146664.7
+10:48:59.883 INFO  ProgressMeter - Traversal complete. Processed 65520 total reads in 0.4 minutes.
+10:49:00.061 INFO  BaseRecalibrator - Calculating quantized quality scores...
+10:49:00.130 INFO  BaseRecalibrator - Writing recalibration report...
+10:49:03.971 INFO  BaseRecalibrator - ...done!
+10:49:03.972 INFO  BaseRecalibrator - Shutting down engine
+[August 23, 2018 10:49:03 AM CDT] org.broadinstitute.hellbender.tools.walkers.bqsr.BaseRecalibrator done. Elapsed time: 0.98 minutes.
+Runtime.totalMemory()=7124025344
+10:49:09.632 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs/apps/haswell/software/java-jdk-1.8.0_92/gatk/4.0.6.0/gatk-package-4.0.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+10:49:09.657 WARN  NativeLibraryLoader - Unable to load libgkl_compression.so from native/libgkl_compression.so (/tmp/mleukam/libgkl_compression2291247732386425391.so: /tmp/mleukam/libgkl_compression2291247732386425391.so: failed to map segment from shared object: Operation not permitted)
+10:49:09.658 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs/apps/haswell/software/java-jdk-1.8.0_92/gatk/4.0.6.0/gatk-package-4.0.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+10:49:09.681 WARN  NativeLibraryLoader - Unable to load libgkl_compression.so from native/libgkl_compression.so (/tmp/mleukam/libgkl_compression2083466445644225900.so: /tmp/mleukam/libgkl_compression2083466445644225900.so: failed to map segment from shared object: Operation not permitted)
+10:49:09.844 INFO  ApplyBQSR - ------------------------------------------------------------
+10:49:09.844 INFO  ApplyBQSR - The Genome Analysis Toolkit (GATK) v4.0.6.0
+10:49:09.844 INFO  ApplyBQSR - For support and documentation go to https://software.broadinstitute.org/gatk/
+10:49:09.844 INFO  ApplyBQSR - Executing as mleukam@cri16cn224 on Linux v2.6.32-573.12.1.el6.x86_64 amd64
+10:49:09.844 INFO  ApplyBQSR - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+10:49:09.845 INFO  ApplyBQSR - Start Date/Time: August 23, 2018 10:49:09 AM CDT
+10:49:09.845 INFO  ApplyBQSR - ------------------------------------------------------------
+10:49:09.845 INFO  ApplyBQSR - ------------------------------------------------------------
+10:49:09.845 INFO  ApplyBQSR - HTSJDK Version: 2.16.0
+10:49:09.845 INFO  ApplyBQSR - Picard Version: 2.18.7
+10:49:09.845 INFO  ApplyBQSR - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+10:49:09.845 INFO  ApplyBQSR - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+10:49:09.845 INFO  ApplyBQSR - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+10:49:09.845 INFO  ApplyBQSR - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+10:49:09.845 INFO  ApplyBQSR - Deflater: JdkDeflater
+10:49:09.845 INFO  ApplyBQSR - Inflater: JdkInflater
+10:49:09.846 INFO  ApplyBQSR - GCS max retries/reopens: 20
+10:49:09.846 INFO  ApplyBQSR - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+10:49:09.846 INFO  ApplyBQSR - Initializing engine
+10:49:10.900 INFO  ApplyBQSR - Shutting down engine
+[August 23, 2018 10:49:10 AM CDT] org.broadinstitute.hellbender.tools.walkers.bqsr.ApplyBQSR done. Elapsed time: 0.02 minutes.
+Runtime.totalMemory()=2214592512
+***********************************************************************
+
+A USER ERROR has occurred: Couldn't read file. Error was: 2228_addRG.bam with exception: Cannot read non-existent file: file:///scratch/mleukam/dave_subset/2228_addRG.bam
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.

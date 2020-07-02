@@ -1,0 +1,34 @@
+Default case invoked for: 
+   opcode  = 153, "LoopLimit"
+  9942775.cri16sc001
+User ID:           mleukam
+Job Name:          PoN_align
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=48:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=00:00:01,vmem=0kb,walltime=00:00:03,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9942776.cri16sc001
+User ID:           mleukam
+Job Name:          PoN_align
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=48:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=34:33:07,vmem=37817872kb,walltime=35:34:13,mem=12782356kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228
+
+

@@ -1,0 +1,18 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8134857.cri16sc001
+User ID:           mleukam
+Job Name:          mark_duplicates
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=08:00:00,nodes=1:ppn=1,mem=32gb,neednodes=1:ppn=1
+Resources Used:    cput=00:18:53,vmem=37827428kb,walltime=00:18:55,mem=22250176kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn206
+
+Execution Nodes: 
+cri16cn206
+
+

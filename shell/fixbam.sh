@@ -39,6 +39,10 @@ do
     java -Xmx8G -jar ${PICARD} AddOrReplaceReadGroups \
     INPUT=${SAMPLE}.bam \
     OUTPUT=${SAMPLE}.bam \
+    RGID=Z:SRR766045 \
+    RGLB=library1 \
+    RGPL=illumina \
+    RGPU=20150826 \
     RGSM=${SAMPLE} \
     SORT_ORDER=coordinate \
     CREATE_INDEX=true \

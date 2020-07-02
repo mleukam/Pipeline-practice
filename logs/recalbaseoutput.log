@@ -1,0 +1,59 @@
+Tool returned:
+63087917
+Tool returned:
+51919933
+Tool returned:
+58941605
+Tool returned:
+60247625
+Tool returned:
+55778282
+Tool returned:
+60239578
+me:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn209
+
+Execution Nodes: 
+cri16cn209
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8091290.cri16sc001
+User ID:           mleukam
+Job Name:          recal_bases
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=05:59:49,vmem=21528332kb,walltime=06:19:14,mem=7941544kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8095601.cri16sc001
+User ID:           mleukam
+Job Name:          recal_bases
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=03:02:15,vmem=21594896kb,walltime=03:03:05,mem=2255368kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn226
+
+Execution Nodes: 
+cri16cn226
+
+

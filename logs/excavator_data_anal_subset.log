@@ -1,0 +1,135 @@
+START Sun Dec 23 00:32:37 CST 2018
+project = dataAnalysis
+assembly = hg19
+agilent = 
+targetName = S04380110_V5_w50k
+[  Sun Dec 23 00:32:37 CST 2018  ] Parsing BAM and normalization: EXCAVATORDataPrepare.pl
+expAnal= /gpfs/data/kline-lab/inputs/ExperimentalFileAnalysis.subset.w50K.txt
+Checking output folders...
+'/scratch/mleukam/Results_Duke_w50K' folder ready!
+Checking output subfolders...
+'/scratch/mleukam/Results_Duke_w50K/Results' folder ready!
+'/scratch/mleukam/Results_Duke_w50K/Plots' folder ready!
+'/scratch/mleukam/Results_Duke_w50K/.tmp' folder ready!
+Creating Pooling Control!
+Warning message:
+In dir.create(file.path(DataFolder, "Control")) :
+  '/scratch/mleukam/Results_Duke_w50K/Control' already exists
+Warning message:
+In dir.create(file.path(DataFolder, "Control", "RCNorm")) :
+  '/scratch/mleukam/Results_Duke_w50K/Control/RCNorm' already exists
+Pooling Control Created!
+Preparing Multiprocessor Analysis...
+Multiprocessor Analysis Complete
+Starting Multiprocessor Analysis!
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/2253/RCNorm/2253.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/2253/HSLMResults_2253.txt': No such file or directory
+Execution halted
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/3846/RCNorm/3846.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/2073/RCNorm/2073.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/2727/RCNorm/2727.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/3846/HSLMResults_3846.txt': No such file or directory
+Execution halted
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/2073/HSLMResults_2073.txt': No such file or directory
+Execution halted
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/2727/HSLMResults_2727.txt': No such file or directory
+Execution halted
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/3660/RCNorm/3660.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/3660/HSLMResults_3660.txt': No such file or directory
+Execution halted
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file '/scratch/mleukam/duke_wes/3597/RCNorm/3597.NRC.RData', probable reason 'No such file or directory'
+Execution halted
+Segmentation and Calling Complete
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '/scratch/mleukam/Results_Duke_w50K/Results/3597/HSLMResults_3597.txt': No such file or directory
+Execution halted
+My Children: 20003 20004 20005 20006 20007 20008
+Multiprocessor Analysis Complete!
+END Sun Dec 23 01:37:10 CST 2018
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11567253.cri16sc001
+User ID:           mleukam
+Job Name:          excavator_anal
+Queue Name:        mid
+Working Directory: /home/mleukam/shell
+Resource List:     walltime=12:00:00,nodes=1:ppn=6,mem=16gb,neednodes=1:ppn=6
+Resources Used:    cput=02:05:59,vmem=6195972kb,walltime=01:04:34,mem=3562316kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn215
+
+Execution Nodes: 
+cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215 cri16cn215
+
+

@@ -1,0 +1,64 @@
+[Tue Aug 28 17:54:28 CDT 2018] picard.sam.RevertSam INPUT=790.start.bam OUTPUT=790_revertsam.bam SORT_ORDER=queryname RESTORE_ORIGINAL_QUALITIES=true REMOVE_DUPLICATE_INFORMATION=true REMOVE_ALIGNMENT_INFORMATION=true ATTRIBUTE_TO_CLEAR=[NM, UQ, PG, MD, MQ, SA, MC, AS, XT, XN, AS, OC, OP] SANITIZE=true MAX_DISCARD_FRACTION=0.3    OUTPUT_BY_READGROUP=false OUTPUT_BY_READGROUP_FILE_FORMAT=dynamic VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Aug 28 17:54:28 CDT 2018] Executing as mleukam@cri16cn082 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-28 17:54:54	RevertSam	Reverted     1,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:   25s.  Last read position: chr1:86,900,297
+INFO	2018-08-28 17:54:59	RevertSam	Detected quality format for @HISEQ:393:C6RBPANXX:7: Standard
+INFO	2018-08-28 17:55:40	RevertSam	Sanitized     1,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2018-08-28 17:55:47	RevertSam	Discarded 2467 out of 1181063 (0.209%) reads in order to sanitize output.
+[Tue Aug 28 17:55:47 CDT 2018] picard.sam.RevertSam done. Elapsed time: 1.31 minutes.
+Runtime.totalMemory()=4147642368
+DISCARD_FRACTION=0.3    OUTPUT_BY_READGROUP=false OUTPUT_BY_READGROUP_FILE_FORMAT=dynamic VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 20:27:20 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-22 20:27:43	RevertSam	Reverted     1,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:   22s.  Last read position: chr1:62,380,140
+INFO	2018-08-22 20:27:56	RevertSam	Reverted     2,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:   13s.  Last read position: chr1:155,149,427
+INFO	2018-08-22 20:28:11	RevertSam	Reverted     3,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:   14s.  Last read position: chr1:214,853,140
+INFO	2018-08-22 20:28:25	RevertSam	Reverted     4,000,000 records.  Elapsed time: 00:01:04s.  Time for last 1,000,000:   14s.  Last read position: chr2:44,566,228
+INFO	2018-08-22 20:28:38	RevertSam	Reverted     5,000,000 records.  Elapsed time: 00:01:17s.  Time for last 1,000,000:   13s.  Last read position: chr2:136,623,720
+INFO	2018-08-22 20:28:51	RevertSam	Reverted     6,000,000 records.  Elapsed time: 00:01:30s.  Time for last 1,000,000:   13s.  Last read position: chr2:219,269,005
+INFO	2018-08-22 20:29:22	RevertSam	Reverted     7,000,000 records.  Elapsed time: 00:02:01s.  Time for last 1,000,000:   30s.  Last read position: chr3:47,476,508
+INFO	2018-08-22 20:29:43	RevertSam	Reverted     8,000,000 records.  Elapsed time: 00:02:22s.  Time for last 1,000,000:   21s.  Last read position: chr3:130,323,085
+INFO	2018-08-22 20:29:58	RevertSam	Reverted     9,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:   14s.  Last read position: chr4:17,886,347
+INFO	2018-08-22 20:30:11	RevertSam	Reverted    10,000,000 records.  Elapsed time: 00:02:50s.  Time for last 1,000,000:   13s.  Last read position: chr4:137,363,476
+INFO	2018-08-22 20:30:25	RevertSam	Reverted    11,000,000 records.  Elapsed time: 00:03:04s.  Time for last 1,000,000:   13s.  Last read position: chr5:64,883,072
+INFO	2018-08-22 20:30:35	RevertSam	Detected quality format for @HISEQ:377:C61VGANXX:5: Standard
+INFO	2018-08-22 20:31:16	RevertSam	Sanitized     1,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:   41s.  Last read position: */*
+INFO	2018-08-22 20:31:55	RevertSam	Sanitized     2,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:32:35	RevertSam	Sanitized     3,000,000 records.  Elapsed time: 00:01:59s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:33:14	RevertSam	Sanitized     4,000,000 records.  Elapsed time: 00:02:38s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:33:53	RevertSam	Sanitized     5,000,000 records.  Elapsed time: 00:03:17s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:34:32	RevertSam	Sanitized     6,000,000 records.  Elapsed time: 00:03:56s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:35:11	RevertSam	Sanitized     7,000,000 records.  Elapsed time: 00:04:36s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:35:50	RevertSam	Sanitized     8,000,000 records.  Elapsed time: 00:05:15s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:36:29	RevertSam	Sanitized     9,000,000 records.  Elapsed time: 00:05:54s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:37:08	RevertSam	Sanitized    10,000,000 records.  Elapsed time: 00:06:33s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:37:47	RevertSam	Sanitized    11,000,000 records.  Elapsed time: 00:07:12s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2018-08-22 20:37:59	RevertSam	Discarded 223636 out of 11531876 (1.939%) reads in order to sanitize output.
+[Wed Aug 22 20:37:59 CDT 2018] picard.sam.RevertSam done. Elapsed time: 10.65 minutes.
+Runtime.totalMemory()=3995074560
+[Wed Aug 22 20:39:03 CDT 2018] picard.sam.RevertSam INPUT=2642.start.bam OUTPUT=2642_revertsam.bam SORT_ORDER=queryname RESTORE_ORIGINAL_QUALITIES=true REMOVE_DUPLICATE_INFORMATION=true REMOVE_ALIGNMENT_INFORMATION=true ATTRIBUTE_TO_CLEAR=[NM, UQ, PG, MD, MQ, SA, MC, AS, XT, XN, AS, OC, OP] SANITIZE=true MAX_DISCARD_FRACTION=0.3    OUTPUT_BY_READGROUP=false OUTPUT_BY_READGROUP_FILE_FORMAT=dynamic VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 20:39:03 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-22 20:39:26	RevertSam	Reverted     1,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:   22s.  Last read position: chr1:101,467,023
+INFO	2018-08-22 20:39:39	RevertSam	Detected quality format for @HISEQ:143:C61F1ANXX:4: Standard
+INFO	2018-08-22 20:40:24	RevertSam	Sanitized     1,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:   42s.  Last read position: */*
+INFO	2018-08-22 20:41:01	RevertSam	Discarded 36738 out of 1952468 (1.882%) reads in order to sanitize output.
+[Wed Aug 22 20:41:01 CDT 2018] picard.sam.RevertSam done. Elapsed time: 1.96 minutes.
+Runtime.totalMemory()=3901227008
+[Wed Aug 22 20:41:03 CDT 2018] picard.sam.RevertSam INPUT=2671.start.bam OUTPUT=2671_revertsam.bam SORT_ORDER=queryname RESTORE_ORIGINAL_QUALITIES=true REMOVE_DUPLICATE_INFORMATION=true REMOVE_ALIGNMENT_INFORMATION=true ATTRIBUTE_TO_CLEAR=[NM, UQ, PG, MD, MQ, SA, MC, AS, XT, XN, AS, OC, OP] SANITIZE=true MAX_DISCARD_FRACTION=0.3    OUTPUT_BY_READGROUP=false OUTPUT_BY_READGROUP_FILE_FORMAT=dynamic VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 20:41:03 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-22 20:41:08	RevertSam	Detected quality format for @HWI-D00351:160:C583HANXX:5: Standard
+INFO	2018-08-22 20:41:14	RevertSam	Discarded 404 out of 52976 (0.763%) reads in order to sanitize output.
+[Wed Aug 22 20:41:14 CDT 2018] picard.sam.RevertSam done. Elapsed time: 0.18 minutes.
+Runtime.totalMemory()=2025848832
+[Wed Aug 22 20:43:45 CDT 2018] picard.sam.RevertSam INPUT=2889.start.bam OUTPUT=2889_revertsam.bam SORT_ORDER=queryname RESTORE_ORIGINAL_QUALITIES=true REMOVE_DUPLICATE_INFORMATION=true REMOVE_ALIGNMENT_INFORMATION=true ATTRIBUTE_TO_CLEAR=[NM, UQ, PG, MD, MQ, SA, MC, AS, XT, XN, AS, OC, OP] SANITIZE=true MAX_DISCARD_FRACTION=0.3    OUTPUT_BY_READGROUP=false OUTPUT_BY_READGROUP_FILE_FORMAT=dynamic VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Wed Aug 22 20:43:45 CDT 2018] Executing as mleukam@cri16cn088 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-22 20:44:07	RevertSam	Reverted     1,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:   21s.  Last read position: chr1:75,856,840
+INFO	2018-08-22 20:44:20	RevertSam	Reverted     2,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:   13s.  Last read position: chr1:155,149,549
+INFO	2018-08-22 20:44:34	RevertSam	Reverted     3,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:   14s.  Last read position: chr1:204,878,696
+INFO	2018-08-22 20:44:48	RevertSam	Reverted     4,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:   13s.  Last read position: chr2:26,606,014
+INFO	2018-08-22 20:44:59	RevertSam	Detected quality format for @HISEQ:372:C5889ANXX:3: Standard
+INFO	2018-08-22 20:45:40	RevertSam	Sanitized     1,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2018-08-22 20:46:18	RevertSam	Sanitized     2,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:   38s.  Last read position: */*
+INFO	2018-08-22 20:46:56	RevertSam	Sanitized     3,000,000 records.  Elapsed time: 00:01:57s.  Time for last 1,000,000:   37s.  Last read position: */*
+INFO	2018-08-22 20:47:34	RevertSam	Sanitized     4,000,000 records.  Elapsed time: 00:02:35s.  Time for last 1,000,000:   38s.  Last read position: */*
+INFO	2018-08-22 20:47:52	RevertSam	Discarded 210268 out of 4672896 (4.500%) reads in order to sanitize output.
+[Wed Aug 22 20:47:52 CDT 2018] picard.sam.RevertSam done. Elapsed time: 4.11 minutes.
+Runtime.totalMemory()=3508011008

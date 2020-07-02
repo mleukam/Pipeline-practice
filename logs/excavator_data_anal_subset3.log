@@ -1,0 +1,56 @@
+START Mon Dec 24 21:52:21 CST 2018
+project = dataAnalysis
+assembly = hg19
+targetName = S04380110_V5_w50k
+[  Mon Dec 24 21:52:21 CST 2018  ] EXCAVATORDataAnalysis.pl
+expAnal= /gpfs/data/kline-lab/inputs/ExperimentalFileAnalysis.subset.w50K.txt
+Checking output folders...
+'/scratch/mleukam/Results_Duke_w50K_2' folder created!
+Checking output subfolders...
+Creating '/scratch/mleukam/Results_Duke_w50K_2/Results' folder...
+Creating '/scratch/mleukam/Results_Duke_w50K_2/Plots' folder...
+Creating '/scratch/mleukam/Results_Duke_w50K_2/.tmp' folder...
+Creating Pooling Control!
+Pooling Control Created!
+Preparing Multiprocessor Analysis...
+Multiprocessor Analysis Complete
+Starting Multiprocessor Analysis!
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Starting Segmentation and Calling...
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Read 23 items
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+Segmentation and Calling Complete
+My Children: 78189 78190 78191 78192 78193 78194
+Multiprocessor Analysis Complete!
+END Mon Dec 24 23:04:12 CST 2018
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11567395.cri16sc001
+User ID:           mleukam
+Job Name:          excavator_anal
+Queue Name:        mid
+Working Directory: /home/mleukam/shell
+Resource List:     walltime=12:00:00,nodes=1:ppn=6,mem=16gb,neednodes=1:ppn=6
+Resources Used:    cput=06:29:18,vmem=7043632kb,walltime=01:11:52,mem=4390244kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn228
+
+Execution Nodes: 
+cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228 cri16cn228
+
+

@@ -72,33 +72,16 @@ FQDIR=/scratch/mleukam/mouse/fastqc
 # path to temporary working directory
 TMPDIR=/scratch/mleukam/temp
 
-# sort merged BAM by coordinate for later analysis
-java -Xmx32G -jar ${PICARD} SortSam \
-I=${SAMPLE}_merged.bam \
-O=${SAMPLE}_merged.sorted.bam \
-SORT_ORDER=coordinate
-
-echo unmatched reads filtered, ${SAMPLE} is merged
-
 ####################################
 # BASE QUALITY SCORE RECALIBRATION #
 ####################################
 
-# mark duplicates
-java -Xmx32G -jar ${PICARD} MarkDuplicates \
-INPUT=${SAMPLE}_merged.sorted.bam \
-OUTPUT=${SAMPLE}_markduplicates.bam \
-METRICS_FILE=${SAMPLE}_markduplicates_metrics.txt \
-OPTICAL_DUPLICATE_PIXEL_DISTANCE=2500 \
-CREATE_INDEX=true \
-TMP_DIR=${TMPDIR}
-
 # generate bqsr table
 java -Xmx32G -jar ${GATK} BaseRecalibrator \
 -R ${REF}.fa \
--I ${SAMPLE}_markduplicates.bam \
 --known-sites ${SNP} \
 --known-sites ${INDELS} \
+-I ${SAMPLE}_markduplicates.bam \
 -O ${SAMPLE}_bqsr.table
 
 # apply bqsr table

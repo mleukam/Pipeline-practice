@@ -1,0 +1,109 @@
+./kallisto.sh: line 22: 3: unbound variable
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11430179.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn084
+
+Execution Nodes: 
+cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11430180.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn083
+
+Execution Nodes: 
+cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11430178.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn088
+
+Execution Nodes: 
+cri16cn088 cri16cn088 cri16cn088 cri16cn088 cri16cn088 cri16cn088 cri16cn088 cri16cn088
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11430182.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn083
+
+Execution Nodes: 
+cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083 cri16cn083
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11430181.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn084
+
+Execution Nodes: 
+cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084 cri16cn084
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11430183.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn082
+
+Execution Nodes: 
+cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082 cri16cn082
+
+

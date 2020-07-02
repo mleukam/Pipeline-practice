@@ -1,0 +1,2 @@
+/var/spool/torque/mom_priv/jobs/23432140.cri16sc001.SC: line 18: syntax error near unexpected token `list'
+/var/spool/torque/mom_priv/jobs/23432140.cri16sc001.SC: line 18: `rm(list = ls())'

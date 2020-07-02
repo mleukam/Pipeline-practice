@@ -1,0 +1,53 @@
+Started analysis of JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 5% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 10% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 15% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 20% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 25% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 30% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 35% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 40% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 45% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 50% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 55% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 60% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 65% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 70% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 75% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 80% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 85% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 90% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Approx 95% complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Analysis complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+script complete for JK-TG-12_S6_L007_R1_001.2.fastq.gz
+D:           mleukam
+Job Name:          fastqc_JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Queue Name:        standard
+Working Directory: /gpfs/data/kline-lab/tg101_sequences/code
+Resource List:     walltime=01:00:00,nodes=1:ppn=6,mem=4gb,neednodes=1:ppn=6
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn040
+
+Execution Nodes: 
+cri16cn040 cri16cn040 cri16cn040 cri16cn040 cri16cn040 cri16cn040
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            16801812.cri16sc001
+User ID:           mleukam
+Job Name:          fastqc_JK-TG-12_S6_L007_R1_001.2.fastq.gz
+Queue Name:        standard
+Working Directory: /gpfs/data/kline-lab/tg101_sequences/code
+Resource List:     walltime=01:00:00,nodes=1:ppn=6,mem=4gb,neednodes=1:ppn=6
+Resources Used:    cput=00:03:19,vmem=4548136kb,walltime=00:03:17,mem=530384kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn027
+
+Execution Nodes: 
+cri16cn027 cri16cn027 cri16cn027 cri16cn027 cri16cn027 cri16cn027
+
+

@@ -17,7 +17,7 @@
 ## Specify the standard error (rather than printing to screen)
 #PBS -e /home/mleukam/fastqerror.log
 
-# navigate to shell dir
+# Navigate to shell directory
 cd /home/mleukam/shell
 
 # call shell scrpt

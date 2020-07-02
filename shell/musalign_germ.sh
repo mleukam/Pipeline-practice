@@ -87,7 +87,7 @@ echo fastqc completed for ${SAMPLE}
 #############
 
 # convert bam to unaligned bam file
-# include necessary read information - this will need to be added by hand!
+# necessary read information in aligned bam will be preserved
 java -Xmx32G -jar ${PICARD} RevertSam \
     I=${SAMPLE}.bam \
     O=${SAMPLE}_unaligned.bam \

@@ -1,0 +1,20 @@
+## Name the job
+#PBS -N con_dataprepare
+
+## Request resources
+#PBS -l walltime=12:00:00
+#PBS -l nodes=1:ppn=12
+#PBS -l mem=8gb
+
+## Specify the joined error/output file
+#PBS -j oe 
+#PBS -o /home/mleukam/logs/excavator/control_dataprepare.log
+
+## navigate to shell dir
+cd /home/mleukam/shell
+
+## call shell scrpt
+./con_dataprepare.sh
+
+## exit code
+exit 0

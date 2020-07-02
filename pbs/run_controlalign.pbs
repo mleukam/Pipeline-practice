@@ -1,0 +1,17 @@
+#########################################
+## PBS RUN SCRIPT ALIGNING CONTROL WES ##
+#########################################
+
+## Define the shell
+#PBS -S /bin/bash
+
+# Navigate to shell dir
+cd /home/mleukam/shell
+
+## File variable is passed as argument through the qsub command that invokes this script
+
+## Call shell scrpt
+./controlalign.sh ${sam} ${fq1} ${fq2} ${instrument} ${readgroup} && exit 0
+
+# exit if error
+exit 1

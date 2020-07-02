@@ -2,22 +2,22 @@
 #PBS -S /bin/bash
 
 ## Name the job
-#PBS -N mouse_align2
+#PBS -N mouse_alignfinish2_germ
 
 ## Request resources
-#PBS -l walltime=12:00:00
-#PBS -l nodes=1:ppn=12
-#PBS -l mem=8gb
+#PBS -l walltime=30:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=16G
 
 ## Specify the combined output/error log
 #PBS -j oe
-#PBS -o /home/mleukam/logs/musalign_germ.log
+#PBS -o /home/mleukam/logs/musalign_germ_finish2.log
 
 # navigate to shell dir
 cd /home/mleukam/shell
 
 # call shell scrpt
-./musalign2_germ.sh BALB_cJ BALB_cJ.bam
+./musalign2_germ_finish.sh BALB_cJ BALB_cJ.bam
 
 # exit code
 exit 0

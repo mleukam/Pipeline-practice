@@ -1,0 +1,28 @@
+index for EGAR00001588762_3846.a.1kDLBCL.DLBCL.SL99164.exome_1tier.hg19.final.bam complete
+finding positions of the duplicate reads in the file...
+  sorted 12247989 end pairs
+     and 466605 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 18497 ms
+  found 5138054 duplicates
+collected list of positions in 9 min 37 sec
+removing duplicates...
+sambamba-markdup: Unable to write to stream
+sambamba-view: Error reading BGZF block starting from offset 0: stream error: not enough data in stream
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11325681.cri16sc001
+User ID:           mleukam
+Job Name:          sambamba_EGAR00001588762_3846.a.1kDLBCL.DLBCL.SL99164.exome_1tier.hg19.final.bam
+Queue Name:        express
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=03:00:00,nodes=1:ppn=1,mem=4gb,neednodes=1:ppn=1
+Resources Used:    cput=00:17:59,vmem=4343628kb,walltime=00:18:04,mem=1973712kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn062
+
+Execution Nodes: 
+cri16cn062
+
+

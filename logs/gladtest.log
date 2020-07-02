@@ -1,0 +1,57 @@
+
+######################################################################################
+
+Have fun with GLAD
+
+For smoothing it is possible to use either
+the AWS algorithm (Polzehl and Spokoiny, 2002,
+or the HaarSeg algorithm (Ben-Yaacov and Eldar, Bioinformatics,  2008,
+
+If you use the package with AWS, please cite:
+Hupe et al. (Bioinformatics, 2004, and Polzehl and Spokoiny (2002,
+
+If you use the package with HaarSeg, please cite:
+Hupe et al. (Bioinformatics, 2004, and (Ben-Yaacov and Eldar, Bioinformatics, 2008,
+
+For fast computation it is recommanded to use
+the daglad function with smoothfunc=haarseg
+
+######################################################################################
+
+New options are available in daglad: see help for details.
+
+-- Attaching packages --------------------------------------- tidyverse 1.2.1 --
+<U+221A> ggplot2 3.0.0     <U+221A> purrr   0.2.5
+<U+221A> tibble  1.4.2     <U+221A> dplyr   0.7.6
+<U+221A> tidyr   0.8.1     <U+221A> stringr 1.3.1
+<U+221A> readr   1.1.1     <U+221A> forcats 0.3.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Parsed with column specification:
+cols(
+  PosOrder = col_integer(),
+  Chromosome = col_double(),
+  Position = col_integer(),
+  LogRatio = col_double()
+)
+[1] "Smoothing for each Chromosome"
+[1] "Optimization of the Breakpoints and DNA copy number calling"
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11614967.cri16sc001
+User ID:           mleukam
+Job Name:          gladtest
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=08:00:00,nodes=1:ppn=1,mem=32gb,neednodes=1:ppn=1
+Resources Used:    cput=08:11:19,vmem=813756kb,walltime=08:11:40,mem=580236kb,energy_used=0
+Exit Code:         271
+Mother Superior:   cri16cn216
+
+Execution Nodes: 
+cri16cn216
+
+

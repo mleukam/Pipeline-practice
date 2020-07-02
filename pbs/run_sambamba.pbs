@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#########################################
+## PBS RUN SCRIPT FOR SAMBAMBMA SCRIPT ##
+#########################################
+
+## Define the shell
+#PBS -S /bin/bash
+
+# Navigate to shell dir
+cd /home/mleukam/shell
+
+## File variable is passed as argument through the qsub command that invokes this script
+
+## Call shell scrpt
+./sambamba.sh $file
+
+# exit
+exit 0

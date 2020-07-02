@@ -1,0 +1,54 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8092749.cri16sc001
+User ID:           mleukam
+Job Name:          recal_bases
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:02,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn226
+
+Execution Nodes: 
+cri16cn226
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8092750.cri16sc001
+User ID:           mleukam
+Job Name:          recal_bases
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn226
+
+Execution Nodes: 
+cri16cn226
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8093816.cri16sc001
+User ID:           mleukam
+Job Name:          recal_bases
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:05,vmem=21490792kb,walltime=00:00:08,mem=27784kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn226
+
+Execution Nodes: 
+cri16cn226
+
+

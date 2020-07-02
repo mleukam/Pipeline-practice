@@ -1,0 +1,375 @@
+[Thu Aug 23 00:08:26 CDT 2018] picard.sam.MergeBamAlignment UNMAPPED_BAM=2228_revertsam.bam ALIGNED_BAM=[/dev/stdin] OUTPUT=2228_piped.bam REFERENCE_SEQUENCE=/group/kline-lab/ref/GRCh38_full_plus_decoy.fa CLIP_ADAPTERS=false MAX_INSERTIONS_OR_DELETIONS=-1 ATTRIBUTES_TO_RETAIN=[XS] PRIMARY_ALIGNMENT_STRATEGY=MostDistant CLIP_OVERLAPPING_READS=true INCLUDE_SECONDARY_ALIGNMENTS=true ADD_MATE_CIGAR=true TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    PAIRED_RUN=true IS_BISULFITE_SEQUENCE=false ALIGNED_READS_ONLY=false READ1_TRIM=0 READ2_TRIM=0 ALIGNER_PROPER_PAIR_FLAGS=false SORT_ORDER=coordinate UNMAP_CONTAMINANT_READS=false MIN_UNCLIPPED_BASES=32 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 00:08:26 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Thu Aug 23 00:08:26 CDT 2018] picard.sam.SamToFastq INPUT=2228_markilluminaadapters.bam FASTQ=/dev/stdout INTERLEAVE=true INCLUDE_NON_PF_READS=true CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 TMP_DIR=[/scratch/mleukam/temp]    OUTPUT_PER_RG=false RG_TAG=PU RE_REVERSE=true CLIPPING_MIN_LENGTH=0 READ1_TRIM=0 READ2_TRIM=0 INCLUDE_NON_PRIMARY_ALIGNMENTS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 00:08:26 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-23 00:08:27	SamAlignmentMerger	[/dev/stdin]
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[Thu Aug 23 00:09:17 CDT 2018] picard.sam.SamToFastq done. Elapsed time: 0.84 minutes.
+Runtime.totalMemory()=2058354688
+[M::process] read 84820 sequences (10602500 bp)...
+[M::process] 0 single-end sequences; 84820 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (11, 31284, 9, 5)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (332, 482, 1537)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 3947)
+[M::mem_pestat] mean and std.dev: (679.90, 647.54)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 5152)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (124, 153, 189)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 319)
+[M::mem_pestat] mean and std.dev: (158.34, 49.22)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 384)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_pestat] skip orientation FF
+[M::mem_process_seqs] Processed 84820 reads in 14.825 CPU sec, 14.849 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -M -t 28 -p /group/kline-lab/ref/GRCh38_full_plus_decoy.fa /dev/stdin
+[main] Real time: 73.424 sec; CPU: 19.675 sec
+INFO	2018-08-23 00:10:17	AbstractAlignmentMerger	Wrote 87862 alignment records and 798 unmapped reads.
+[Thu Aug 23 00:10:17 CDT 2018] picard.sam.MergeBamAlignment done. Elapsed time: 1.86 minutes.
+Runtime.totalMemory()=3762290688
+[Thu Aug 23 00:10:19 CDT 2018] picard.sam.MergeBamAlignment UNMAPPED_BAM=2263_revertsam.bam ALIGNED_BAM=[/dev/stdin] OUTPUT=2263_piped.bam REFERENCE_SEQUENCE=/group/kline-lab/ref/GRCh38_full_plus_decoy.fa CLIP_ADAPTERS=false MAX_INSERTIONS_OR_DELETIONS=-1 ATTRIBUTES_TO_RETAIN=[XS] PRIMARY_ALIGNMENT_STRATEGY=MostDistant CLIP_OVERLAPPING_READS=true INCLUDE_SECONDARY_ALIGNMENTS=true ADD_MATE_CIGAR=true TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    PAIRED_RUN=true IS_BISULFITE_SEQUENCE=false ALIGNED_READS_ONLY=false READ1_TRIM=0 READ2_TRIM=0 ALIGNER_PROPER_PAIR_FLAGS=false SORT_ORDER=coordinate UNMAP_CONTAMINANT_READS=false MIN_UNCLIPPED_BASES=32 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 00:10:19 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Thu Aug 23 00:10:19 CDT 2018] picard.sam.SamToFastq INPUT=2263_markilluminaadapters.bam FASTQ=/dev/stdout INTERLEAVE=true INCLUDE_NON_PF_READS=true CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 TMP_DIR=[/scratch/mleukam/temp]    OUTPUT_PER_RG=false RG_TAG=PU RE_REVERSE=true CLIPPING_MIN_LENGTH=0 READ1_TRIM=0 READ2_TRIM=0 INCLUDE_NON_PRIMARY_ALIGNMENTS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 00:10:19 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-23 00:10:20	SamAlignmentMerger	[/dev/stdin]
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+INFO	2018-08-23 00:10:39	SamToFastq	Processed     1,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2018-08-23 00:10:53	SamToFastq	Processed     2,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:   13s.  Last read position: */*
+[M::process] read 2240000 sequences (280000000 bp)...
+[M::process] 0 single-end sequences; 2240000 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1347, 987976, 941, 1345)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (188, 411, 934)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2426)
+[M::mem_pestat] mean and std.dev: (564.51, 509.64)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3172)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 160, 199)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 339)
+[M::mem_pestat] mean and std.dev: (165.93, 53.03)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 409)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (209, 535, 1176)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 3110)
+[M::mem_pestat] mean and std.dev: (696.83, 645.43)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 4077)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (196, 417, 895)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2293)
+[M::mem_pestat] mean and std.dev: (549.08, 477.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 2992)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 2240000 reads in 420.809 CPU sec, 424.285 real sec
+INFO	2018-08-23 00:18:22	SamToFastq	Processed     3,000,000 records.  Elapsed time: 00:08:03s.  Time for last 1,000,000:  449s.  Last read position: */*
+INFO	2018-08-23 00:18:51	SamToFastq	Processed     4,000,000 records.  Elapsed time: 00:08:31s.  Time for last 1,000,000:   28s.  Last read position: */*
+INFO	2018-08-23 00:18:53	AbstractAlignmentMerger	Merged     1,000,000 records.  Elapsed time: 00:08:33s.  Time for last 1,000,000:   51s.  Last read position: chr2:196,769,877
+[M::process] read 2240000 sequences (280000000 bp)...
+[M::process] 0 single-end sequences; 2240000 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1380, 988395, 1007, 1370)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (189, 449, 1041)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2745)
+[M::mem_pestat] mean and std.dev: (629.68, 590.09)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3597)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 160, 199)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 339)
+[M::mem_pestat] mean and std.dev: (165.94, 53.02)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 409)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (196, 468, 1007)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2629)
+[M::mem_pestat] mean and std.dev: (616.03, 592.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3440)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (209, 424, 944)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2414)
+[M::mem_pestat] mean and std.dev: (584.65, 525.20)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3149)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 2240000 reads in 414.126 CPU sec, 432.993 real sec
+INFO	2018-08-23 00:26:26	AbstractAlignmentMerger	Merged     2,000,000 records.  Elapsed time: 00:16:07s.  Time for last 1,000,000:  453s.  Last read position: chr4:145,938,261
+INFO	2018-08-23 00:26:43	SamToFastq	Processed     5,000,000 records.  Elapsed time: 00:16:23s.  Time for last 1,000,000:  472s.  Last read position: */*
+INFO	2018-08-23 00:27:09	SamToFastq	Processed     6,000,000 records.  Elapsed time: 00:16:49s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2018-08-23 00:27:12	AbstractAlignmentMerger	Merged     3,000,000 records.  Elapsed time: 00:16:52s.  Time for last 1,000,000:   45s.  Last read position: chr1:155,058,029
+[M::process] read 2240000 sequences (280000000 bp)...
+[M::process] 0 single-end sequences; 2240000 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1372, 988134, 951, 1250)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (189, 403, 931)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2415)
+[M::mem_pestat] mean and std.dev: (557.50, 505.09)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3157)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 160, 199)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 339)
+[M::mem_pestat] mean and std.dev: (165.94, 53.02)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 409)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (185, 488, 1058)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2804)
+[M::mem_pestat] mean and std.dev: (626.69, 609.35)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3677)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (208, 412, 954)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2446)
+[M::mem_pestat] mean and std.dev: (599.89, 538.81)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3192)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+INFO	2018-08-23 00:34:16	AbstractAlignmentMerger	Merged     4,000,000 records.  Elapsed time: 00:23:57s.  Time for last 1,000,000:  424s.  Last read position: chr4:144,608,352
+[M::mem_process_seqs] Processed 2240000 reads in 417.284 CPU sec, 434.144 real sec
+INFO	2018-08-23 00:35:24	SamToFastq	Processed     7,000,000 records.  Elapsed time: 00:25:04s.  Time for last 1,000,000:  494s.  Last read position: */*
+INFO	2018-08-23 00:35:38	AbstractAlignmentMerger	Merged     5,000,000 records.  Elapsed time: 00:25:18s.  Time for last 1,000,000:   81s.  Last read position: chr1:211,975,156
+INFO	2018-08-23 00:35:51	SamToFastq	Processed     8,000,000 records.  Elapsed time: 00:25:31s.  Time for last 1,000,000:   27s.  Last read position: */*
+[M::process] read 2240000 sequences (280000000 bp)...
+[M::process] 0 single-end sequences; 2240000 paired-end sequences
+INFO	2018-08-23 00:38:58	AbstractAlignmentMerger	Merged     6,000,000 records.  Elapsed time: 00:28:39s.  Time for last 1,000,000:  200s.  Last read position: chr2:128,324,754
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1393, 988075, 960, 1369)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (184, 413, 884)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2284)
+[M::mem_pestat] mean and std.dev: (549.15, 482.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 2984)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 160, 199)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 339)
+[M::mem_pestat] mean and std.dev: (165.79, 53.03)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 409)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (204, 527, 1138)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 3006)
+[M::mem_pestat] mean and std.dev: (681.00, 652.66)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3940)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (189, 396, 952)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2478)
+[M::mem_pestat] mean and std.dev: (574.21, 532.27)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3241)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 2240000 reads in 416.639 CPU sec, 433.403 real sec
+INFO	2018-08-23 00:43:38	SamToFastq	Processed     9,000,000 records.  Elapsed time: 00:33:18s.  Time for last 1,000,000:  466s.  Last read position: */*
+INFO	2018-08-23 00:43:50	AbstractAlignmentMerger	Merged     7,000,000 records.  Elapsed time: 00:33:31s.  Time for last 1,000,000:  291s.  Last read position: chr4:87,892,841
+INFO	2018-08-23 00:44:03	SamToFastq	Processed    10,000,000 records.  Elapsed time: 00:33:43s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2018-08-23 00:44:29	SamToFastq	Processed    11,000,000 records.  Elapsed time: 00:34:09s.  Time for last 1,000,000:   25s.  Last read position: */*
+[M::process] read 2240000 sequences (280000000 bp)...
+[M::process] 0 single-end sequences; 2240000 paired-end sequences
+INFO	2018-08-23 00:45:41	AbstractAlignmentMerger	Merged     8,000,000 records.  Elapsed time: 00:35:22s.  Time for last 1,000,000:  110s.  Last read position: chr2:47,373,949
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1375, 989725, 899, 1284)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (190, 417, 900)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2320)
+[M::mem_pestat] mean and std.dev: (556.76, 510.77)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3030)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 160, 199)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 339)
+[M::mem_pestat] mean and std.dev: (165.86, 53.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 409)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (179, 469, 1064)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2834)
+[M::mem_pestat] mean and std.dev: (624.73, 612.17)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3719)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (208, 411, 957)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2455)
+[M::mem_pestat] mean and std.dev: (568.61, 498.50)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3204)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 2240000 reads in 418.189 CPU sec, 433.928 real sec
+INFO	2018-08-23 00:51:57	AbstractAlignmentMerger	Merged     9,000,000 records.  Elapsed time: 00:41:37s.  Time for last 1,000,000:  375s.  Last read position: chr3:129,250,653
+[Thu Aug 23 00:52:02 CDT 2018] picard.sam.SamToFastq done. Elapsed time: 41.72 minutes.
+Runtime.totalMemory()=1512570880
+[M::process] read 108240 sequences (13530000 bp)...
+[M::process] 0 single-end sequences; 108240 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (47, 47711, 33, 58)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (164, 331, 631)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1565)
+[M::mem_pestat] mean and std.dev: (341.82, 256.21)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 2032)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 160, 198)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 336)
+[M::mem_pestat] mean and std.dev: (165.29, 52.50)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 405)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (239, 585, 1287)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 3383)
+[M::mem_pestat] mean and std.dev: (729.81, 647.15)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 4431)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (230, 630, 1059)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2717)
+[M::mem_pestat] mean and std.dev: (737.09, 572.41)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3546)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 108240 reads in 19.675 CPU sec, 20.399 real sec
+INFO	2018-08-23 00:52:43	AbstractAlignmentMerger	Merged    10,000,000 records.  Elapsed time: 00:42:24s.  Time for last 1,000,000:   46s.  Last read position: chr3:159,800,846
+INFO	2018-08-23 00:53:08	AbstractAlignmentMerger	Merged    11,000,000 records.  Elapsed time: 00:42:48s.  Time for last 1,000,000:   24s.  Last read position: chr3:52,816,989
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -M -t 28 -p /group/kline-lab/ref/GRCh38_full_plus_decoy.fa /dev/stdin
+[main] Real time: 2583.859 sec; CPU: 2149.102 sec
+INFO	2018-08-23 00:58:44	AbstractAlignmentMerger	Written in coordinate order to output    10,000,000 records.  Elapsed time: 00:05:21s.  Time for last 10,000,000:  318s.  Last read position: chr4:154,357,106
+INFO	2018-08-23 00:59:57	AbstractAlignmentMerger	Wrote 11488114 alignment records and 148083 unmapped reads.
+[Thu Aug 23 00:59:57 CDT 2018] picard.sam.MergeBamAlignment done. Elapsed time: 49.63 minutes.
+Runtime.totalMemory()=6124208128
+[Thu Aug 23 00:59:59 CDT 2018] picard.sam.SamToFastq INPUT=2642_markilluminaadapters.bam FASTQ=/dev/stdout INTERLEAVE=true INCLUDE_NON_PF_READS=true CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 TMP_DIR=[/scratch/mleukam/temp]    OUTPUT_PER_RG=false RG_TAG=PU RE_REVERSE=true CLIPPING_MIN_LENGTH=0 READ1_TRIM=0 READ2_TRIM=0 INCLUDE_NON_PRIMARY_ALIGNMENTS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 00:59:59 CDT 2018] picard.sam.MergeBamAlignment UNMAPPED_BAM=2642_revertsam.bam ALIGNED_BAM=[/dev/stdin] OUTPUT=2642_piped.bam REFERENCE_SEQUENCE=/group/kline-lab/ref/GRCh38_full_plus_decoy.fa CLIP_ADAPTERS=false MAX_INSERTIONS_OR_DELETIONS=-1 ATTRIBUTES_TO_RETAIN=[XS] PRIMARY_ALIGNMENT_STRATEGY=MostDistant CLIP_OVERLAPPING_READS=true INCLUDE_SECONDARY_ALIGNMENTS=true ADD_MATE_CIGAR=true TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    PAIRED_RUN=true IS_BISULFITE_SEQUENCE=false ALIGNED_READS_ONLY=false READ1_TRIM=0 READ2_TRIM=0 ALIGNER_PROPER_PAIR_FLAGS=false SORT_ORDER=coordinate UNMAP_CONTAMINANT_READS=false MIN_UNCLIPPED_BASES=32 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 00:59:59 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Thu Aug 23 00:59:59 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-23 00:59:59	SamAlignmentMerger	[/dev/stdin]
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+INFO	2018-08-23 01:00:59	SamToFastq	Processed     1,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:   60s.  Last read position: */*
+[Thu Aug 23 01:01:11 CDT 2018] picard.sam.SamToFastq done. Elapsed time: 1.21 minutes.
+Runtime.totalMemory()=1713373184
+[M::process] read 1915730 sequences (239466250 bp)...
+[M::process] 0 single-end sequences; 1915730 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (248, 854329, 139, 232)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (180, 359, 929)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2427)
+[M::mem_pestat] mean and std.dev: (570.48, 540.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3176)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (137, 176, 228)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 410)
+[M::mem_pestat] mean and std.dev: (186.03, 67.94)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 501)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (208, 386, 787)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1945)
+[M::mem_pestat] mean and std.dev: (482.85, 405.72)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 2524)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (185, 374, 791)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2003)
+[M::mem_pestat] mean and std.dev: (467.20, 403.47)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 2609)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 1915730 reads in 318.950 CPU sec, 319.388 real sec
+INFO	2018-08-23 01:07:06	AbstractAlignmentMerger	Merged     1,000,000 records.  Elapsed time: 00:07:07s.  Time for last 1,000,000:   35s.  Last read position: chr1:27,993,362
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -M -t 28 -p /group/kline-lab/ref/GRCh38_full_plus_decoy.fa /dev/stdin
+[main] Real time: 450.168 sec; CPU: 330.252 sec
+INFO	2018-08-23 01:09:00	AbstractAlignmentMerger	Wrote 1923284 alignment records and 15974 unmapped reads.
+[Thu Aug 23 01:09:00 CDT 2018] picard.sam.MergeBamAlignment done. Elapsed time: 9.03 minutes.
+Runtime.totalMemory()=6210191360
+[Thu Aug 23 01:09:02 CDT 2018] picard.sam.MergeBamAlignment UNMAPPED_BAM=2671_revertsam.bam ALIGNED_BAM=[/dev/stdin] OUTPUT=2671_piped.bam REFERENCE_SEQUENCE=/group/kline-lab/ref/GRCh38_full_plus_decoy.fa CLIP_ADAPTERS=false MAX_INSERTIONS_OR_DELETIONS=-1 ATTRIBUTES_TO_RETAIN=[XS] PRIMARY_ALIGNMENT_STRATEGY=MostDistant CLIP_OVERLAPPING_READS=true INCLUDE_SECONDARY_ALIGNMENTS=true ADD_MATE_CIGAR=true TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    PAIRED_RUN=true IS_BISULFITE_SEQUENCE=false ALIGNED_READS_ONLY=false READ1_TRIM=0 READ2_TRIM=0 ALIGNER_PROPER_PAIR_FLAGS=false SORT_ORDER=coordinate UNMAP_CONTAMINANT_READS=false MIN_UNCLIPPED_BASES=32 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 01:09:02 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Thu Aug 23 01:09:02 CDT 2018] picard.sam.SamToFastq INPUT=2671_markilluminaadapters.bam FASTQ=/dev/stdout INTERLEAVE=true INCLUDE_NON_PF_READS=true CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 TMP_DIR=[/scratch/mleukam/temp]    OUTPUT_PER_RG=false RG_TAG=PU RE_REVERSE=true CLIPPING_MIN_LENGTH=0 READ1_TRIM=0 READ2_TRIM=0 INCLUDE_NON_PRIMARY_ALIGNMENTS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 01:09:02 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-23 01:09:02	SamAlignmentMerger	[/dev/stdin]
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[Thu Aug 23 01:09:18 CDT 2018] picard.sam.SamToFastq done. Elapsed time: 0.28 minutes.
+Runtime.totalMemory()=2058354688
+[M::process] read 52572 sequences (6571500 bp)...
+[M::process] 0 single-end sequences; 52572 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 20618, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (107, 133, 166)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 284)
+[M::mem_pestat] mean and std.dev: (138.41, 44.22)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 343)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 52572 reads in 6.998 CPU sec, 7.008 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -M -t 28 -p /group/kline-lab/ref/GRCh38_full_plus_decoy.fa /dev/stdin
+[main] Real time: 30.021 sec; CPU: 10.249 sec
+INFO	2018-08-23 01:09:45	AbstractAlignmentMerger	Wrote 52472 alignment records and 474 unmapped reads.
+[Thu Aug 23 01:09:45 CDT 2018] picard.sam.MergeBamAlignment done. Elapsed time: 0.73 minutes.
+Runtime.totalMemory()=3681550336
+[Thu Aug 23 01:09:47 CDT 2018] picard.sam.SamToFastq INPUT=2889_markilluminaadapters.bam FASTQ=/dev/stdout INTERLEAVE=true INCLUDE_NON_PF_READS=true CLIPPING_ATTRIBUTE=XT CLIPPING_ACTION=2 TMP_DIR=[/scratch/mleukam/temp]    OUTPUT_PER_RG=false RG_TAG=PU RE_REVERSE=true CLIPPING_MIN_LENGTH=0 READ1_TRIM=0 READ2_TRIM=0 INCLUDE_NON_PRIMARY_ALIGNMENTS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 01:09:47 CDT 2018] picard.sam.MergeBamAlignment UNMAPPED_BAM=2889_revertsam.bam ALIGNED_BAM=[/dev/stdin] OUTPUT=2889_piped.bam REFERENCE_SEQUENCE=/group/kline-lab/ref/GRCh38_full_plus_decoy.fa CLIP_ADAPTERS=false MAX_INSERTIONS_OR_DELETIONS=-1 ATTRIBUTES_TO_RETAIN=[XS] PRIMARY_ALIGNMENT_STRATEGY=MostDistant CLIP_OVERLAPPING_READS=true INCLUDE_SECONDARY_ALIGNMENTS=true ADD_MATE_CIGAR=true TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    PAIRED_RUN=true IS_BISULFITE_SEQUENCE=false ALIGNED_READS_ONLY=false READ1_TRIM=0 READ2_TRIM=0 ALIGNER_PROPER_PAIR_FLAGS=false SORT_ORDER=coordinate UNMAP_CONTAMINANT_READS=false MIN_UNCLIPPED_BASES=32 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Aug 23 01:09:47 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+[Thu Aug 23 01:09:47 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-08-23 01:09:48	SamAlignmentMerger	[/dev/stdin]
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+INFO	2018-08-23 01:10:07	SamToFastq	Processed     1,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2018-08-23 01:10:21	SamToFastq	Processed     2,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:   13s.  Last read position: */*
+[M::process] read 2240000 sequences (280000000 bp)...
+[M::process] 0 single-end sequences; 2240000 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (566, 990705, 369, 585)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (203, 421, 878)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2228)
+[M::mem_pestat] mean and std.dev: (545.56, 483.91)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 2903)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (138, 179, 231)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 417)
+[M::mem_pestat] mean and std.dev: (188.01, 68.80)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 510)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (267, 620, 1278)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 3300)
+[M::mem_pestat] mean and std.dev: (753.16, 704.36)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 4311)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (217, 411, 941)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2389)
+[M::mem_pestat] mean and std.dev: (541.08, 484.17)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3113)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 2240000 reads in 416.569 CPU sec, 419.386 real sec
+INFO	2018-08-23 01:17:46	SamToFastq	Processed     3,000,000 records.  Elapsed time: 00:07:58s.  Time for last 1,000,000:  445s.  Last read position: */*
+INFO	2018-08-23 01:18:15	AbstractAlignmentMerger	Merged     1,000,000 records.  Elapsed time: 00:08:27s.  Time for last 1,000,000:   50s.  Last read position: chr2:23,895,862
+INFO	2018-08-23 01:18:15	SamToFastq	Processed     4,000,000 records.  Elapsed time: 00:08:27s.  Time for last 1,000,000:   28s.  Last read position: */*
+[Thu Aug 23 01:18:27 CDT 2018] picard.sam.SamToFastq done. Elapsed time: 8.66 minutes.
+Runtime.totalMemory()=1527250944
+[M::process] read 2222628 sequences (277828500 bp)...
+[M::process] 0 single-end sequences; 2222628 paired-end sequences
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (604, 982565, 347, 605)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (181, 387, 946)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2476)
+[M::mem_pestat] mean and std.dev: (557.61, 525.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3241)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (138, 179, 231)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 417)
+[M::mem_pestat] mean and std.dev: (187.78, 68.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 510)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (303, 707, 1388)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 3558)
+[M::mem_pestat] mean and std.dev: (843.85, 710.28)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 4643)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (207, 398, 962)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 2472)
+[M::mem_pestat] mean and std.dev: (577.37, 533.95)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 3227)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 2222628 reads in 414.456 CPU sec, 432.232 real sec
+INFO	2018-08-23 01:25:49	AbstractAlignmentMerger	Merged     2,000,000 records.  Elapsed time: 00:16:01s.  Time for last 1,000,000:  453s.  Last read position: chr1:160,213,344
+INFO	2018-08-23 01:26:11	AbstractAlignmentMerger	Merged     3,000,000 records.  Elapsed time: 00:16:23s.  Time for last 1,000,000:   22s.  Last read position: chr2:72,925,344
+INFO	2018-08-23 01:26:34	AbstractAlignmentMerger	Merged     4,000,000 records.  Elapsed time: 00:16:47s.  Time for last 1,000,000:   23s.  Last read position: chr1:106,761,129
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -M -t 28 -p /group/kline-lab/ref/GRCh38_full_plus_decoy.fa /dev/stdin
+[main] Real time: 1022.326 sec; CPU: 848.532 sec
+INFO	2018-08-23 01:29:42	AbstractAlignmentMerger	Wrote 4545593 alignment records and 46097 unmapped reads.
+[Thu Aug 23 01:29:42 CDT 2018] picard.sam.MergeBamAlignment done. Elapsed time: 19.91 minutes.
+Runtime.totalMemory()=5951193088

@@ -1,0 +1,18 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            7900817.cri16sc001
+User ID:           mleukam
+Job Name:          test_align
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=20:00:00,nodes=1:ppn=1,mem=32gb,neednodes=1:ppn=1
+Resources Used:    cput=03:05:34,vmem=37827168kb,walltime=03:05:50,mem=29477892kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn219
+
+Execution Nodes: 
+cri16cn219
+
+

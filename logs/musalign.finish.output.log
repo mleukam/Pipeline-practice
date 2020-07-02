@@ -1,0 +1,110 @@
+Tool returned:
+0
+iltered, A20 is merged
+Tool returned:
+0
+uBAM
+03856.cri16sc001
+User ID:           mleukam
+Job Name:          total_mouse_align_script
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn219
+
+Execution Nodes: 
+cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219 cri16cn219
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10303870.cri16sc001
+User ID:           mleukam
+Job Name:          total_mouse_align_script
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn209
+
+Execution Nodes: 
+cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209 cri16cn209
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10304101.cri16sc001
+User ID:           mleukam
+Job Name:          total_mouse_align_script
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=26:33:40,vmem=38078460kb,walltime=06:27:56,mem=11881696kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn222
+
+Execution Nodes: 
+cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10304827.cri16sc001
+User ID:           mleukam
+Job Name:          total_mouse_align_script
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=01:38:54,vmem=38059552kb,walltime=01:34:57,mem=11935308kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn222
+
+Execution Nodes: 
+cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222 cri16cn222
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10318309.cri16sc001
+User ID:           mleukam
+Job Name:          total_mouse_align_script
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=00:00:07,vmem=0kb,walltime=00:00:05,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn214
+
+Execution Nodes: 
+cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            10319953.cri16sc001
+User ID:           mleukam
+Job Name:          total_mouse_align_script
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=30:00:00,nodes=1:ppn=12,mem=32gb,neednodes=1:ppn=12
+Resources Used:    cput=00:06:53,vmem=38055456kb,walltime=00:06:30,mem=1605232kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn214
+
+Execution Nodes: 
+cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214 cri16cn214
+
+

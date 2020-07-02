@@ -1,0 +1,36 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8133999.cri16sc001
+User ID:           mleukam
+Job Name:          test_illadapters
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=08:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:06:00,vmem=12788692kb,walltime=00:06:01,mem=635176kb,energy_used=0
+Exit Code:         271
+Mother Superior:   cri16cn016
+
+Execution Nodes: 
+cri16cn016
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8134010.cri16sc001
+User ID:           mleukam
+Job Name:          test_illadapters
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=08:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:14:34,vmem=12788692kb,walltime=00:14:36,mem=643676kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn088
+
+Execution Nodes: 
+cri16cn088
+
+

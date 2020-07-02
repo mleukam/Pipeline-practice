@@ -1,0 +1,72 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8133134.cri16sc001
+User ID:           mleukam
+Job Name:          sam_ubam
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:16,vmem=12982396kb,walltime=00:00:17,mem=642600kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn088
+
+Execution Nodes: 
+cri16cn088
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8133135.cri16sc001
+User ID:           mleukam
+Job Name:          sam_ubam
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=12:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:27:00,vmem=13048176kb,walltime=00:27:05,mem=4835840kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn088
+
+Execution Nodes: 
+cri16cn088
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8221335.cri16sc001
+User ID:           mleukam
+Job Name:          sam_ubam
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=04:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:04:59,vmem=12980348kb,walltime=00:05:01,mem=158808kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn088
+
+Execution Nodes: 
+cri16cn088
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            8221336.cri16sc001
+User ID:           mleukam
+Job Name:          sam_ubam
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=04:00:00,nodes=1:ppn=1,mem=8gb,neednodes=1:ppn=1
+Resources Used:    cput=00:01:19,vmem=13048176kb,walltime=00:01:20,mem=3228948kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn082
+
+Execution Nodes: 
+cri16cn082
+
+

@@ -1,0 +1,551 @@
+[Thu Oct 11 18:07:25 CDT 2018] picard.sam.SortSam INPUT=A20_dict.sam OUTPUT=A20_aligned.query.bam SORT_ORDER=queryname    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Oct 11 18:07:25 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-10-11 18:08:36	SortSam	Read    10,000,000 records.  Elapsed time: 00:01:10s.  Time for last 10,000,000:   70s.  Last read position: NC_000083.6:71,342,721
+INFO	2018-10-11 18:09:39	SortSam	Read    20,000,000 records.  Elapsed time: 00:02:14s.  Time for last 10,000,000:   63s.  Last read position: NC_000073.6:67,858,159
+INFO	2018-10-11 18:10:41	SortSam	Read    30,000,000 records.  Elapsed time: 00:03:16s.  Time for last 10,000,000:   62s.  Last read position: NC_000080.6:48,888,503
+INFO	2018-10-11 18:11:44	SortSam	Read    40,000,000 records.  Elapsed time: 00:04:19s.  Time for last 10,000,000:   63s.  Last read position: NC_000067.6:64,947,283
+INFO	2018-10-11 18:12:48	SortSam	Read    50,000,000 records.  Elapsed time: 00:05:23s.  Time for last 10,000,000:   64s.  Last read position: NC_000069.6:98,740,317
+INFO	2018-10-11 18:13:52	SortSam	Read    60,000,000 records.  Elapsed time: 00:06:26s.  Time for last 10,000,000:   63s.  Last read position: NC_000068.7:43,920,426
+INFO	2018-10-11 18:14:57	SortSam	Read    70,000,000 records.  Elapsed time: 00:07:32s.  Time for last 10,000,000:   65s.  Last read position: NC_000067.6:129,052,141
+INFO	2018-10-11 18:15:59	SortSam	Read    80,000,000 records.  Elapsed time: 00:08:33s.  Time for last 10,000,000:   61s.  Last read position: NC_000068.7:98,667,104
+INFO	2018-10-11 18:17:04	SortSam	Read    90,000,000 records.  Elapsed time: 00:09:38s.  Time for last 10,000,000:   64s.  Last read position: NC_000082.6:92,084,671
+INFO	2018-10-11 18:18:06	SortSam	Read   100,000,000 records.  Elapsed time: 00:10:40s.  Time for last 10,000,000:   62s.  Last read position: NC_000067.6:88,212,651
+INFO	2018-10-11 18:19:12	SortSam	Read   110,000,000 records.  Elapsed time: 00:11:46s.  Time for last 10,000,000:   65s.  Last read position: NC_000072.6:83,903,660
+INFO	2018-10-11 18:20:14	SortSam	Read   120,000,000 records.  Elapsed time: 00:12:49s.  Time for last 10,000,000:   62s.  Last read position: NC_000067.6:177,612,885
+INFO	2018-10-11 18:21:19	SortSam	Read   130,000,000 records.  Elapsed time: 00:13:54s.  Time for last 10,000,000:   64s.  Last read position: NC_000086.7:45,565,676
+INFO	2018-10-11 18:22:22	SortSam	Read   140,000,000 records.  Elapsed time: 00:14:57s.  Time for last 10,000,000:   62s.  Last read position: NC_000086.7:18,448,624
+INFO	2018-10-11 18:23:27	SortSam	Read   150,000,000 records.  Elapsed time: 00:16:01s.  Time for last 10,000,000:   64s.  Last read position: NC_000068.7:98,666,835
+INFO	2018-10-11 18:24:31	SortSam	Read   160,000,000 records.  Elapsed time: 00:17:05s.  Time for last 10,000,000:   64s.  Last read position: NC_000068.7:98,667,245
+INFO	2018-10-11 18:25:34	SortSam	Read   170,000,000 records.  Elapsed time: 00:18:08s.  Time for last 10,000,000:   62s.  Last read position: NC_000079.6:20,945,899
+INFO	2018-10-11 18:26:37	SortSam	Read   180,000,000 records.  Elapsed time: 00:19:12s.  Time for last 10,000,000:   63s.  Last read position: NC_000079.6:98,334,067
+INFO	2018-10-11 18:27:40	SortSam	Read   190,000,000 records.  Elapsed time: 00:20:15s.  Time for last 10,000,000:   62s.  Last read position: NC_000070.6:134,631,759
+INFO	2018-10-11 18:28:46	SortSam	Read   200,000,000 records.  Elapsed time: 00:21:21s.  Time for last 10,000,000:   66s.  Last read position: NC_000075.6:30,212,584
+INFO	2018-10-11 18:29:48	SortSam	Read   210,000,000 records.  Elapsed time: 00:22:22s.  Time for last 10,000,000:   61s.  Last read position: NC_000086.7:64,387,115
+INFO	2018-10-11 18:30:52	SortSam	Read   220,000,000 records.  Elapsed time: 00:23:27s.  Time for last 10,000,000:   64s.  Last read position: NC_000072.6:22,298,829
+INFO	2018-10-11 18:31:54	SortSam	Read   230,000,000 records.  Elapsed time: 00:24:29s.  Time for last 10,000,000:   61s.  Last read position: NC_000080.6:38,931,734
+INFO	2018-10-11 18:32:59	SortSam	Read   240,000,000 records.  Elapsed time: 00:25:34s.  Time for last 10,000,000:   65s.  Last read position: NC_000072.6:25,674,882
+INFO	2018-10-11 18:34:02	SortSam	Read   250,000,000 records.  Elapsed time: 00:26:37s.  Time for last 10,000,000:   62s.  Last read position: NC_000067.6:122,527,684
+INFO	2018-10-11 18:35:06	SortSam	Read   260,000,000 records.  Elapsed time: 00:27:41s.  Time for last 10,000,000:   63s.  Last read position: NC_000075.6:3,002,947
+INFO	2018-10-11 18:36:09	SortSam	Read   270,000,000 records.  Elapsed time: 00:28:44s.  Time for last 10,000,000:   63s.  Last read position: NC_000079.6:30,249,901
+INFO	2018-10-11 18:37:13	SortSam	Read   280,000,000 records.  Elapsed time: 00:29:48s.  Time for last 10,000,000:   63s.  Last read position: NC_000076.6:48,766,845
+INFO	2018-10-11 18:37:37	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2018-10-11 18:38:58	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:31:33s.  Time for last 10,000,000:   76s.  Last read position: NC_000083.6:71,342,721
+INFO	2018-10-11 18:40:07	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:32:42s.  Time for last 10,000,000:   69s.  Last read position: NC_000073.6:67,858,159
+INFO	2018-10-11 18:41:16	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:33:51s.  Time for last 10,000,000:   69s.  Last read position: NC_000080.6:48,888,503
+INFO	2018-10-11 18:42:25	SortSam	Wrote    40,000,000 records from a sorting collection.  Elapsed time: 00:35:00s.  Time for last 10,000,000:   68s.  Last read position: NC_000067.6:64,947,283
+INFO	2018-10-11 18:43:35	SortSam	Wrote    50,000,000 records from a sorting collection.  Elapsed time: 00:36:09s.  Time for last 10,000,000:   69s.  Last read position: NC_000069.6:98,740,317
+INFO	2018-10-11 18:44:43	SortSam	Wrote    60,000,000 records from a sorting collection.  Elapsed time: 00:37:18s.  Time for last 10,000,000:   68s.  Last read position: NC_000068.7:43,920,426
+INFO	2018-10-11 18:45:52	SortSam	Wrote    70,000,000 records from a sorting collection.  Elapsed time: 00:38:27s.  Time for last 10,000,000:   68s.  Last read position: NC_000067.6:129,052,141
+INFO	2018-10-11 18:47:01	SortSam	Wrote    80,000,000 records from a sorting collection.  Elapsed time: 00:39:36s.  Time for last 10,000,000:   69s.  Last read position: NC_000068.7:98,667,104
+INFO	2018-10-11 18:48:10	SortSam	Wrote    90,000,000 records from a sorting collection.  Elapsed time: 00:40:45s.  Time for last 10,000,000:   69s.  Last read position: NC_000082.6:92,084,671
+INFO	2018-10-11 18:49:19	SortSam	Wrote   100,000,000 records from a sorting collection.  Elapsed time: 00:41:54s.  Time for last 10,000,000:   68s.  Last read position: NC_000067.6:88,212,651
+INFO	2018-10-11 18:50:27	SortSam	Wrote   110,000,000 records from a sorting collection.  Elapsed time: 00:43:02s.  Time for last 10,000,000:   68s.  Last read position: NC_000072.6:83,903,660
+INFO	2018-10-11 18:51:36	SortSam	Wrote   120,000,000 records from a sorting collection.  Elapsed time: 00:44:11s.  Time for last 10,000,000:   68s.  Last read position: NC_000067.6:177,612,885
+INFO	2018-10-11 18:52:44	SortSam	Wrote   130,000,000 records from a sorting collection.  Elapsed time: 00:45:19s.  Time for last 10,000,000:   68s.  Last read position: NC_000086.7:45,565,676
+INFO	2018-10-11 18:53:53	SortSam	Wrote   140,000,000 records from a sorting collection.  Elapsed time: 00:46:27s.  Time for last 10,000,000:   68s.  Last read position: NC_000086.7:18,448,624
+INFO	2018-10-11 18:55:01	SortSam	Wrote   150,000,000 records from a sorting collection.  Elapsed time: 00:47:36s.  Time for last 10,000,000:   68s.  Last read position: NC_000068.7:98,666,835
+INFO	2018-10-11 18:56:09	SortSam	Wrote   160,000,000 records from a sorting collection.  Elapsed time: 00:48:44s.  Time for last 10,000,000:   68s.  Last read position: NC_000068.7:98,667,245
+INFO	2018-10-11 18:57:18	SortSam	Wrote   170,000,000 records from a sorting collection.  Elapsed time: 00:49:52s.  Time for last 10,000,000:   68s.  Last read position: NC_000079.6:20,945,899
+INFO	2018-10-11 18:58:26	SortSam	Wrote   180,000,000 records from a sorting collection.  Elapsed time: 00:51:01s.  Time for last 10,000,000:   68s.  Last read position: NC_000079.6:98,334,067
+INFO	2018-10-11 18:59:34	SortSam	Wrote   190,000,000 records from a sorting collection.  Elapsed time: 00:52:09s.  Time for last 10,000,000:   68s.  Last read position: NC_000070.6:134,631,759
+INFO	2018-10-11 19:00:42	SortSam	Wrote   200,000,000 records from a sorting collection.  Elapsed time: 00:53:16s.  Time for last 10,000,000:   67s.  Last read position: NC_000075.6:30,212,584
+INFO	2018-10-11 19:01:49	SortSam	Wrote   210,000,000 records from a sorting collection.  Elapsed time: 00:54:24s.  Time for last 10,000,000:   67s.  Last read position: NC_000086.7:64,387,115
+INFO	2018-10-11 19:02:57	SortSam	Wrote   220,000,000 records from a sorting collection.  Elapsed time: 00:55:32s.  Time for last 10,000,000:   68s.  Last read position: NC_000072.6:22,298,829
+INFO	2018-10-11 19:04:05	SortSam	Wrote   230,000,000 records from a sorting collection.  Elapsed time: 00:56:40s.  Time for last 10,000,000:   67s.  Last read position: NC_000080.6:38,931,734
+INFO	2018-10-11 19:05:13	SortSam	Wrote   240,000,000 records from a sorting collection.  Elapsed time: 00:57:48s.  Time for last 10,000,000:   68s.  Last read position: NC_000072.6:25,674,882
+INFO	2018-10-11 19:06:21	SortSam	Wrote   250,000,000 records from a sorting collection.  Elapsed time: 00:58:56s.  Time for last 10,000,000:   67s.  Last read position: NC_000067.6:122,527,684
+INFO	2018-10-11 19:07:28	SortSam	Wrote   260,000,000 records from a sorting collection.  Elapsed time: 01:00:03s.  Time for last 10,000,000:   67s.  Last read position: NC_000075.6:3,002,947
+INFO	2018-10-11 19:08:36	SortSam	Wrote   270,000,000 records from a sorting collection.  Elapsed time: 01:01:11s.  Time for last 10,000,000:   67s.  Last read position: NC_000079.6:30,249,901
+INFO	2018-10-11 19:09:43	SortSam	Wrote   280,000,000 records from a sorting collection.  Elapsed time: 01:02:18s.  Time for last 10,000,000:   67s.  Last read position: NC_000076.6:48,766,845
+[Thu Oct 11 19:10:10 CDT 2018] picard.sam.SortSam done. Elapsed time: 62.76 minutes.
+Runtime.totalMemory()=2656043008
+[Thu Oct 11 19:10:11 CDT 2018] picard.sam.SortSam INPUT=A20_unaligned.bam OUTPUT=A20_unaligned.query.bam SORT_ORDER=queryname    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Oct 11 19:10:11 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-10-11 19:10:32	SortSam	Read    10,000,000 records.  Elapsed time: 00:00:20s.  Time for last 10,000,000:   20s.  Last read position: */*
+INFO	2018-10-11 19:10:49	SortSam	Read    20,000,000 records.  Elapsed time: 00:00:36s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:11:04	SortSam	Read    30,000,000 records.  Elapsed time: 00:00:52s.  Time for last 10,000,000:   15s.  Last read position: */*
+INFO	2018-10-11 19:11:22	SortSam	Read    40,000,000 records.  Elapsed time: 00:01:09s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:11:38	SortSam	Read    50,000,000 records.  Elapsed time: 00:01:26s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:11:55	SortSam	Read    60,000,000 records.  Elapsed time: 00:01:43s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:12:12	SortSam	Read    70,000,000 records.  Elapsed time: 00:01:59s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:12:29	SortSam	Read    80,000,000 records.  Elapsed time: 00:02:17s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:12:45	SortSam	Read    90,000,000 records.  Elapsed time: 00:02:33s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:13:01	SortSam	Read   100,000,000 records.  Elapsed time: 00:02:49s.  Time for last 10,000,000:   15s.  Last read position: */*
+INFO	2018-10-11 19:13:17	SortSam	Read   110,000,000 records.  Elapsed time: 00:03:05s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:13:33	SortSam	Read   120,000,000 records.  Elapsed time: 00:03:21s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:13:50	SortSam	Read   130,000,000 records.  Elapsed time: 00:03:38s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:14:07	SortSam	Read   140,000,000 records.  Elapsed time: 00:03:55s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:14:24	SortSam	Read   150,000,000 records.  Elapsed time: 00:04:12s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:14:41	SortSam	Read   160,000,000 records.  Elapsed time: 00:04:28s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:14:57	SortSam	Read   170,000,000 records.  Elapsed time: 00:04:45s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:15:14	SortSam	Read   180,000,000 records.  Elapsed time: 00:05:02s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:15:31	SortSam	Read   190,000,000 records.  Elapsed time: 00:05:19s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:15:48	SortSam	Read   200,000,000 records.  Elapsed time: 00:05:35s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:16:04	SortSam	Read   210,000,000 records.  Elapsed time: 00:05:52s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:16:20	SortSam	Read   220,000,000 records.  Elapsed time: 00:06:08s.  Time for last 10,000,000:   15s.  Last read position: */*
+INFO	2018-10-11 19:16:36	SortSam	Read   230,000,000 records.  Elapsed time: 00:06:24s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:16:52	SortSam	Read   240,000,000 records.  Elapsed time: 00:06:40s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:17:09	SortSam	Read   250,000,000 records.  Elapsed time: 00:06:57s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:17:27	SortSam	Read   260,000,000 records.  Elapsed time: 00:07:15s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:17:44	SortSam	Read   270,000,000 records.  Elapsed time: 00:07:32s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:18:00	SortSam	Read   280,000,000 records.  Elapsed time: 00:07:48s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:18:17	SortSam	Read   290,000,000 records.  Elapsed time: 00:08:05s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:18:34	SortSam	Read   300,000,000 records.  Elapsed time: 00:08:21s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:18:50	SortSam	Read   310,000,000 records.  Elapsed time: 00:08:38s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:19:07	SortSam	Read   320,000,000 records.  Elapsed time: 00:08:55s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:19:23	SortSam	Read   330,000,000 records.  Elapsed time: 00:09:11s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:19:40	SortSam	Read   340,000,000 records.  Elapsed time: 00:09:28s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:19:56	SortSam	Read   350,000,000 records.  Elapsed time: 00:09:44s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:20:14	SortSam	Read   360,000,000 records.  Elapsed time: 00:10:02s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 19:20:29	SortSam	Read   370,000,000 records.  Elapsed time: 00:10:17s.  Time for last 10,000,000:   15s.  Last read position: */*
+INFO	2018-10-11 19:20:46	SortSam	Read   380,000,000 records.  Elapsed time: 00:10:33s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 19:20:51	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2018-10-11 19:22:25	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:12:13s.  Time for last 10,000,000:   86s.  Last read position: */*
+INFO	2018-10-11 19:23:19	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:13:06s.  Time for last 10,000,000:   53s.  Last read position: */*
+INFO	2018-10-11 19:24:12	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:14:00s.  Time for last 10,000,000:   53s.  Last read position: */*
+INFO	2018-10-11 19:25:05	SortSam	Wrote    40,000,000 records from a sorting collection.  Elapsed time: 00:14:53s.  Time for last 10,000,000:   53s.  Last read position: */*
+INFO	2018-10-11 19:25:58	SortSam	Wrote    50,000,000 records from a sorting collection.  Elapsed time: 00:15:46s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:26:51	SortSam	Wrote    60,000,000 records from a sorting collection.  Elapsed time: 00:16:39s.  Time for last 10,000,000:   53s.  Last read position: */*
+INFO	2018-10-11 19:27:44	SortSam	Wrote    70,000,000 records from a sorting collection.  Elapsed time: 00:17:32s.  Time for last 10,000,000:   53s.  Last read position: */*
+INFO	2018-10-11 19:28:37	SortSam	Wrote    80,000,000 records from a sorting collection.  Elapsed time: 00:18:24s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:29:29	SortSam	Wrote    90,000,000 records from a sorting collection.  Elapsed time: 00:19:17s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:30:22	SortSam	Wrote   100,000,000 records from a sorting collection.  Elapsed time: 00:20:10s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:31:15	SortSam	Wrote   110,000,000 records from a sorting collection.  Elapsed time: 00:21:03s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:32:08	SortSam	Wrote   120,000,000 records from a sorting collection.  Elapsed time: 00:21:56s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:33:01	SortSam	Wrote   130,000,000 records from a sorting collection.  Elapsed time: 00:22:48s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:33:53	SortSam	Wrote   140,000,000 records from a sorting collection.  Elapsed time: 00:23:41s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:34:46	SortSam	Wrote   150,000,000 records from a sorting collection.  Elapsed time: 00:24:34s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:35:39	SortSam	Wrote   160,000,000 records from a sorting collection.  Elapsed time: 00:25:27s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:36:31	SortSam	Wrote   170,000,000 records from a sorting collection.  Elapsed time: 00:26:19s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:37:23	SortSam	Wrote   180,000,000 records from a sorting collection.  Elapsed time: 00:27:11s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:38:16	SortSam	Wrote   190,000,000 records from a sorting collection.  Elapsed time: 00:28:03s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:39:08	SortSam	Wrote   200,000,000 records from a sorting collection.  Elapsed time: 00:28:56s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:40:01	SortSam	Wrote   210,000,000 records from a sorting collection.  Elapsed time: 00:29:49s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:40:53	SortSam	Wrote   220,000,000 records from a sorting collection.  Elapsed time: 00:30:41s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:41:45	SortSam	Wrote   230,000,000 records from a sorting collection.  Elapsed time: 00:31:33s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:42:37	SortSam	Wrote   240,000,000 records from a sorting collection.  Elapsed time: 00:32:25s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:43:29	SortSam	Wrote   250,000,000 records from a sorting collection.  Elapsed time: 00:33:17s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:44:21	SortSam	Wrote   260,000,000 records from a sorting collection.  Elapsed time: 00:34:09s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:45:13	SortSam	Wrote   270,000,000 records from a sorting collection.  Elapsed time: 00:35:01s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:46:04	SortSam	Wrote   280,000,000 records from a sorting collection.  Elapsed time: 00:35:52s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:46:56	SortSam	Wrote   290,000,000 records from a sorting collection.  Elapsed time: 00:36:44s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:47:48	SortSam	Wrote   300,000,000 records from a sorting collection.  Elapsed time: 00:37:36s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:48:40	SortSam	Wrote   310,000,000 records from a sorting collection.  Elapsed time: 00:38:28s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:49:32	SortSam	Wrote   320,000,000 records from a sorting collection.  Elapsed time: 00:39:20s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:50:24	SortSam	Wrote   330,000,000 records from a sorting collection.  Elapsed time: 00:40:12s.  Time for last 10,000,000:   52s.  Last read position: */*
+INFO	2018-10-11 19:51:16	SortSam	Wrote   340,000,000 records from a sorting collection.  Elapsed time: 00:41:03s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:52:07	SortSam	Wrote   350,000,000 records from a sorting collection.  Elapsed time: 00:41:55s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:52:58	SortSam	Wrote   360,000,000 records from a sorting collection.  Elapsed time: 00:42:46s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:53:49	SortSam	Wrote   370,000,000 records from a sorting collection.  Elapsed time: 00:43:37s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 19:54:40	SortSam	Wrote   380,000,000 records from a sorting collection.  Elapsed time: 00:44:28s.  Time for last 10,000,000:   50s.  Last read position: */*
+[Thu Oct 11 19:54:58 CDT 2018] picard.sam.SortSam done. Elapsed time: 44.78 minutes.
+Runtime.totalMemory()=2759852032
+[Thu Oct 11 19:54:59 CDT 2018] picard.sam.MergeBamAlignment UNMAPPED_BAM=A20_unaligned.query.bam ALIGNED_BAM=[A20_aligned.query.bam] OUTPUT=A20_merged.bam REFERENCE_SEQUENCE=/scratch/mleukam/mouse/GRCm38p6_ref.fa CLIP_ADAPTERS=false MAX_INSERTIONS_OR_DELETIONS=-1 ATTRIBUTES_TO_RETAIN=[XS] PRIMARY_ALIGNMENT_STRATEGY=MostDistant CLIP_OVERLAPPING_READS=true INCLUDE_SECONDARY_ALIGNMENTS=true ADD_MATE_CIGAR=true TMP_DIR=[/scratch/mleukam/temp] CREATE_INDEX=true    PAIRED_RUN=true IS_BISULFITE_SEQUENCE=false ALIGNED_READS_ONLY=false READ1_TRIM=0 READ2_TRIM=0 ALIGNER_PROPER_PAIR_FLAGS=false SORT_ORDER=coordinate UNMAP_CONTAMINANT_READS=false MIN_UNCLIPPED_BASES=32 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Oct 11 19:54:59 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-10-11 19:54:59	SamAlignmentMerger	[A20_aligned.query.bam]
+INFO	2018-10-11 19:55:14	AbstractAlignmentMerger	Merged     1,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:   14s.  Last read position: NC_000082.6:5,429,946
+INFO	2018-10-11 19:55:26	AbstractAlignmentMerger	Merged     2,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:   11s.  Last read position: NC_000079.6:22,283,787
+INFO	2018-10-11 19:55:36	AbstractAlignmentMerger	Merged     3,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:   10s.  Last read position: NC_000079.6:17,711,132
+INFO	2018-10-11 19:55:45	AbstractAlignmentMerger	Merged     4,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:80,857,054
+INFO	2018-10-11 19:55:55	AbstractAlignmentMerger	Merged     5,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    9s.  Last read position: NC_000080.6:96,257,308
+INFO	2018-10-11 19:56:04	AbstractAlignmentMerger	Merged     6,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:51,477,653
+INFO	2018-10-11 19:56:13	AbstractAlignmentMerger	Merged     7,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:    8s.  Last read position: NC_000083.6:85,427,193
+INFO	2018-10-11 19:56:22	AbstractAlignmentMerger	Merged     8,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    9s.  Last read position: NC_000076.6:92,596,106
+INFO	2018-10-11 19:56:33	AbstractAlignmentMerger	Merged     9,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:   10s.  Last read position: NC_000068.7:4,210,068
+INFO	2018-10-11 19:56:42	AbstractAlignmentMerger	Merged    10,000,000 records.  Elapsed time: 00:01:43s.  Time for last 1,000,000:    9s.  Last read position: NC_000083.6:71,342,721
+INFO	2018-10-11 19:56:50	AbstractAlignmentMerger	Merged    11,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:    7s.  Last read position: NC_000084.6:77,155,697
+INFO	2018-10-11 19:57:00	AbstractAlignmentMerger	Merged    12,000,000 records.  Elapsed time: 00:02:01s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:52,232,733
+INFO	2018-10-11 19:57:09	AbstractAlignmentMerger	Merged    13,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:47,255,589
+INFO	2018-10-11 19:57:18	AbstractAlignmentMerger	Merged    14,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    8s.  Last read position: NC_000068.7:109,285,842
+INFO	2018-10-11 19:57:28	AbstractAlignmentMerger	Merged    15,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:47,113,189
+INFO	2018-10-11 19:57:37	AbstractAlignmentMerger	Merged    16,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:117,473,522
+INFO	2018-10-11 19:57:45	AbstractAlignmentMerger	Merged    17,000,000 records.  Elapsed time: 00:02:46s.  Time for last 1,000,000:    8s.  Last read position: NC_000085.6:25,248,504
+INFO	2018-10-11 19:57:55	AbstractAlignmentMerger	Merged    18,000,000 records.  Elapsed time: 00:02:56s.  Time for last 1,000,000:   10s.  Last read position: NC_000083.6:83,321,387
+INFO	2018-10-11 19:58:05	AbstractAlignmentMerger	Merged    19,000,000 records.  Elapsed time: 00:03:05s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:55,569,265
+INFO	2018-10-11 19:58:16	AbstractAlignmentMerger	Merged    20,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:   11s.  Last read position: NC_000073.6:67,858,159
+INFO	2018-10-11 19:58:23	AbstractAlignmentMerger	Merged    21,000,000 records.  Elapsed time: 00:03:24s.  Time for last 1,000,000:    7s.  Last read position: NC_000082.6:73,820,206
+INFO	2018-10-11 19:58:33	AbstractAlignmentMerger	Merged    22,000,000 records.  Elapsed time: 00:03:34s.  Time for last 1,000,000:    9s.  Last read position: NC_000081.6:27,145,687
+INFO	2018-10-11 19:58:43	AbstractAlignmentMerger	Merged    23,000,000 records.  Elapsed time: 00:03:44s.  Time for last 1,000,000:   10s.  Last read position: NC_000071.6:143,903,874
+INFO	2018-10-11 19:58:51	AbstractAlignmentMerger	Merged    24,000,000 records.  Elapsed time: 00:03:51s.  Time for last 1,000,000:    7s.  Last read position: NC_000082.6:45,317,959
+INFO	2018-10-11 19:59:01	AbstractAlignmentMerger	Merged    25,000,000 records.  Elapsed time: 00:04:02s.  Time for last 1,000,000:   10s.  Last read position: NC_000072.6:137,146,540
+INFO	2018-10-11 19:59:12	AbstractAlignmentMerger	Merged    26,000,000 records.  Elapsed time: 00:04:13s.  Time for last 1,000,000:   10s.  Last read position: NC_000075.6:67,457,034
+INFO	2018-10-11 19:59:20	AbstractAlignmentMerger	Merged    27,000,000 records.  Elapsed time: 00:04:20s.  Time for last 1,000,000:    7s.  Last read position: NC_000073.6:145,050,093
+INFO	2018-10-11 19:59:30	AbstractAlignmentMerger	Merged    28,000,000 records.  Elapsed time: 00:04:30s.  Time for last 1,000,000:    9s.  Last read position: NC_000081.6:50,672,015
+INFO	2018-10-11 19:59:39	AbstractAlignmentMerger	Merged    29,000,000 records.  Elapsed time: 00:04:39s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:129,566,247
+INFO	2018-10-11 19:59:49	AbstractAlignmentMerger	Merged    30,000,000 records.  Elapsed time: 00:04:49s.  Time for last 1,000,000:    9s.  Last read position: NC_000080.6:48,888,503
+INFO	2018-10-11 19:59:57	AbstractAlignmentMerger	Merged    31,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:    8s.  Last read position: NC_000067.6:149,926,440
+INFO	2018-10-11 20:00:06	AbstractAlignmentMerger	Merged    32,000,000 records.  Elapsed time: 00:05:07s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:102,615,598
+INFO	2018-10-11 20:00:17	AbstractAlignmentMerger	Merged    33,000,000 records.  Elapsed time: 00:05:17s.  Time for last 1,000,000:   10s.  Last read position: NC_000071.6:92,828,267
+INFO	2018-10-11 20:00:25	AbstractAlignmentMerger	Merged    34,000,000 records.  Elapsed time: 00:05:25s.  Time for last 1,000,000:    7s.  Last read position: NC_000067.6:75,743,724
+INFO	2018-10-11 20:00:34	AbstractAlignmentMerger	Merged    35,000,000 records.  Elapsed time: 00:05:35s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:98,667,112
+INFO	2018-10-11 20:00:44	AbstractAlignmentMerger	Merged    36,000,000 records.  Elapsed time: 00:05:44s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:77,966,927
+INFO	2018-10-11 20:00:52	AbstractAlignmentMerger	Merged    37,000,000 records.  Elapsed time: 00:05:52s.  Time for last 1,000,000:    8s.  Last read position: NC_000071.6:58,914,828
+INFO	2018-10-11 20:01:01	AbstractAlignmentMerger	Merged    38,000,000 records.  Elapsed time: 00:06:02s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:43,486,350
+INFO	2018-10-11 20:01:11	AbstractAlignmentMerger	Merged    39,000,000 records.  Elapsed time: 00:06:12s.  Time for last 1,000,000:   10s.  Last read position: NC_000074.6:106,610,043
+INFO	2018-10-11 20:01:22	AbstractAlignmentMerger	Merged    40,000,000 records.  Elapsed time: 00:06:23s.  Time for last 1,000,000:   10s.  Last read position: NC_000067.6:64,947,283
+INFO	2018-10-11 20:01:30	AbstractAlignmentMerger	Merged    41,000,000 records.  Elapsed time: 00:06:30s.  Time for last 1,000,000:    7s.  Last read position: NC_000074.6:38,275,051
+INFO	2018-10-11 20:01:39	AbstractAlignmentMerger	Merged    42,000,000 records.  Elapsed time: 00:06:40s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:33,559,892
+INFO	2018-10-11 20:01:49	AbstractAlignmentMerger	Merged    43,000,000 records.  Elapsed time: 00:06:49s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:141,970,067
+INFO	2018-10-11 20:01:57	AbstractAlignmentMerger	Merged    44,000,000 records.  Elapsed time: 00:06:57s.  Time for last 1,000,000:    8s.  Last read position: NC_000068.7:98,667,094
+INFO	2018-10-11 20:02:07	AbstractAlignmentMerger	Merged    45,000,000 records.  Elapsed time: 00:07:08s.  Time for last 1,000,000:   10s.  Last read position: NC_000085.6:3,430,015
+INFO	2018-10-11 20:02:16	AbstractAlignmentMerger	Merged    46,000,000 records.  Elapsed time: 00:07:17s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:106,613,792
+INFO	2018-10-11 20:02:25	AbstractAlignmentMerger	Merged    47,000,000 records.  Elapsed time: 00:07:26s.  Time for last 1,000,000:    8s.  Last read position: NC_000082.6:71,226,886
+INFO	2018-10-11 20:02:36	AbstractAlignmentMerger	Merged    48,000,000 records.  Elapsed time: 00:07:36s.  Time for last 1,000,000:   10s.  Last read position: NC_000072.6:40,864,146
+INFO	2018-10-11 20:02:45	AbstractAlignmentMerger	Merged    49,000,000 records.  Elapsed time: 00:07:46s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:13,602,280
+INFO	2018-10-11 20:02:55	AbstractAlignmentMerger	Merged    50,000,000 records.  Elapsed time: 00:07:55s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:98,740,317
+INFO	2018-10-11 20:03:03	AbstractAlignmentMerger	Merged    51,000,000 records.  Elapsed time: 00:08:03s.  Time for last 1,000,000:    8s.  Last read position: NC_000086.7:145,980,589
+INFO	2018-10-11 20:03:12	AbstractAlignmentMerger	Merged    52,000,000 records.  Elapsed time: 00:08:13s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:62,841,003
+INFO	2018-10-11 20:03:22	AbstractAlignmentMerger	Merged    53,000,000 records.  Elapsed time: 00:08:23s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:17,586,774
+INFO	2018-10-11 20:03:31	AbstractAlignmentMerger	Merged    54,000,000 records.  Elapsed time: 00:08:32s.  Time for last 1,000,000:    9s.  Last read position: NC_000084.6:72,788,552
+INFO	2018-10-11 20:03:41	AbstractAlignmentMerger	Merged    55,000,000 records.  Elapsed time: 00:08:41s.  Time for last 1,000,000:    9s.  Last read position: NC_000086.7:93,816,162
+INFO	2018-10-11 20:03:51	AbstractAlignmentMerger	Merged    56,000,000 records.  Elapsed time: 00:08:52s.  Time for last 1,000,000:   10s.  Last read position: NC_000069.6:17,522,466
+INFO	2018-10-11 20:03:59	AbstractAlignmentMerger	Merged    57,000,000 records.  Elapsed time: 00:08:59s.  Time for last 1,000,000:    7s.  Last read position: NC_000079.6:67,341,848
+INFO	2018-10-11 20:04:08	AbstractAlignmentMerger	Merged    58,000,000 records.  Elapsed time: 00:09:09s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:69,371,424
+INFO	2018-10-11 20:04:18	AbstractAlignmentMerger	Merged    59,000,000 records.  Elapsed time: 00:09:18s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:140,676,406
+INFO	2018-10-11 20:04:27	AbstractAlignmentMerger	Merged    60,000,000 records.  Elapsed time: 00:09:28s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:43,920,426
+INFO	2018-10-11 20:04:36	AbstractAlignmentMerger	Merged    61,000,000 records.  Elapsed time: 00:09:36s.  Time for last 1,000,000:    8s.  Last read position: NC_000070.6:85,071,663
+INFO	2018-10-11 20:04:46	AbstractAlignmentMerger	Merged    62,000,000 records.  Elapsed time: 00:09:46s.  Time for last 1,000,000:   10s.  Last read position: NC_000078.6:44,318,815
+INFO	2018-10-11 20:04:55	AbstractAlignmentMerger	Merged    63,000,000 records.  Elapsed time: 00:09:56s.  Time for last 1,000,000:    9s.  Last read position: NC_000071.6:133,936,018
+INFO	2018-10-11 20:05:04	AbstractAlignmentMerger	Merged    64,000,000 records.  Elapsed time: 00:10:05s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:16,706,883
+INFO	2018-10-11 20:05:14	AbstractAlignmentMerger	Merged    65,000,000 records.  Elapsed time: 00:10:14s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:57,770,701
+INFO	2018-10-11 20:05:23	AbstractAlignmentMerger	Merged    66,000,000 records.  Elapsed time: 00:10:24s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:122,448,544
+INFO	2018-10-11 20:05:31	AbstractAlignmentMerger	Merged    67,000,000 records.  Elapsed time: 00:10:32s.  Time for last 1,000,000:    8s.  Last read position: NC_000067.6:44,285,747
+INFO	2018-10-11 20:05:41	AbstractAlignmentMerger	Merged    68,000,000 records.  Elapsed time: 00:10:42s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:46,135,778
+INFO	2018-10-11 20:05:51	AbstractAlignmentMerger	Merged    69,000,000 records.  Elapsed time: 00:10:51s.  Time for last 1,000,000:    9s.  Last read position: NC_000086.7:83,334,527
+INFO	2018-10-11 20:06:01	AbstractAlignmentMerger	Merged    70,000,000 records.  Elapsed time: 00:11:01s.  Time for last 1,000,000:   10s.  Last read position: NC_000067.6:129,052,141
+INFO	2018-10-11 20:06:09	AbstractAlignmentMerger	Merged    71,000,000 records.  Elapsed time: 00:11:09s.  Time for last 1,000,000:    7s.  Last read position: NC_000067.6:169,912,060
+INFO	2018-10-11 20:06:20	AbstractAlignmentMerger	Merged    72,000,000 records.  Elapsed time: 00:11:20s.  Time for last 1,000,000:   10s.  Last read position: NC_000070.6:44,287,501
+INFO	2018-10-11 20:06:29	AbstractAlignmentMerger	Merged    73,000,000 records.  Elapsed time: 00:11:30s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:11,931,014
+INFO	2018-10-11 20:06:37	AbstractAlignmentMerger	Merged    74,000,000 records.  Elapsed time: 00:11:37s.  Time for last 1,000,000:    7s.  Last read position: NC_000083.6:69,029,266
+INFO	2018-10-11 20:06:46	AbstractAlignmentMerger	Merged    75,000,000 records.  Elapsed time: 00:11:47s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:21,869,871
+INFO	2018-10-11 20:06:57	AbstractAlignmentMerger	Merged    76,000,000 records.  Elapsed time: 00:11:57s.  Time for last 1,000,000:   10s.  Last read position: NC_000067.6:76,395,011
+INFO	2018-10-11 20:07:04	AbstractAlignmentMerger	Merged    77,000,000 records.  Elapsed time: 00:12:05s.  Time for last 1,000,000:    7s.  Last read position: NC_000070.6:49,211,752
+INFO	2018-10-11 20:07:15	AbstractAlignmentMerger	Merged    78,000,000 records.  Elapsed time: 00:12:15s.  Time for last 1,000,000:   10s.  Last read position: NC_000079.6:28,435,907
+INFO	2018-10-11 20:07:25	AbstractAlignmentMerger	Merged    79,000,000 records.  Elapsed time: 00:12:25s.  Time for last 1,000,000:   10s.  Last read position: NC_000084.6:38,852,394
+INFO	2018-10-11 20:07:34	AbstractAlignmentMerger	Merged    80,000,000 records.  Elapsed time: 00:12:34s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:98,667,104
+INFO	2018-10-11 20:07:42	AbstractAlignmentMerger	Merged    81,000,000 records.  Elapsed time: 00:12:43s.  Time for last 1,000,000:    8s.  Last read position: NC_000070.6:46,552,876
+INFO	2018-10-11 20:07:51	AbstractAlignmentMerger	Merged    82,000,000 records.  Elapsed time: 00:12:52s.  Time for last 1,000,000:    9s.  Last read position: NC_000073.6:31,202,522
+INFO	2018-10-11 20:08:02	AbstractAlignmentMerger	Merged    83,000,000 records.  Elapsed time: 00:13:02s.  Time for last 1,000,000:   10s.  Last read position: NC_000081.6:97,384,398
+INFO	2018-10-11 20:08:11	AbstractAlignmentMerger	Merged    84,000,000 records.  Elapsed time: 00:13:11s.  Time for last 1,000,000:    8s.  Last read position: NC_000084.6:32,360,572
+INFO	2018-10-11 20:08:20	AbstractAlignmentMerger	Merged    85,000,000 records.  Elapsed time: 00:13:20s.  Time for last 1,000,000:    9s.  Last read position: NC_000084.6:78,812,377
+INFO	2018-10-11 20:08:29	AbstractAlignmentMerger	Merged    86,000,000 records.  Elapsed time: 00:13:30s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:4,960,480
+INFO	2018-10-11 20:08:38	AbstractAlignmentMerger	Merged    87,000,000 records.  Elapsed time: 00:13:38s.  Time for last 1,000,000:    8s.  Last read position: NC_000067.6:136,228,847
+INFO	2018-10-11 20:08:47	AbstractAlignmentMerger	Merged    88,000,000 records.  Elapsed time: 00:13:47s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:19,917,077
+INFO	2018-10-11 20:08:57	AbstractAlignmentMerger	Merged    89,000,000 records.  Elapsed time: 00:13:58s.  Time for last 1,000,000:   10s.  Last read position: NC_000070.6:125,044,597
+INFO	2018-10-11 20:09:08	AbstractAlignmentMerger	Merged    90,000,000 records.  Elapsed time: 00:14:08s.  Time for last 1,000,000:   10s.  Last read position: NC_000082.6:92,084,671
+INFO	2018-10-11 20:09:16	AbstractAlignmentMerger	Merged    91,000,000 records.  Elapsed time: 00:14:16s.  Time for last 1,000,000:    7s.  Last read position: NC_000070.6:109,848,890
+INFO	2018-10-11 20:09:25	AbstractAlignmentMerger	Merged    92,000,000 records.  Elapsed time: 00:14:25s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:109,879,486
+INFO	2018-10-11 20:09:34	AbstractAlignmentMerger	Merged    93,000,000 records.  Elapsed time: 00:14:35s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:55,784,520
+INFO	2018-10-11 20:09:43	AbstractAlignmentMerger	Merged    94,000,000 records.  Elapsed time: 00:14:43s.  Time for last 1,000,000:    8s.  Last read position: NC_000068.7:134,733,258
+INFO	2018-10-11 20:09:53	AbstractAlignmentMerger	Merged    95,000,000 records.  Elapsed time: 00:14:53s.  Time for last 1,000,000:   10s.  Last read position: NC_000086.7:50,095,956
+INFO	2018-10-11 20:10:02	AbstractAlignmentMerger	Merged    96,000,000 records.  Elapsed time: 00:15:03s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:130,728,034
+INFO	2018-10-11 20:10:11	AbstractAlignmentMerger	Merged    97,000,000 records.  Elapsed time: 00:15:12s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:23,054,717
+INFO	2018-10-11 20:10:21	AbstractAlignmentMerger	Merged    98,000,000 records.  Elapsed time: 00:15:21s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:48,384,391
+INFO	2018-10-11 20:10:30	AbstractAlignmentMerger	Merged    99,000,000 records.  Elapsed time: 00:15:31s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:14,283,669
+INFO	2018-10-11 20:10:40	AbstractAlignmentMerger	Merged   100,000,000 records.  Elapsed time: 00:15:40s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:88,212,651
+INFO	2018-10-11 20:10:49	AbstractAlignmentMerger	Merged   101,000,000 records.  Elapsed time: 00:15:49s.  Time for last 1,000,000:    8s.  Last read position: NC_000068.7:98,667,110
+INFO	2018-10-11 20:10:58	AbstractAlignmentMerger	Merged   102,000,000 records.  Elapsed time: 00:15:58s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:75,023,381
+INFO	2018-10-11 20:11:08	AbstractAlignmentMerger	Merged   103,000,000 records.  Elapsed time: 00:16:09s.  Time for last 1,000,000:   10s.  Last read position: NC_000067.6:4,419,756
+INFO	2018-10-11 20:11:16	AbstractAlignmentMerger	Merged   104,000,000 records.  Elapsed time: 00:16:16s.  Time for last 1,000,000:    7s.  Last read position: NC_000068.7:125,865,077
+INFO	2018-10-11 20:11:25	AbstractAlignmentMerger	Merged   105,000,000 records.  Elapsed time: 00:16:26s.  Time for last 1,000,000:    9s.  Last read position: NC_000082.6:43,144,911
+INFO	2018-10-11 20:11:35	AbstractAlignmentMerger	Merged   106,000,000 records.  Elapsed time: 00:16:35s.  Time for last 1,000,000:    9s.  Last read position: NC_000076.6:39,353,584
+INFO	2018-10-11 20:11:43	AbstractAlignmentMerger	Merged   107,000,000 records.  Elapsed time: 00:16:43s.  Time for last 1,000,000:    7s.  Last read position: NC_000083.6:72,499,913
+INFO	2018-10-11 20:11:52	AbstractAlignmentMerger	Merged   108,000,000 records.  Elapsed time: 00:16:53s.  Time for last 1,000,000:    9s.  Last read position: NC_000080.6:19,415,982
+INFO	2018-10-11 20:12:03	AbstractAlignmentMerger	Merged   109,000,000 records.  Elapsed time: 00:17:03s.  Time for last 1,000,000:   10s.  Last read position: NC_000079.6:51,050,420
+INFO	2018-10-11 20:12:12	AbstractAlignmentMerger	Merged   110,000,000 records.  Elapsed time: 00:17:12s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:83,903,660
+INFO	2018-10-11 20:12:21	AbstractAlignmentMerger	Merged   111,000,000 records.  Elapsed time: 00:17:22s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:134,935,829
+INFO	2018-10-11 20:12:30	AbstractAlignmentMerger	Merged   112,000,000 records.  Elapsed time: 00:17:31s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:98,269,901
+INFO	2018-10-11 20:12:40	AbstractAlignmentMerger	Merged   113,000,000 records.  Elapsed time: 00:17:40s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:54,183,701
+INFO	2018-10-11 20:12:48	AbstractAlignmentMerger	Merged   114,000,000 records.  Elapsed time: 00:17:48s.  Time for last 1,000,000:    8s.  Last read position: NC_000086.7:139,917,545
+INFO	2018-10-11 20:12:57	AbstractAlignmentMerger	Merged   115,000,000 records.  Elapsed time: 00:17:58s.  Time for last 1,000,000:    9s.  Last read position: NC_000071.6:62,781,767
+INFO	2018-10-11 20:13:07	AbstractAlignmentMerger	Merged   116,000,000 records.  Elapsed time: 00:18:08s.  Time for last 1,000,000:   10s.  Last read position: NC_000074.6:107,594,110
+INFO	2018-10-11 20:13:16	AbstractAlignmentMerger	Merged   117,000,000 records.  Elapsed time: 00:18:16s.  Time for last 1,000,000:    8s.  Last read position: NC_000085.6:28,978,209
+INFO	2018-10-11 20:13:25	AbstractAlignmentMerger	Merged   118,000,000 records.  Elapsed time: 00:18:26s.  Time for last 1,000,000:    9s.  Last read position: NC_000083.6:16,041,324
+INFO	2018-10-11 20:13:36	AbstractAlignmentMerger	Merged   119,000,000 records.  Elapsed time: 00:18:36s.  Time for last 1,000,000:   10s.  Last read position: NC_000076.6:89,975,064
+INFO	2018-10-11 20:13:45	AbstractAlignmentMerger	Merged   120,000,000 records.  Elapsed time: 00:18:45s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:177,612,885
+INFO	2018-10-11 20:13:53	AbstractAlignmentMerger	Merged   121,000,000 records.  Elapsed time: 00:18:53s.  Time for last 1,000,000:    7s.  Last read position: NC_000075.6:93,205,702
+INFO	2018-10-11 20:14:02	AbstractAlignmentMerger	Merged   122,000,000 records.  Elapsed time: 00:19:03s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:37,943,338
+INFO	2018-10-11 20:14:13	AbstractAlignmentMerger	Merged   123,000,000 records.  Elapsed time: 00:19:13s.  Time for last 1,000,000:   10s.  Last read position: NC_000084.6:71,386,224
+INFO	2018-10-11 20:14:21	AbstractAlignmentMerger	Merged   124,000,000 records.  Elapsed time: 00:19:21s.  Time for last 1,000,000:    7s.  Last read position: NC_000084.6:54,358,315
+INFO	2018-10-11 20:14:31	AbstractAlignmentMerger	Merged   125,000,000 records.  Elapsed time: 00:19:32s.  Time for last 1,000,000:   10s.  Last read position: NC_000081.6:10,058,347
+INFO	2018-10-11 20:14:41	AbstractAlignmentMerger	Merged   126,000,000 records.  Elapsed time: 00:19:41s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:112,274,719
+INFO	2018-10-11 20:14:49	AbstractAlignmentMerger	Merged   127,000,000 records.  Elapsed time: 00:19:49s.  Time for last 1,000,000:    7s.  Last read position: NT_166476.1:23,492
+INFO	2018-10-11 20:14:58	AbstractAlignmentMerger	Merged   128,000,000 records.  Elapsed time: 00:19:58s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:56,672,386
+INFO	2018-10-11 20:15:07	AbstractAlignmentMerger	Merged   129,000,000 records.  Elapsed time: 00:20:08s.  Time for last 1,000,000:    9s.  Last read position: NC_000071.6:23,136,445
+INFO	2018-10-11 20:15:18	AbstractAlignmentMerger	Merged   130,000,000 records.  Elapsed time: 00:20:18s.  Time for last 1,000,000:   10s.  Last read position: NC_000086.7:45,565,676
+INFO	2018-10-11 20:15:26	AbstractAlignmentMerger	Merged   131,000,000 records.  Elapsed time: 00:20:27s.  Time for last 1,000,000:    8s.  Last read position: NC_000072.6:53,730,595
+INFO	2018-10-11 20:15:36	AbstractAlignmentMerger	Merged   132,000,000 records.  Elapsed time: 00:20:36s.  Time for last 1,000,000:    9s.  Last read position: NC_000081.6:80,762,395
+INFO	2018-10-11 20:15:46	AbstractAlignmentMerger	Merged   133,000,000 records.  Elapsed time: 00:20:47s.  Time for last 1,000,000:   10s.  Last read position: NC_000067.6:113,462,249
+INFO	2018-10-11 20:15:54	AbstractAlignmentMerger	Merged   134,000,000 records.  Elapsed time: 00:20:55s.  Time for last 1,000,000:    8s.  Last read position: NC_000070.6:6,790,141
+INFO	2018-10-11 20:16:04	AbstractAlignmentMerger	Merged   135,000,000 records.  Elapsed time: 00:21:04s.  Time for last 1,000,000:    9s.  Last read position: NC_000071.6:66,607,070
+INFO	2018-10-11 20:16:13	AbstractAlignmentMerger	Merged   136,000,000 records.  Elapsed time: 00:21:14s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:41,323,928
+INFO	2018-10-11 20:16:22	AbstractAlignmentMerger	Merged   137,000,000 records.  Elapsed time: 00:21:23s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:103,274,457
+INFO	2018-10-11 20:16:31	AbstractAlignmentMerger	Merged   138,000,000 records.  Elapsed time: 00:21:32s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:75,485,470
+INFO	2018-10-11 20:16:42	AbstractAlignmentMerger	Merged   139,000,000 records.  Elapsed time: 00:21:42s.  Time for last 1,000,000:   10s.  Last read position: NC_000080.6:52,118,048
+INFO	2018-10-11 20:16:50	AbstractAlignmentMerger	Merged   140,000,000 records.  Elapsed time: 00:21:50s.  Time for last 1,000,000:    7s.  Last read position: NC_000086.7:18,448,624
+INFO	2018-10-11 20:16:59	AbstractAlignmentMerger	Merged   141,000,000 records.  Elapsed time: 00:22:00s.  Time for last 1,000,000:    9s.  Last read position: NC_000081.6:97,516,111
+INFO	2018-10-11 20:17:09	AbstractAlignmentMerger	Merged   142,000,000 records.  Elapsed time: 00:22:09s.  Time for last 1,000,000:    9s.  Last read position: NC_000080.6:78,895,878
+INFO	2018-10-11 20:17:18	AbstractAlignmentMerger	Merged   143,000,000 records.  Elapsed time: 00:22:19s.  Time for last 1,000,000:    9s.  Last read position: NC_000071.6:20,776,637
+INFO	2018-10-11 20:17:27	AbstractAlignmentMerger	Merged   144,000,000 records.  Elapsed time: 00:22:27s.  Time for last 1,000,000:    8s.  Last read position: NC_000069.6:117,759,792
+INFO	2018-10-11 20:17:37	AbstractAlignmentMerger	Merged   145,000,000 records.  Elapsed time: 00:22:38s.  Time for last 1,000,000:   10s.  Last read position: NC_000077.6:14,414,288
+INFO	2018-10-11 20:17:47	AbstractAlignmentMerger	Merged   146,000,000 records.  Elapsed time: 00:22:47s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:62,782,813
+INFO	2018-10-11 20:17:55	AbstractAlignmentMerger	Merged   147,000,000 records.  Elapsed time: 00:22:55s.  Time for last 1,000,000:    8s.  Last read position: NC_000076.6:60,167,811
+INFO	2018-10-11 20:18:04	AbstractAlignmentMerger	Merged   148,000,000 records.  Elapsed time: 00:23:05s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:60,439,339
+INFO	2018-10-11 20:18:14	AbstractAlignmentMerger	Merged   149,000,000 records.  Elapsed time: 00:23:14s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:6,482,834
+INFO	2018-10-11 20:18:22	AbstractAlignmentMerger	Merged   150,000,000 records.  Elapsed time: 00:23:23s.  Time for last 1,000,000:    8s.  Last read position: NC_000068.7:98,666,835
+INFO	2018-10-11 20:18:31	AbstractAlignmentMerger	Merged   151,000,000 records.  Elapsed time: 00:23:32s.  Time for last 1,000,000:    9s.  Last read position: NC_000086.7:16,555,037
+INFO	2018-10-11 20:18:42	AbstractAlignmentMerger	Merged   152,000,000 records.  Elapsed time: 00:23:43s.  Time for last 1,000,000:   10s.  Last read position: NC_000080.6:17,990,297
+INFO	2018-10-11 20:18:52	AbstractAlignmentMerger	Merged   153,000,000 records.  Elapsed time: 00:23:52s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:55,770,621
+INFO	2018-10-11 20:19:00	AbstractAlignmentMerger	Merged   154,000,000 records.  Elapsed time: 00:24:00s.  Time for last 1,000,000:    7s.  Last read position: NC_000067.6:102,638,829
+INFO	2018-10-11 20:19:09	AbstractAlignmentMerger	Merged   155,000,000 records.  Elapsed time: 00:24:10s.  Time for last 1,000,000:    9s.  Last read position: NC_000073.6:31,378,581
+INFO	2018-10-11 20:19:19	AbstractAlignmentMerger	Merged   156,000,000 records.  Elapsed time: 00:24:20s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:63,817,438
+INFO	2018-10-11 20:19:27	AbstractAlignmentMerger	Merged   157,000,000 records.  Elapsed time: 00:24:28s.  Time for last 1,000,000:    7s.  Last read position: NC_000071.6:19,121,688
+INFO	2018-10-11 20:19:38	AbstractAlignmentMerger	Merged   158,000,000 records.  Elapsed time: 00:24:38s.  Time for last 1,000,000:   10s.  Last read position: NC_000086.7:138,388,953
+INFO	2018-10-11 20:19:47	AbstractAlignmentMerger	Merged   159,000,000 records.  Elapsed time: 00:24:48s.  Time for last 1,000,000:    9s.  Last read position: NC_000071.6:38,699,654
+INFO	2018-10-11 20:19:55	AbstractAlignmentMerger	Merged   160,000,000 records.  Elapsed time: 00:24:55s.  Time for last 1,000,000:    7s.  Last read position: NC_000068.7:98,667,245
+INFO	2018-10-11 20:20:04	AbstractAlignmentMerger	Merged   161,000,000 records.  Elapsed time: 00:25:05s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:83,221,174
+INFO	2018-10-11 20:20:14	AbstractAlignmentMerger	Merged   162,000,000 records.  Elapsed time: 00:25:14s.  Time for last 1,000,000:    9s.  Last read position: NC_000071.6:135,757,857
+INFO	2018-10-11 20:20:24	AbstractAlignmentMerger	Merged   163,000,000 records.  Elapsed time: 00:25:25s.  Time for last 1,000,000:   10s.  Last read position: NC_000079.6:103,856,758
+INFO	2018-10-11 20:20:33	AbstractAlignmentMerger	Merged   164,000,000 records.  Elapsed time: 00:25:34s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:103,512,025
+INFO	2018-10-11 20:20:43	AbstractAlignmentMerger	Merged   165,000,000 records.  Elapsed time: 00:25:43s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:152,414,145
+INFO	2018-10-11 20:20:52	AbstractAlignmentMerger	Merged   166,000,000 records.  Elapsed time: 00:25:53s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:6,252,724
+INFO	2018-10-11 20:21:01	AbstractAlignmentMerger	Merged   167,000,000 records.  Elapsed time: 00:26:01s.  Time for last 1,000,000:    8s.  Last read position: NC_000067.6:95,532,596
+INFO	2018-10-11 20:21:10	AbstractAlignmentMerger	Merged   168,000,000 records.  Elapsed time: 00:26:11s.  Time for last 1,000,000:    9s.  Last read position: NC_000083.6:75,118,996
+INFO	2018-10-11 20:21:21	AbstractAlignmentMerger	Merged   169,000,000 records.  Elapsed time: 00:26:21s.  Time for last 1,000,000:   10s.  Last read position: NC_000084.6:60,627,265
+INFO	2018-10-11 20:21:30	AbstractAlignmentMerger	Merged   170,000,000 records.  Elapsed time: 00:26:31s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:20,945,899
+INFO	2018-10-11 20:21:38	AbstractAlignmentMerger	Merged   171,000,000 records.  Elapsed time: 00:26:39s.  Time for last 1,000,000:    7s.  Last read position: NC_000068.7:98,667,122
+INFO	2018-10-11 20:21:48	AbstractAlignmentMerger	Merged   172,000,000 records.  Elapsed time: 00:26:48s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:82,408,815
+INFO	2018-10-11 20:21:57	AbstractAlignmentMerger	Merged   173,000,000 records.  Elapsed time: 00:26:58s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:101,549,705
+INFO	2018-10-11 20:22:06	AbstractAlignmentMerger	Merged   174,000,000 records.  Elapsed time: 00:27:06s.  Time for last 1,000,000:    8s.  Last read position: NC_000075.6:67,377,750
+INFO	2018-10-11 20:22:17	AbstractAlignmentMerger	Merged   175,000,000 records.  Elapsed time: 00:27:17s.  Time for last 1,000,000:   11s.  Last read position: NC_000081.6:52,254,050
+INFO	2018-10-11 20:22:26	AbstractAlignmentMerger	Merged   176,000,000 records.  Elapsed time: 00:27:27s.  Time for last 1,000,000:    9s.  Last read position: NC_000075.6:13,093,401
+INFO	2018-10-11 20:22:34	AbstractAlignmentMerger	Merged   177,000,000 records.  Elapsed time: 00:27:35s.  Time for last 1,000,000:    8s.  Last read position: NC_000081.6:24,164,309
+INFO	2018-10-11 20:22:44	AbstractAlignmentMerger	Merged   178,000,000 records.  Elapsed time: 00:27:44s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:87,210,723
+INFO	2018-10-11 20:22:53	AbstractAlignmentMerger	Merged   179,000,000 records.  Elapsed time: 00:27:53s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:103,604,284
+INFO	2018-10-11 20:23:03	AbstractAlignmentMerger	Merged   180,000,000 records.  Elapsed time: 00:28:04s.  Time for last 1,000,000:   10s.  Last read position: NC_000079.6:98,334,067
+INFO	2018-10-11 20:23:11	AbstractAlignmentMerger	Merged   181,000,000 records.  Elapsed time: 00:28:11s.  Time for last 1,000,000:    7s.  Last read position: NC_000070.6:124,344,749
+INFO	2018-10-11 20:23:22	AbstractAlignmentMerger	Merged   182,000,000 records.  Elapsed time: 00:28:22s.  Time for last 1,000,000:   10s.  Last read position: NC_000081.6:41,139,865
+INFO	2018-10-11 20:23:31	AbstractAlignmentMerger	Merged   183,000,000 records.  Elapsed time: 00:28:31s.  Time for last 1,000,000:    9s.  Last read position: NC_000075.6:54,170,690
+INFO	2018-10-11 20:23:39	AbstractAlignmentMerger	Merged   184,000,000 records.  Elapsed time: 00:28:39s.  Time for last 1,000,000:    7s.  Last read position: NC_000080.6:37,640,622
+INFO	2018-10-11 20:23:48	AbstractAlignmentMerger	Merged   185,000,000 records.  Elapsed time: 00:28:49s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:95,112,858
+INFO	2018-10-11 20:23:58	AbstractAlignmentMerger	Merged   186,000,000 records.  Elapsed time: 00:28:59s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:106,567,613
+INFO	2018-10-11 20:24:08	AbstractAlignmentMerger	Merged   187,000,000 records.  Elapsed time: 00:29:08s.  Time for last 1,000,000:    9s.  Last read position: NC_000076.6:91,683,978
+INFO	2018-10-11 20:24:16	AbstractAlignmentMerger	Merged   188,000,000 records.  Elapsed time: 00:29:17s.  Time for last 1,000,000:    8s.  Last read position: NC_000071.6:32,038,124
+INFO	2018-10-11 20:24:27	AbstractAlignmentMerger	Merged   189,000,000 records.  Elapsed time: 00:29:27s.  Time for last 1,000,000:   10s.  Last read position: NC_000071.6:136,338,920
+INFO	2018-10-11 20:24:36	AbstractAlignmentMerger	Merged   190,000,000 records.  Elapsed time: 00:29:36s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:134,631,759
+INFO	2018-10-11 20:24:44	AbstractAlignmentMerger	Merged   191,000,000 records.  Elapsed time: 00:29:45s.  Time for last 1,000,000:    8s.  Last read position: NC_000086.7:140,284,853
+INFO	2018-10-11 20:24:54	AbstractAlignmentMerger	Merged   192,000,000 records.  Elapsed time: 00:29:54s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:89,940,850
+INFO	2018-10-11 20:25:03	AbstractAlignmentMerger	Merged   193,000,000 records.  Elapsed time: 00:30:03s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:70,994,686
+INFO	2018-10-11 20:25:12	AbstractAlignmentMerger	Merged   194,000,000 records.  Elapsed time: 00:30:12s.  Time for last 1,000,000:    8s.  Last read position: NC_000081.6:63,459,976
+INFO	2018-10-11 20:25:21	AbstractAlignmentMerger	Merged   195,000,000 records.  Elapsed time: 00:30:21s.  Time for last 1,000,000:    9s.  Last read position: NC_000081.6:58,641,602
+INFO	2018-10-11 20:25:32	AbstractAlignmentMerger	Merged   196,000,000 records.  Elapsed time: 00:30:32s.  Time for last 1,000,000:   10s.  Last read position: NC_000079.6:5,235,372
+INFO	2018-10-11 20:25:40	AbstractAlignmentMerger	Merged   197,000,000 records.  Elapsed time: 00:30:40s.  Time for last 1,000,000:    7s.  Last read position: NC_000068.7:93,582,199
+INFO	2018-10-11 20:25:49	AbstractAlignmentMerger	Merged   198,000,000 records.  Elapsed time: 00:30:49s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:48,671,668
+INFO	2018-10-11 20:25:59	AbstractAlignmentMerger	Merged   199,000,000 records.  Elapsed time: 00:30:59s.  Time for last 1,000,000:    9s.  Last read position: NC_000082.6:82,514,468
+INFO	2018-10-11 20:26:08	AbstractAlignmentMerger	Merged   200,000,000 records.  Elapsed time: 00:31:09s.  Time for last 1,000,000:    9s.  Last read position: NC_000075.6:30,212,584
+INFO	2018-10-11 20:26:16	AbstractAlignmentMerger	Merged   201,000,000 records.  Elapsed time: 00:31:17s.  Time for last 1,000,000:    7s.  Last read position: NC_000082.6:5,990,046
+INFO	2018-10-11 20:26:27	AbstractAlignmentMerger	Merged   202,000,000 records.  Elapsed time: 00:31:27s.  Time for last 1,000,000:   10s.  Last read position: NC_000070.6:133,276,296
+INFO	2018-10-11 20:26:36	AbstractAlignmentMerger	Merged   203,000,000 records.  Elapsed time: 00:31:37s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:165,839,693
+INFO	2018-10-11 20:26:44	AbstractAlignmentMerger	Merged   204,000,000 records.  Elapsed time: 00:31:45s.  Time for last 1,000,000:    7s.  Last read position: NC_000071.6:28,364,634
+INFO	2018-10-11 20:26:54	AbstractAlignmentMerger	Merged   205,000,000 records.  Elapsed time: 00:31:54s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:110,326,431
+INFO	2018-10-11 20:27:03	AbstractAlignmentMerger	Merged   206,000,000 records.  Elapsed time: 00:32:03s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:19,309,387
+INFO	2018-10-11 20:27:11	AbstractAlignmentMerger	Merged   207,000,000 records.  Elapsed time: 00:32:12s.  Time for last 1,000,000:    8s.  Last read position: NC_000072.6:117,749,167
+INFO	2018-10-11 20:27:22	AbstractAlignmentMerger	Merged   208,000,000 records.  Elapsed time: 00:32:22s.  Time for last 1,000,000:   10s.  Last read position: NC_000071.6:18,331,875
+INFO	2018-10-11 20:27:31	AbstractAlignmentMerger	Merged   209,000,000 records.  Elapsed time: 00:32:31s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:86,113,930
+INFO	2018-10-11 20:27:40	AbstractAlignmentMerger	Merged   210,000,000 records.  Elapsed time: 00:32:41s.  Time for last 1,000,000:    9s.  Last read position: NC_000086.7:64,387,115
+INFO	2018-10-11 20:27:48	AbstractAlignmentMerger	Merged   211,000,000 records.  Elapsed time: 00:32:49s.  Time for last 1,000,000:    8s.  Last read position: NC_000076.6:105,527,337
+INFO	2018-10-11 20:27:58	AbstractAlignmentMerger	Merged   212,000,000 records.  Elapsed time: 00:32:58s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:74,660,902
+INFO	2018-10-11 20:28:08	AbstractAlignmentMerger	Merged   213,000,000 records.  Elapsed time: 00:33:08s.  Time for last 1,000,000:   10s.  Last read position: NC_000079.6:11,342,767
+INFO	2018-10-11 20:28:17	AbstractAlignmentMerger	Merged   214,000,000 records.  Elapsed time: 00:33:18s.  Time for last 1,000,000:    9s.  Last read position: NC_000083.6:61,722,781
+INFO	2018-10-11 20:28:27	AbstractAlignmentMerger	Merged   215,000,000 records.  Elapsed time: 00:33:27s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:157,767,708
+INFO	2018-10-11 20:28:36	AbstractAlignmentMerger	Merged   216,000,000 records.  Elapsed time: 00:33:36s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:20,224,370
+INFO	2018-10-11 20:28:44	AbstractAlignmentMerger	Merged   217,000,000 records.  Elapsed time: 00:33:44s.  Time for last 1,000,000:    7s.  Last read position: NC_000075.6:111,775,372
+INFO	2018-10-11 20:28:53	AbstractAlignmentMerger	Merged   218,000,000 records.  Elapsed time: 00:33:54s.  Time for last 1,000,000:    9s.  Last read position: NT_166299.2:150,157
+INFO	2018-10-11 20:29:04	AbstractAlignmentMerger	Merged   219,000,000 records.  Elapsed time: 00:34:04s.  Time for last 1,000,000:   10s.  Last read position: NC_000081.6:100,828,943
+INFO	2018-10-11 20:29:13	AbstractAlignmentMerger	Merged   220,000,000 records.  Elapsed time: 00:34:13s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:22,298,829
+INFO	2018-10-11 20:29:22	AbstractAlignmentMerger	Merged   221,000,000 records.  Elapsed time: 00:34:23s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:9,069,479
+INFO	2018-10-11 20:29:32	AbstractAlignmentMerger	Merged   222,000,000 records.  Elapsed time: 00:34:32s.  Time for last 1,000,000:    9s.  Last read position: NC_000074.6:31,150,290
+INFO	2018-10-11 20:29:41	AbstractAlignmentMerger	Merged   223,000,000 records.  Elapsed time: 00:34:42s.  Time for last 1,000,000:    9s.  Last read position: NC_000075.6:39,771,189
+INFO	2018-10-11 20:29:49	AbstractAlignmentMerger	Merged   224,000,000 records.  Elapsed time: 00:34:50s.  Time for last 1,000,000:    8s.  Last read position: NC_000084.6:84,217,123
+INFO	2018-10-11 20:29:59	AbstractAlignmentMerger	Merged   225,000,000 records.  Elapsed time: 00:35:00s.  Time for last 1,000,000:   10s.  Last read position: NC_000081.6:78,324,437
+INFO	2018-10-11 20:30:09	AbstractAlignmentMerger	Merged   226,000,000 records.  Elapsed time: 00:35:09s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:47,845,857
+INFO	2018-10-11 20:30:19	AbstractAlignmentMerger	Merged   227,000,000 records.  Elapsed time: 00:35:19s.  Time for last 1,000,000:   10s.  Last read position: NC_000085.6:35,899,032
+INFO	2018-10-11 20:30:27	AbstractAlignmentMerger	Merged   228,000,000 records.  Elapsed time: 00:35:27s.  Time for last 1,000,000:    7s.  Last read position: NC_000073.6:124,035,246
+INFO	2018-10-11 20:30:36	AbstractAlignmentMerger	Merged   229,000,000 records.  Elapsed time: 00:35:37s.  Time for last 1,000,000:    9s.  Last read position: NC_000083.6:78,018,614
+INFO	2018-10-11 20:30:46	AbstractAlignmentMerger	Merged   230,000,000 records.  Elapsed time: 00:35:46s.  Time for last 1,000,000:    9s.  Last read position: NC_000080.6:38,931,734
+INFO	2018-10-11 20:30:54	AbstractAlignmentMerger	Merged   231,000,000 records.  Elapsed time: 00:35:54s.  Time for last 1,000,000:    7s.  Last read position: NC_000069.6:15,398,733
+INFO	2018-10-11 20:31:04	AbstractAlignmentMerger	Merged   232,000,000 records.  Elapsed time: 00:36:04s.  Time for last 1,000,000:   10s.  Last read position: NC_000068.7:151,749,870
+INFO	2018-10-11 20:31:15	AbstractAlignmentMerger	Merged   233,000,000 records.  Elapsed time: 00:36:15s.  Time for last 1,000,000:   10s.  Last read position: NC_000067.6:81,995,680
+INFO	2018-10-11 20:31:22	AbstractAlignmentMerger	Merged   234,000,000 records.  Elapsed time: 00:36:23s.  Time for last 1,000,000:    7s.  Last read position: NC_000072.6:85,071,257
+INFO	2018-10-11 20:31:32	AbstractAlignmentMerger	Merged   235,000,000 records.  Elapsed time: 00:36:33s.  Time for last 1,000,000:    9s.  Last read position: NC_000075.6:60,527,268
+INFO	2018-10-11 20:31:42	AbstractAlignmentMerger	Merged   236,000,000 records.  Elapsed time: 00:36:42s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:50,512,332
+INFO	2018-10-11 20:31:51	AbstractAlignmentMerger	Merged   237,000,000 records.  Elapsed time: 00:36:51s.  Time for last 1,000,000:    9s.  Last read position: NC_000075.6:22,374,357
+INFO	2018-10-11 20:32:00	AbstractAlignmentMerger	Merged   238,000,000 records.  Elapsed time: 00:37:00s.  Time for last 1,000,000:    8s.  Last read position: NC_000068.7:181,409,712
+INFO	2018-10-11 20:32:09	AbstractAlignmentMerger	Merged   239,000,000 records.  Elapsed time: 00:37:09s.  Time for last 1,000,000:    9s.  Last read position: NC_000082.6:63,585,172
+INFO	2018-10-11 20:32:20	AbstractAlignmentMerger	Merged   240,000,000 records.  Elapsed time: 00:37:20s.  Time for last 1,000,000:   10s.  Last read position: NC_000072.6:25,674,882
+INFO	2018-10-11 20:32:28	AbstractAlignmentMerger	Merged   241,000,000 records.  Elapsed time: 00:37:28s.  Time for last 1,000,000:    8s.  Last read position: NC_000072.6:30,630,949
+INFO	2018-10-11 20:32:37	AbstractAlignmentMerger	Merged   242,000,000 records.  Elapsed time: 00:37:37s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:71,565,894
+INFO	2018-10-11 20:32:47	AbstractAlignmentMerger	Merged   243,000,000 records.  Elapsed time: 00:37:47s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:169,015,146
+INFO	2018-10-11 20:32:56	AbstractAlignmentMerger	Merged   244,000,000 records.  Elapsed time: 00:37:56s.  Time for last 1,000,000:    8s.  Last read position: NC_000078.6:56,773,684
+INFO	2018-10-11 20:33:05	AbstractAlignmentMerger	Merged   245,000,000 records.  Elapsed time: 00:38:05s.  Time for last 1,000,000:    9s.  Last read position: NC_000080.6:8,036,041
+INFO	2018-10-11 20:33:16	AbstractAlignmentMerger	Merged   246,000,000 records.  Elapsed time: 00:38:16s.  Time for last 1,000,000:   10s.  Last read position: NC_000074.6:33,252,348
+INFO	2018-10-11 20:33:25	AbstractAlignmentMerger	Merged   247,000,000 records.  Elapsed time: 00:38:25s.  Time for last 1,000,000:    9s.  Last read position: NC_000086.7:59,883,765
+INFO	2018-10-11 20:33:33	AbstractAlignmentMerger	Merged   248,000,000 records.  Elapsed time: 00:38:34s.  Time for last 1,000,000:    8s.  Last read position: NC_000068.7:44,271,280
+INFO	2018-10-11 20:33:43	AbstractAlignmentMerger	Merged   249,000,000 records.  Elapsed time: 00:38:43s.  Time for last 1,000,000:    9s.  Last read position: NC_000086.7:147,384,278
+INFO	2018-10-11 20:33:52	AbstractAlignmentMerger	Merged   250,000,000 records.  Elapsed time: 00:38:52s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:122,527,684
+INFO	2018-10-11 20:34:01	AbstractAlignmentMerger	Merged   251,000,000 records.  Elapsed time: 00:39:01s.  Time for last 1,000,000:    8s.  Last read position: NC_000086.7:104,253,073
+INFO	2018-10-11 20:34:12	AbstractAlignmentMerger	Merged   252,000,000 records.  Elapsed time: 00:39:12s.  Time for last 1,000,000:   10s.  Last read position: NC_000074.6:107,886,618
+INFO	2018-10-11 20:34:21	AbstractAlignmentMerger	Merged   253,000,000 records.  Elapsed time: 00:39:21s.  Time for last 1,000,000:    9s.  Last read position: NC_000073.6:73,374,311
+INFO	2018-10-11 20:34:30	AbstractAlignmentMerger	Merged   254,000,000 records.  Elapsed time: 00:39:31s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:117,470,843
+INFO	2018-10-11 20:34:38	AbstractAlignmentMerger	Merged   255,000,000 records.  Elapsed time: 00:39:39s.  Time for last 1,000,000:    8s.  Last read position: NC_000079.6:23,429,541
+INFO	2018-10-11 20:34:48	AbstractAlignmentMerger	Merged   256,000,000 records.  Elapsed time: 00:39:48s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:98,662,754
+INFO	2018-10-11 20:34:57	AbstractAlignmentMerger	Merged   257,000,000 records.  Elapsed time: 00:39:58s.  Time for last 1,000,000:    9s.  Last read position: NC_000073.6:4,282,638
+INFO	2018-10-11 20:35:07	AbstractAlignmentMerger	Merged   258,000,000 records.  Elapsed time: 00:40:07s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:30,283,175
+INFO	2018-10-11 20:35:16	AbstractAlignmentMerger	Merged   259,000,000 records.  Elapsed time: 00:40:16s.  Time for last 1,000,000:    9s.  Last read position: NC_000082.6:12,218,469
+INFO	2018-10-11 20:35:26	AbstractAlignmentMerger	Merged   260,000,000 records.  Elapsed time: 00:40:27s.  Time for last 1,000,000:   10s.  Last read position: NC_000075.6:3,002,947
+INFO	2018-10-11 20:35:34	AbstractAlignmentMerger	Merged   261,000,000 records.  Elapsed time: 00:40:35s.  Time for last 1,000,000:    7s.  Last read position: NC_000073.6:72,563,616
+INFO	2018-10-11 20:35:44	AbstractAlignmentMerger	Merged   262,000,000 records.  Elapsed time: 00:40:44s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:67,080,174
+INFO	2018-10-11 20:35:53	AbstractAlignmentMerger	Merged   263,000,000 records.  Elapsed time: 00:40:54s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:44,267,921
+INFO	2018-10-11 20:36:02	AbstractAlignmentMerger	Merged   264,000,000 records.  Elapsed time: 00:41:03s.  Time for last 1,000,000:    9s.  Last read position: NC_000084.6:61,875,040
+INFO	2018-10-11 20:36:12	AbstractAlignmentMerger	Merged   265,000,000 records.  Elapsed time: 00:41:12s.  Time for last 1,000,000:    9s.  Last read position: NC_000067.6:9,868,296
+INFO	2018-10-11 20:36:22	AbstractAlignmentMerger	Merged   266,000,000 records.  Elapsed time: 00:41:23s.  Time for last 1,000,000:   10s.  Last read position: NC_000075.6:62,155,975
+INFO	2018-10-11 20:36:32	AbstractAlignmentMerger	Merged   267,000,000 records.  Elapsed time: 00:41:32s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:97,006,873
+INFO	2018-10-11 20:36:40	AbstractAlignmentMerger	Merged   268,000,000 records.  Elapsed time: 00:41:40s.  Time for last 1,000,000:    8s.  Last read position: NC_000080.6:62,647,698
+INFO	2018-10-11 20:36:49	AbstractAlignmentMerger	Merged   269,000,000 records.  Elapsed time: 00:41:50s.  Time for last 1,000,000:    9s.  Last read position: NC_000078.6:15,739,996
+INFO	2018-10-11 20:36:58	AbstractAlignmentMerger	Merged   270,000,000 records.  Elapsed time: 00:41:59s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:30,249,901
+INFO	2018-10-11 20:37:07	AbstractAlignmentMerger	Merged   271,000,000 records.  Elapsed time: 00:42:07s.  Time for last 1,000,000:    8s.  Last read position: NC_000067.6:32,719,036
+INFO	2018-10-11 20:37:16	AbstractAlignmentMerger	Merged   272,000,000 records.  Elapsed time: 00:42:17s.  Time for last 1,000,000:    9s.  Last read position: NC_000068.7:145,778,342
+INFO	2018-10-11 20:37:27	AbstractAlignmentMerger	Merged   273,000,000 records.  Elapsed time: 00:42:27s.  Time for last 1,000,000:   10s.  Last read position: NC_000076.6:85,173,076
+INFO	2018-10-11 20:37:36	AbstractAlignmentMerger	Merged   274,000,000 records.  Elapsed time: 00:42:36s.  Time for last 1,000,000:    9s.  Last read position: NC_000069.6:17,851,999
+INFO	2018-10-11 20:37:45	AbstractAlignmentMerger	Merged   275,000,000 records.  Elapsed time: 00:42:46s.  Time for last 1,000,000:    9s.  Last read position: NC_000077.6:55,562,795
+INFO	2018-10-11 20:37:55	AbstractAlignmentMerger	Merged   276,000,000 records.  Elapsed time: 00:42:55s.  Time for last 1,000,000:    9s.  Last read position: NC_000076.6:126,480,447
+INFO	2018-10-11 20:38:04	AbstractAlignmentMerger	Merged   277,000,000 records.  Elapsed time: 00:43:05s.  Time for last 1,000,000:    9s.  Last read position: NC_000072.6:107,303,058
+INFO	2018-10-11 20:38:12	AbstractAlignmentMerger	Merged   278,000,000 records.  Elapsed time: 00:43:12s.  Time for last 1,000,000:    7s.  Last read position: NC_000068.7:62,616,575
+INFO	2018-10-11 20:38:22	AbstractAlignmentMerger	Merged   279,000,000 records.  Elapsed time: 00:43:22s.  Time for last 1,000,000:    9s.  Last read position: NC_000070.6:23,592,268
+INFO	2018-10-11 20:38:32	AbstractAlignmentMerger	Merged   280,000,000 records.  Elapsed time: 00:43:33s.  Time for last 1,000,000:   10s.  Last read position: NC_000076.6:48,766,845
+INFO	2018-10-11 20:38:40	AbstractAlignmentMerger	Merged   281,000,000 records.  Elapsed time: 00:43:41s.  Time for last 1,000,000:    7s.  Last read position: NC_000085.6:56,005,674
+INFO	2018-10-11 20:38:51	AbstractAlignmentMerger	Merged   282,000,000 records.  Elapsed time: 00:43:51s.  Time for last 1,000,000:   10s.  Last read position: NC_000082.6:12,966,254
+INFO	2018-10-11 20:39:00	AbstractAlignmentMerger	Merged   283,000,000 records.  Elapsed time: 00:44:01s.  Time for last 1,000,000:    9s.  Last read position: NC_000079.6:21,736,610
+INFO	2018-10-11 20:41:35	AbstractAlignmentMerger	Written in coordinate order to output    10,000,000 records.  Elapsed time: 00:02:29s.  Time for last 10,000,000:  117s.  Last read position: NC_000067.6:73,487,608
+INFO	2018-10-11 20:43:40	AbstractAlignmentMerger	Written in coordinate order to output    20,000,000 records.  Elapsed time: 00:04:33s.  Time for last 10,000,000:  124s.  Last read position: NC_000067.6:155,835,102
+INFO	2018-10-11 20:45:49	AbstractAlignmentMerger	Written in coordinate order to output    30,000,000 records.  Elapsed time: 00:06:42s.  Time for last 10,000,000:  128s.  Last read position: NC_000068.7:50,650,475
+INFO	2018-10-11 20:47:42	AbstractAlignmentMerger	Written in coordinate order to output    40,000,000 records.  Elapsed time: 00:08:35s.  Time for last 10,000,000:  113s.  Last read position: NC_000068.7:98,667,102
+INFO	2018-10-11 20:49:38	AbstractAlignmentMerger	Written in coordinate order to output    50,000,000 records.  Elapsed time: 00:10:31s.  Time for last 10,000,000:  116s.  Last read position: NC_000068.7:156,921,463
+INFO	2018-10-11 20:51:44	AbstractAlignmentMerger	Written in coordinate order to output    60,000,000 records.  Elapsed time: 00:12:37s.  Time for last 10,000,000:  125s.  Last read position: NC_000069.6:69,632,147
+INFO	2018-10-11 20:53:50	AbstractAlignmentMerger	Written in coordinate order to output    70,000,000 records.  Elapsed time: 00:14:43s.  Time for last 10,000,000:  126s.  Last read position: NC_000070.6:6,010,394
+INFO	2018-10-11 20:55:56	AbstractAlignmentMerger	Written in coordinate order to output    80,000,000 records.  Elapsed time: 00:16:49s.  Time for last 10,000,000:  125s.  Last read position: NC_000070.6:116,715,537
+INFO	2018-10-11 20:58:04	AbstractAlignmentMerger	Written in coordinate order to output    90,000,000 records.  Elapsed time: 00:18:57s.  Time for last 10,000,000:  128s.  Last read position: NC_000071.6:53,228,847
+INFO	2018-10-11 21:00:10	AbstractAlignmentMerger	Written in coordinate order to output   100,000,000 records.  Elapsed time: 00:21:04s.  Time for last 10,000,000:  126s.  Last read position: NC_000071.6:142,722,061
+INFO	2018-10-11 21:02:17	AbstractAlignmentMerger	Written in coordinate order to output   110,000,000 records.  Elapsed time: 00:23:10s.  Time for last 10,000,000:  126s.  Last read position: NC_000072.6:84,253,544
+INFO	2018-10-11 21:04:24	AbstractAlignmentMerger	Written in coordinate order to output   120,000,000 records.  Elapsed time: 00:25:17s.  Time for last 10,000,000:  127s.  Last read position: NC_000073.6:61,626,409
+INFO	2018-10-11 21:06:30	AbstractAlignmentMerger	Written in coordinate order to output   130,000,000 records.  Elapsed time: 00:27:23s.  Time for last 10,000,000:  126s.  Last read position: NC_000074.6:7,998,689
+INFO	2018-10-11 21:08:36	AbstractAlignmentMerger	Written in coordinate order to output   140,000,000 records.  Elapsed time: 00:29:29s.  Time for last 10,000,000:  126s.  Last read position: NC_000074.6:97,420,415
+INFO	2018-10-11 21:10:42	AbstractAlignmentMerger	Written in coordinate order to output   150,000,000 records.  Elapsed time: 00:31:35s.  Time for last 10,000,000:  126s.  Last read position: NC_000075.6:47,161,386
+INFO	2018-10-11 21:12:47	AbstractAlignmentMerger	Written in coordinate order to output   160,000,000 records.  Elapsed time: 00:33:41s.  Time for last 10,000,000:  125s.  Last read position: NC_000076.6:12,938,573
+INFO	2018-10-11 21:14:51	AbstractAlignmentMerger	Written in coordinate order to output   170,000,000 records.  Elapsed time: 00:35:44s.  Time for last 10,000,000:  123s.  Last read position: NC_000076.6:102,780,092
+INFO	2018-10-11 21:16:56	AbstractAlignmentMerger	Written in coordinate order to output   180,000,000 records.  Elapsed time: 00:37:49s.  Time for last 10,000,000:  124s.  Last read position: NC_000077.6:36,994,432
+INFO	2018-10-11 21:19:02	AbstractAlignmentMerger	Written in coordinate order to output   190,000,000 records.  Elapsed time: 00:39:55s.  Time for last 10,000,000:  126s.  Last read position: NC_000078.6:6,911,559
+INFO	2018-10-11 21:21:07	AbstractAlignmentMerger	Written in coordinate order to output   200,000,000 records.  Elapsed time: 00:42:01s.  Time for last 10,000,000:  125s.  Last read position: NC_000078.6:111,431,283
+INFO	2018-10-11 21:23:12	AbstractAlignmentMerger	Written in coordinate order to output   210,000,000 records.  Elapsed time: 00:44:06s.  Time for last 10,000,000:  125s.  Last read position: NC_000079.6:84,024,783
+INFO	2018-10-11 21:25:17	AbstractAlignmentMerger	Written in coordinate order to output   220,000,000 records.  Elapsed time: 00:46:11s.  Time for last 10,000,000:  125s.  Last read position: NC_000080.6:57,833,906
+INFO	2018-10-11 21:27:24	AbstractAlignmentMerger	Written in coordinate order to output   230,000,000 records.  Elapsed time: 00:48:17s.  Time for last 10,000,000:  126s.  Last read position: NC_000081.6:47,953,803
+INFO	2018-10-11 21:29:32	AbstractAlignmentMerger	Written in coordinate order to output   240,000,000 records.  Elapsed time: 00:50:25s.  Time for last 10,000,000:  127s.  Last read position: NC_000082.6:32,109,143
+INFO	2018-10-11 21:31:36	AbstractAlignmentMerger	Written in coordinate order to output   250,000,000 records.  Elapsed time: 00:52:30s.  Time for last 10,000,000:  124s.  Last read position: NC_000083.6:31,865,190
+INFO	2018-10-11 21:33:43	AbstractAlignmentMerger	Written in coordinate order to output   260,000,000 records.  Elapsed time: 00:54:36s.  Time for last 10,000,000:  126s.  Last read position: NC_000084.6:33,834,902
+INFO	2018-10-11 21:35:58	AbstractAlignmentMerger	Written in coordinate order to output   270,000,000 records.  Elapsed time: 00:56:52s.  Time for last 10,000,000:  135s.  Last read position: NC_000085.6:45,285,884
+INFO	2018-10-11 21:38:04	AbstractAlignmentMerger	Written in coordinate order to output   280,000,000 records.  Elapsed time: 00:58:57s.  Time for last 10,000,000:  125s.  Last read position: NC_000086.7:152,258,087
+INFO	2018-10-11 21:39:21	AbstractAlignmentMerger	Written in coordinate order to output   290,000,000 records.  Elapsed time: 01:00:14s.  Time for last 10,000,000:   77s.  Last read position: */*
+INFO	2018-10-11 21:40:12	AbstractAlignmentMerger	Written in coordinate order to output   300,000,000 records.  Elapsed time: 01:01:05s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 21:41:03	AbstractAlignmentMerger	Written in coordinate order to output   310,000,000 records.  Elapsed time: 01:01:57s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 21:41:55	AbstractAlignmentMerger	Written in coordinate order to output   320,000,000 records.  Elapsed time: 01:02:48s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 21:42:46	AbstractAlignmentMerger	Written in coordinate order to output   330,000,000 records.  Elapsed time: 01:03:39s.  Time for last 10,000,000:   51s.  Last read position: */*
+INFO	2018-10-11 21:43:37	AbstractAlignmentMerger	Written in coordinate order to output   340,000,000 records.  Elapsed time: 01:04:30s.  Time for last 10,000,000:   50s.  Last read position: */*
+INFO	2018-10-11 21:44:28	AbstractAlignmentMerger	Written in coordinate order to output   350,000,000 records.  Elapsed time: 01:05:21s.  Time for last 10,000,000:   50s.  Last read position: */*
+INFO	2018-10-11 21:45:18	AbstractAlignmentMerger	Written in coordinate order to output   360,000,000 records.  Elapsed time: 01:06:11s.  Time for last 10,000,000:   50s.  Last read position: */*
+INFO	2018-10-11 21:46:08	AbstractAlignmentMerger	Written in coordinate order to output   370,000,000 records.  Elapsed time: 01:07:01s.  Time for last 10,000,000:   50s.  Last read position: */*
+INFO	2018-10-11 21:46:58	AbstractAlignmentMerger	Written in coordinate order to output   380,000,000 records.  Elapsed time: 01:07:51s.  Time for last 10,000,000:   50s.  Last read position: */*
+INFO	2018-10-11 21:47:14	AbstractAlignmentMerger	Wrote 283619176 alignment records and 99345603 unmapped reads.
+[Thu Oct 11 21:47:14 CDT 2018] picard.sam.MergeBamAlignment done. Elapsed time: 112.26 minutes.
+Runtime.totalMemory()=1427636224
+[Thu Oct 11 21:47:16 CDT 2018] picard.sam.SortSam INPUT=A20_merged.bam OUTPUT=A20_merged.sorted.bam SORT_ORDER=coordinate    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Oct 11 21:47:16 CDT 2018] Executing as mleukam@cri16cn215 on Linux 2.6.32-573.12.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_92-b14; Picard version: 2.8.1-SNAPSHOT
+INFO	2018-10-11 21:47:48	SortSam	Read    10,000,000 records.  Elapsed time: 00:00:31s.  Time for last 10,000,000:   31s.  Last read position: NC_000067.6:73,487,608
+INFO	2018-10-11 21:48:12	SortSam	Read    20,000,000 records.  Elapsed time: 00:00:56s.  Time for last 10,000,000:   24s.  Last read position: NC_000067.6:155,835,102
+INFO	2018-10-11 21:48:39	SortSam	Read    30,000,000 records.  Elapsed time: 00:01:23s.  Time for last 10,000,000:   26s.  Last read position: NC_000068.7:50,650,475
+INFO	2018-10-11 21:49:04	SortSam	Read    40,000,000 records.  Elapsed time: 00:01:47s.  Time for last 10,000,000:   24s.  Last read position: NC_000068.7:98,667,102
+INFO	2018-10-11 21:49:27	SortSam	Read    50,000,000 records.  Elapsed time: 00:02:10s.  Time for last 10,000,000:   23s.  Last read position: NC_000068.7:156,921,463
+INFO	2018-10-11 21:49:50	SortSam	Read    60,000,000 records.  Elapsed time: 00:02:33s.  Time for last 10,000,000:   23s.  Last read position: NC_000069.6:69,632,147
+INFO	2018-10-11 21:50:13	SortSam	Read    70,000,000 records.  Elapsed time: 00:02:56s.  Time for last 10,000,000:   22s.  Last read position: NC_000070.6:6,010,394
+INFO	2018-10-11 21:50:40	SortSam	Read    80,000,000 records.  Elapsed time: 00:03:23s.  Time for last 10,000,000:   26s.  Last read position: NC_000070.6:116,715,537
+INFO	2018-10-11 21:51:04	SortSam	Read    90,000,000 records.  Elapsed time: 00:03:48s.  Time for last 10,000,000:   24s.  Last read position: NC_000071.6:53,228,847
+INFO	2018-10-11 21:51:28	SortSam	Read   100,000,000 records.  Elapsed time: 00:04:11s.  Time for last 10,000,000:   23s.  Last read position: NC_000071.6:142,722,061
+INFO	2018-10-11 21:51:53	SortSam	Read   110,000,000 records.  Elapsed time: 00:04:36s.  Time for last 10,000,000:   25s.  Last read position: NC_000072.6:84,253,544
+INFO	2018-10-11 21:52:18	SortSam	Read   120,000,000 records.  Elapsed time: 00:05:02s.  Time for last 10,000,000:   25s.  Last read position: NC_000073.6:61,626,409
+INFO	2018-10-11 21:52:42	SortSam	Read   130,000,000 records.  Elapsed time: 00:05:25s.  Time for last 10,000,000:   23s.  Last read position: NC_000074.6:7,998,689
+INFO	2018-10-11 21:53:07	SortSam	Read   140,000,000 records.  Elapsed time: 00:05:51s.  Time for last 10,000,000:   25s.  Last read position: NC_000074.6:97,420,415
+INFO	2018-10-11 21:53:31	SortSam	Read   150,000,000 records.  Elapsed time: 00:06:14s.  Time for last 10,000,000:   23s.  Last read position: NC_000075.6:47,161,386
+INFO	2018-10-11 21:53:57	SortSam	Read   160,000,000 records.  Elapsed time: 00:06:40s.  Time for last 10,000,000:   26s.  Last read position: NC_000076.6:12,938,573
+INFO	2018-10-11 21:54:21	SortSam	Read   170,000,000 records.  Elapsed time: 00:07:05s.  Time for last 10,000,000:   24s.  Last read position: NC_000076.6:102,780,092
+INFO	2018-10-11 21:54:46	SortSam	Read   180,000,000 records.  Elapsed time: 00:07:29s.  Time for last 10,000,000:   24s.  Last read position: NC_000077.6:36,994,432
+INFO	2018-10-11 21:55:12	SortSam	Read   190,000,000 records.  Elapsed time: 00:07:55s.  Time for last 10,000,000:   26s.  Last read position: NC_000078.6:6,911,559
+INFO	2018-10-11 21:55:37	SortSam	Read   200,000,000 records.  Elapsed time: 00:08:20s.  Time for last 10,000,000:   24s.  Last read position: NC_000078.6:111,431,283
+INFO	2018-10-11 21:56:02	SortSam	Read   210,000,000 records.  Elapsed time: 00:08:45s.  Time for last 10,000,000:   24s.  Last read position: NC_000079.6:84,024,783
+INFO	2018-10-11 21:56:28	SortSam	Read   220,000,000 records.  Elapsed time: 00:09:11s.  Time for last 10,000,000:   26s.  Last read position: NC_000080.6:57,833,906
+INFO	2018-10-11 21:56:51	SortSam	Read   230,000,000 records.  Elapsed time: 00:09:34s.  Time for last 10,000,000:   23s.  Last read position: NC_000081.6:47,953,803
+INFO	2018-10-11 21:57:16	SortSam	Read   240,000,000 records.  Elapsed time: 00:09:59s.  Time for last 10,000,000:   24s.  Last read position: NC_000082.6:32,109,143
+INFO	2018-10-11 21:57:39	SortSam	Read   250,000,000 records.  Elapsed time: 00:10:22s.  Time for last 10,000,000:   23s.  Last read position: NC_000083.6:31,865,190
+INFO	2018-10-11 21:58:02	SortSam	Read   260,000,000 records.  Elapsed time: 00:10:45s.  Time for last 10,000,000:   22s.  Last read position: NC_000084.6:33,834,902
+INFO	2018-10-11 21:58:25	SortSam	Read   270,000,000 records.  Elapsed time: 00:11:08s.  Time for last 10,000,000:   23s.  Last read position: NC_000085.6:45,285,884
+INFO	2018-10-11 21:58:49	SortSam	Read   280,000,000 records.  Elapsed time: 00:11:32s.  Time for last 10,000,000:   23s.  Last read position: NC_000086.7:152,258,087
+INFO	2018-10-11 21:59:10	SortSam	Read   290,000,000 records.  Elapsed time: 00:11:53s.  Time for last 10,000,000:   21s.  Last read position: */*
+INFO	2018-10-11 21:59:27	SortSam	Read   300,000,000 records.  Elapsed time: 00:12:10s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 21:59:45	SortSam	Read   310,000,000 records.  Elapsed time: 00:12:28s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 22:00:02	SortSam	Read   320,000,000 records.  Elapsed time: 00:12:45s.  Time for last 10,000,000:   16s.  Last read position: */*
+INFO	2018-10-11 22:00:19	SortSam	Read   330,000,000 records.  Elapsed time: 00:13:02s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 22:00:37	SortSam	Read   340,000,000 records.  Elapsed time: 00:13:20s.  Time for last 10,000,000:   18s.  Last read position: */*
+INFO	2018-10-11 22:00:54	SortSam	Read   350,000,000 records.  Elapsed time: 00:13:37s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 22:01:11	SortSam	Read   360,000,000 records.  Elapsed time: 00:13:55s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 22:01:29	SortSam	Read   370,000,000 records.  Elapsed time: 00:14:12s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 22:01:46	SortSam	Read   380,000,000 records.  Elapsed time: 00:14:29s.  Time for last 10,000,000:   17s.  Last read position: */*
+INFO	2018-10-11 22:01:51	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2018-10-11 22:03:23	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:16:06s.  Time for last 10,000,000:   81s.  Last read position: NC_000067.6:73,487,608
+INFO	2018-10-11 22:04:14	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:16:57s.  Time for last 10,000,000:   50s.  Last read position: NC_000067.6:155,835,102
+INFO	2018-10-11 22:05:05	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:17:48s.  Time for last 10,000,000:   51s.  Last read position: NC_000068.7:50,650,475
+INFO	2018-10-11 22:05:52	SortSam	Wrote    40,000,000 records from a sorting collection.  Elapsed time: 00:18:35s.  Time for last 10,000,000:   46s.  Last read position: NC_000068.7:98,667,102
+INFO	2018-10-11 22:06:40	SortSam	Wrote    50,000,000 records from a sorting collection.  Elapsed time: 00:19:23s.  Time for last 10,000,000:   48s.  Last read position: NC_000068.7:156,921,463
+INFO	2018-10-11 22:07:31	SortSam	Wrote    60,000,000 records from a sorting collection.  Elapsed time: 00:20:14s.  Time for last 10,000,000:   50s.  Last read position: NC_000069.6:69,632,147
+INFO	2018-10-11 22:08:22	SortSam	Wrote    70,000,000 records from a sorting collection.  Elapsed time: 00:21:05s.  Time for last 10,000,000:   51s.  Last read position: NC_000070.6:6,010,394
+INFO	2018-10-11 22:09:13	SortSam	Wrote    80,000,000 records from a sorting collection.  Elapsed time: 00:21:56s.  Time for last 10,000,000:   51s.  Last read position: NC_000070.6:116,715,537
+INFO	2018-10-11 22:10:04	SortSam	Wrote    90,000,000 records from a sorting collection.  Elapsed time: 00:22:48s.  Time for last 10,000,000:   51s.  Last read position: NC_000071.6:53,228,847
+INFO	2018-10-11 22:10:56	SortSam	Wrote   100,000,000 records from a sorting collection.  Elapsed time: 00:23:39s.  Time for last 10,000,000:   51s.  Last read position: NC_000071.6:142,722,061
+INFO	2018-10-11 22:11:47	SortSam	Wrote   110,000,000 records from a sorting collection.  Elapsed time: 00:24:30s.  Time for last 10,000,000:   50s.  Last read position: NC_000072.6:84,253,544
+INFO	2018-10-11 22:12:38	SortSam	Wrote   120,000,000 records from a sorting collection.  Elapsed time: 00:25:21s.  Time for last 10,000,000:   51s.  Last read position: NC_000073.6:61,626,409
+INFO	2018-10-11 22:13:30	SortSam	Wrote   130,000,000 records from a sorting collection.  Elapsed time: 00:26:13s.  Time for last 10,000,000:   51s.  Last read position: NC_000074.6:7,998,689
+INFO	2018-10-11 22:14:21	SortSam	Wrote   140,000,000 records from a sorting collection.  Elapsed time: 00:27:04s.  Time for last 10,000,000:   51s.  Last read position: NC_000074.6:97,420,415
+INFO	2018-10-11 22:15:11	SortSam	Wrote   150,000,000 records from a sorting collection.  Elapsed time: 00:27:55s.  Time for last 10,000,000:   50s.  Last read position: NC_000075.6:47,161,386
+INFO	2018-10-11 22:16:03	SortSam	Wrote   160,000,000 records from a sorting collection.  Elapsed time: 00:28:46s.  Time for last 10,000,000:   51s.  Last read position: NC_000076.6:12,938,573
+INFO	2018-10-11 22:16:54	SortSam	Wrote   170,000,000 records from a sorting collection.  Elapsed time: 00:29:37s.  Time for last 10,000,000:   50s.  Last read position: NC_000076.6:102,780,092
+INFO	2018-10-11 22:17:44	SortSam	Wrote   180,000,000 records from a sorting collection.  Elapsed time: 00:30:27s.  Time for last 10,000,000:   50s.  Last read position: NC_000077.6:36,994,432
+INFO	2018-10-11 22:18:35	SortSam	Wrote   190,000,000 records from a sorting collection.  Elapsed time: 00:31:18s.  Time for last 10,000,000:   51s.  Last read position: NC_000078.6:6,911,559
+INFO	2018-10-11 22:19:26	SortSam	Wrote   200,000,000 records from a sorting collection.  Elapsed time: 00:32:10s.  Time for last 10,000,000:   51s.  Last read position: NC_000078.6:111,431,283
+INFO	2018-10-11 22:20:18	SortSam	Wrote   210,000,000 records from a sorting collection.  Elapsed time: 00:33:01s.  Time for last 10,000,000:   51s.  Last read position: NC_000079.6:84,024,783
+INFO	2018-10-11 22:21:08	SortSam	Wrote   220,000,000 records from a sorting collection.  Elapsed time: 00:33:52s.  Time for last 10,000,000:   50s.  Last read position: NC_000080.6:57,833,906
+INFO	2018-10-11 22:22:00	SortSam	Wrote   230,000,000 records from a sorting collection.  Elapsed time: 00:34:43s.  Time for last 10,000,000:   51s.  Last read position: NC_000081.6:47,953,803
+INFO	2018-10-11 22:22:51	SortSam	Wrote   240,000,000 records from a sorting collection.  Elapsed time: 00:35:34s.  Time for last 10,000,000:   51s.  Last read position: NC_000082.6:32,109,143
+INFO	2018-10-11 22:23:41	SortSam	Wrote   250,000,000 records from a sorting collection.  Elapsed time: 00:36:25s.  Time for last 10,000,000:   50s.  Last read position: NC_000083.6:31,865,190
+INFO	2018-10-11 22:24:33	SortSam	Wrote   260,000,000 records from a sorting collection.  Elapsed time: 00:37:16s.  Time for last 10,000,000:   51s.  Last read position: NC_000084.6:33,834,902
+INFO	2018-10-11 22:25:24	SortSam	Wrote   270,000,000 records from a sorting collection.  Elapsed time: 00:38:07s.  Time for last 10,000,000:   51s.  Last read position: NC_000085.6:45,285,884
+INFO	2018-10-11 22:26:16	SortSam	Wrote   280,000,000 records from a sorting collection.  Elapsed time: 00:38:59s.  Time for last 10,000,000:   51s.  Last read position: NC_000086.7:152,258,087
+INFO	2018-10-11 22:27:05	SortSam	Wrote   290,000,000 records from a sorting collection.  Elapsed time: 00:39:49s.  Time for last 10,000,000:   49s.  Last read position: */*
+INFO	2018-10-11 22:27:55	SortSam	Wrote   300,000,000 records from a sorting collection.  Elapsed time: 00:40:38s.  Time for last 10,000,000:   49s.  Last read position: */*
+INFO	2018-10-11 22:28:44	SortSam	Wrote   310,000,000 records from a sorting collection.  Elapsed time: 00:41:28s.  Time for last 10,000,000:   49s.  Last read position: */*
+INFO	2018-10-11 22:29:34	SortSam	Wrote   320,000,000 records from a sorting collection.  Elapsed time: 00:42:17s.  Time for last 10,000,000:   49s.  Last read position: */*
+INFO	2018-10-11 22:30:23	SortSam	Wrote   330,000,000 records from a sorting collection.  Elapsed time: 00:43:06s.  Time for last 10,000,000:   49s.  Last read position: */*
+INFO	2018-10-11 22:31:12	SortSam	Wrote   340,000,000 records from a sorting collection.  Elapsed time: 00:43:55s.  Time for last 10,000,000:   48s.  Last read position: */*
+INFO	2018-10-11 22:32:00	SortSam	Wrote   350,000,000 records from a sorting collection.  Elapsed time: 00:44:43s.  Time for last 10,000,000:   48s.  Last read position: */*
+INFO	2018-10-11 22:32:48	SortSam	Wrote   360,000,000 records from a sorting collection.  Elapsed time: 00:45:31s.  Time for last 10,000,000:   47s.  Last read position: */*
+INFO	2018-10-11 22:33:36	SortSam	Wrote   370,000,000 records from a sorting collection.  Elapsed time: 00:46:20s.  Time for last 10,000,000:   48s.  Last read position: */*
+INFO	2018-10-11 22:34:24	SortSam	Wrote   380,000,000 records from a sorting collection.  Elapsed time: 00:47:08s.  Time for last 10,000,000:   47s.  Last read position: */*
+[Thu Oct 11 22:34:41 CDT 2018] picard.sam.SortSam done. Elapsed time: 47.42 minutes.
+Runtime.totalMemory()=2359296000
+rm: cannot remove `A20_faligned.filtered.sam': No such file or directory

@@ -1,0 +1,26 @@
+index for EGAR00001587919_832.a.1kDLBCL_FFPEvsFrozen.DLBCL.SL105220.exome_1tier.hg19.final.bam complete
+finding positions of the duplicate reads in the file...
+  sorted 151401755 end pairs
+     and 2953698 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 368708 ms
+  found 50284621 duplicates
+collected list of positions in 105 min 26 sec
+removing duplicates...
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11324824.cri16sc001
+User ID:           mleukam
+Job Name:          sambamba_EGAR00001587919_832.a.1kDLBCL_FFPEvsFrozen.DLBCL.SL105220.exome_1tier.hg19.final.bam
+Queue Name:        express
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=03:00:00,nodes=1:ppn=1,mem=4gb,neednodes=1:ppn=1
+Resources Used:    cput=03:10:04,vmem=5065792kb,walltime=03:10:47,mem=3305232kb,energy_used=0
+Exit Code:         271
+Mother Superior:   cri16cn028
+
+Execution Nodes: 
+cri16cn028
+
+

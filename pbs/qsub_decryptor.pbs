@@ -1,0 +1,4 @@
+#!/bin/bash
+module load java-jdk/1.8.0_92
+cp $FILE_LOC $NEW_LOC
+java -jar /gpfs/data/kline-lab/decryptor.jar /gpfs/data/kline-lab/password.txt $NEW_LOC && rm -rf $NEW_LOC || echo "ERROR FOR $FILE_LOC"

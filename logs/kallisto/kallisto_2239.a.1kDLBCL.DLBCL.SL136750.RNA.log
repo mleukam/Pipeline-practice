@@ -1,0 +1,86 @@
+./kallisto.sh: line 23: 3: unbound variable
+16sc001.SC: line 16: ./kallisto.sh: Permission denied
+dex] number of targets: 176,981
+[index] number of k-mers: 100,753,348
+[index] number of equivalence classes: 671,976
+[quant] running in paired-end mode
+[quant] will process pair 1: EGAR00001594755_2239.a.1kDLBCL.DLBCL.SL136750.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_1.fq
+                             EGAR00001594755_2239.a.1kDLBCL.DLBCL.SL136750.RNA_seq.hg19.captured_kapa_v6plus3utr.tophat_2.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,021,797 reads, 914,935 reads pseudoaligned
+[quant] estimated average fragment length: 180.849
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 994 rounds
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11430297.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_2239.a.1kDLBCL.DLBCL.SL136750.RNA
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:38,vmem=4294652kb,walltime=00:00:34,mem=3656340kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn073
+
+Execution Nodes: 
+cri16cn073 cri16cn073 cri16cn073 cri16cn073 cri16cn073 cri16cn073 cri16cn073 cri16cn073
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11503781.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_2239.a.1kDLBCL.DLBCL.SL136750.RNA
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn077
+
+Execution Nodes: 
+cri16cn077 cri16cn077 cri16cn077 cri16cn077 cri16cn077 cri16cn077 cri16cn077 cri16cn077
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11504555.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_2239.a.1kDLBCL.DLBCL.SL136750.RNA
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn027
+
+Execution Nodes: 
+cri16cn027 cri16cn027 cri16cn027 cri16cn027 cri16cn027 cri16cn027 cri16cn027 cri16cn027
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            11505329.cri16sc001
+User ID:           mleukam
+Job Name:          kallisto_2239.a.1kDLBCL.DLBCL.SL136750.RNA
+Queue Name:        standard
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=06:00:00,nodes=1:ppn=8,mem=8gb,neednodes=1:ppn=8
+Resources Used:    cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn062
+
+Execution Nodes: 
+cri16cn062 cri16cn062 cri16cn062 cri16cn062 cri16cn062 cri16cn062 cri16cn062 cri16cn062
+
+

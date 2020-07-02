@@ -1,0 +1,29 @@
+#!/bin/bash
+
+##################################
+## PBS RUN SCRIPT FOR BWA INDEX ##
+##################################
+
+## Define the shell
+#PBS -S /bin/bash
+
+## Name the job
+#PBS -N bwa_index
+
+## Request resources
+#PBS -l walltime=8:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=8gb
+
+## Specify the combined output/error log
+#PBS -j oe
+#PBS -o /home/mleukam/logs/bwaindex.log
+
+# Navigate to shell dir
+cd /home/mleukam/shell
+
+## Call shell scrpt
+./bwaindex.sh && exit 0
+
+# exit if error
+exit 1

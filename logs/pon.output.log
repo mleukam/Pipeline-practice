@@ -1,0 +1,36 @@
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9880807.cri16sc001
+User ID:           mleukam
+Job Name:          PoN
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=36:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:00:08,vmem=0kb,walltime=00:00:11,mem=0kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn220
+
+Execution Nodes: 
+cri16cn220
+
+
+
+
+------------ Job WrapUp ------------
+
+Job ID:            9880812.cri16sc001
+User ID:           mleukam
+Job Name:          PoN
+Queue Name:        mid
+Working Directory: /home/mleukam/pbs
+Resource List:     walltime=36:00:00,nodes=1:ppn=1,mem=16gb,neednodes=1:ppn=1
+Resources Used:    cput=00:12:33,vmem=21528336kb,walltime=00:12:36,mem=5802276kb,energy_used=0
+Exit Code:         0
+Mother Superior:   cri16cn218
+
+Execution Nodes: 
+cri16cn218
+
+
